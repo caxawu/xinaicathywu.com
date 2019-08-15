@@ -30,7 +30,7 @@ html {
   background: transparent;
   color: black;
   width: auto;
-  padding: 0.5% 25%;
+  padding: 0.5% 22%;
   line-height: 150%;
 }
 .nav {
@@ -126,8 +126,8 @@ center {
 .fa-linkedin {
   color: #007bb5;
 }
-.fa-google {
-  color: gray;
+.fa-envelope {
+  color: #007bb5;
 }
 .contact-links {
   display: flex;
