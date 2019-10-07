@@ -107,7 +107,6 @@ center {
 }
 .profile-text {
   line-height: 200px;
-  justify-content: flex-start;
 }
 .column {
   float: right;
@@ -203,8 +202,8 @@ center {
 
 
 .fa {
-  width: 40px;
-  text-align: left;
+  width: 60px;
+  text-align: center;
   text-decoration: none;
 
 }
