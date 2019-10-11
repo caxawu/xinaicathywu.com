@@ -79,6 +79,7 @@ h3 {
 h4 {
   margin: 0 0;
 }
+
 center {
   margin-bottom: 0.7em;
 }
@@ -101,14 +102,7 @@ center {
 .title {
   font-size: 1.75vw;
 }
-.art_img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2%;
-  margin-top: -0.3%;
-  width: 100%;
-}
+
 .profile-text {
   font-size: 1.25vw;
   line-height: 1.5;
@@ -174,6 +168,7 @@ center {
   margin: 0 6.6%;
   width: 20%;
 }
+
 .row:after {
   content: "";
   display: table;
