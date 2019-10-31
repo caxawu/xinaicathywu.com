@@ -3,6 +3,26 @@
 <head>
   <meta charset="utf-8">
   <link rel = "stylesheet" href="assets/stylesheets/style.css">
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b><br>Top</button>
+  <script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
 </head>
 
 <div class = "container">
@@ -22,6 +42,9 @@
   <h2>Pencil/Charcoal</h2>
   <img src = "assets\images\studio-art\row3.JPG" width = 100% vspace = "5px">
 
+</div>
+<div class = "sign">
   <br><br><br><br><br>
+  <center>Made with <span style="color: #89B5DA">♥</span> by me</center>
 </div>
 </html>

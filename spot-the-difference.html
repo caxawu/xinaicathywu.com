@@ -1,78 +1,277 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <link rel = "stylesheet" href="assets/stylesheets/style.css">
-  <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+<div class = "top-crowd">
+  <head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href="assets/stylesheets/style.css">
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b><br>Top</button>
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+  </head>
+
+</div>
 <div class = "container">
+
   <header class = "nav">
     <nav>
       <a href = "index.html">home</a>
       <a href = "projects.html">projects</a>
       <a href = "studio-art.html">studio art</a>
-      <a href = "about.html">about</a>
-      <a href = "assets\links\Xinai_Cathy_Wu_Resume.pdf" target = "_blank"><span style="color: #148f9f">resume</span></a>
     </nav>
   </header>
+
+  <br>
+  <center><h1>Spot-the-Difference</h1></center>
+
+  <br>
+  <div class = "column-third">
+    <h5><span style="color: 	#853129"><b>Skills:</span></b></h5>
+  </div>
+  <div class = "column-third">
+    <h5><span style="color: 	#853129"><b>Tools:</span></b></h5>
+  </div>
+  <div class = "column-third">
+    <h5><span style="color: 	#853129"><b>Time:</span></b></h5>
+  </div>
+
+  <div class = "column-third">
+    <h5>Brainstorming, Prototyping</h5>
+  </div>
+  <div class = "column-third">
+    <h5>Maya, Unity</h5>
+  </div>
+  <div class = "column-third">
+    <h5>2 Weeks</h5>
+  </div>
+
+  <br><br><br><br>
+
   <div class = "main-content">
+    <hr>
+    <br>
+    <center>Spot-the-Difference is a reimagination of the classic game in VR. Bringing it to a 3D space allows us to
+      take advantage of the exploratory nature of the game as players can walk around
+      two scenes and discover different elements.
+      <br><br>
+      <a href = "assets\links\spot-the-diffeence.apk" target = "_blank" class = "button">apk for Oculus Go</a>
+    </center>
+    <br>
+    <hr width = "150%">
+
+    <br><br><br>
     <div class = "row">
-      <div class = "column-text">
-        <br><div class = "title"><b>Spot the Difference</b></div>
-        <br><span style="color: #148f9f"><b>Skills:</span></b> Brainstorming, Prototyping
-        <br><span style="color: #148f9f"><b>Tools:</span></b> Maya, Unity
-        <br><br>
-        <h3><b>The prompt</b></h3>
-        Use the Oculus Go and build something fun and interesting in VR.
-        </div>
-      <div class = "column">
-        <br>
-        <img src = "assets\images\projects\search.png" align = "right" width="40%">
+      <div class = "left-third">
+        <h3><SUP>&nbsp;</SUP>The project brief</h3>
+      </div>
+      <div class = "right-two-third">
+        Work in a team of two to create any VR experience that is something meaningful,
+        informative, beautiful, or all three. Try to not have the three dimensional spatial aspect
+        of VR be an irrelevant gimmick but rather something more intrinsic where the overall user experience is delightful.
+        <br><br><br><br>
+        <hr align="left" width="50%"><br><br>
       </div>
     </div>
+
     <div class = "row">
-      <h3><b>What we chose</b></h3>
-      Because there are an infinite number of things to do in VR, my partner and I thought of ways in which VR would add to an experience,
-      rather than it being a gimmick.
-      <span style="color: #148f9f"><b>We found our way to spot-the-difference games and thought to reimagining this static 2D game into an animated 3D one.</span></b>
-      <br><br>
-      <h3><b>The goal</b></h3>
-      To create a delightful and fun experience that is calming and peaceful.
+      <div class = "left-third">
+        <h3><SUP>&nbsp;</SUP>The inspiration</h3>
+      </div>
+      <div class = "right-two-third">
+        Because this project was so open-ended, my partner and I first focused on thing we both enjoyed. <span style="color: #853129"><b>We settled on music, and from there, began brainstormed ideas where a
+          3D space would add to an experience.</span></b>We started thinking of ways music was limited in the real-world. We identified that many musicians perform in unfamiliar venues and in front
+          of large audiences. Yet many practice alone in comfortable environments.
+          <br><br><br>
+          <h4><span style="color: #853129"> We realized that this disparity between practice settings and performance settings leads to stage fright and anxiousness when performing.</span></h4>
+          <br><br><br>
+          <hr align="left" width="50%">
+        </div>
+      </div>
+
+
+
       <br>
-      <br><h3><b>How it works</b></h3>
-      When the game starts, the player can chose between the actual scene and the differences scene.
-      <br>In the actual scene, the player can
-      walk around and explore. Almost every object animates&mdash;from swaying trees, to lilypads, to a floating hot air balloon. Squirrel, birds, fish, and butterflies
-      add another fun element that gives more life to the scenes.
-      <br>The player can then head over to the differences scene to try and spot the extra elements. The player has only 5 guesses to try and win the game!
-    </div>
-    <br><h3><b>Gallery</b></h3>
-    <br>
+      <div class = "row">
+        <div class = "left-third">
+          <br>
+          <h3><SUP>&nbsp;</SUP>The problem</h3>
+        </div>
+        <div class = "right-two-third">
+          <br>
+          Though we started with the idea of improving the experience of performing for musicians, <span style="color: #853129"><b>we realized that problem we were really targeting was overcoming stage fright.</b></span>
+          Instead of building something that would just be for musicians, we envisioned how we could help anyone who has stage fright, but needs to get up on a stage.
+          <br><br><br><br>
+        </div>
+        <div class = "column-full">
+          To guide us on our project, we generated a few questions:
+          <br><br>
+          <h4><span style="color: #853129">How Might We...</span></h4>
+          <div class = "flex-container">
+            <div6><h5><br><br><br>Use VR to allow people <br>with stage fright to <br>confront their fear before they on a real stage?<br><br><br><br></h5></div6>
+            <div6><h5><br><br><br>Make the experience of being on stage as <br>realisitic as possible?<br><br><br></h5></div6>
+          </div>
+
+          <br><br>
+          With those guiding questions in mind, we formulated the problem we wanted to tackle.
+          <br><br>
+          <h4><span style="color: #853129">Problem Statement</span></h4>
+          <div class="flex-container">
+            <div0><h5><br><br>People who have <br>stage fright <br><br><br></h5></div0>
+            <div2><h5><br><br><br><b>need to</b><br><br><br></h5></div2>
+            <div0><h5><br><br>confront their fear <br>in a low-stakes environment<br><br></h5></div0>
+            <div4><h5><br><br><br><b>in order to</b><br><br><br></h5></div4>
+            <div0><h5><br><br>be more <br>comfortable on <br> stage in front of <br>a live audience.<br><br><br></h5></div0>
+          </div>
+          <br><br><br><br>
+          <div class = "right-two-third">
+            <hr align="left" width="50%">
+          </div>
 
 
-  </div>
-</div>
-<div class = "row">
-  <div class = "column-galleryfull">
-    <iframe width="1204" height="675" src="https://www.youtube.com/embed/5YAZ2gzwauc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-  <div class = "column-galleryfull">
-    <img src = "assets\images\projects\difference.JPG" align = "right" width ="100%">
-  </div>
-  <div class = "column-galleryfull">
-    <br>
-    <img src = "assets\images\projects\difference1.PNG" align = "right" width ="100%">
-  </div>
-  <div class = "column-galleryfull">
-    <br>
-    <img src = "assets\images\projects\difference3.PNG" align = "right" width ="100%">
-  </div>
-  <div class = "column-galleryfull">
-    <br>
-    <img src = "assets\images\projects\difference4.PNG" align = "right" width ="100%">
-  </div>
-</div>
-</div>
-</div>
-</div>
-</html>
+          <br>
+          <div class = "row">
+            <div class = "left-third">
+              <br>
+              <h3><SUP>&nbsp;</SUP>Our answer</h3>
+            </div>
+            <div class = "right-two-third">
+              <br>
+              <h4><span style="color: #853129">Our crowd simulation app consists of an auditorium with a virtual crowd that responds to the user.</span></h4>
+              <br><br>
+            </div>
+
+
+            <div class = "column-full">
+              <img src = "assets\images\projects\crowd-sim.PNG" align = "right" width ="100%">
+            </div>
+            <div class = "column-full">
+              <br><br>
+              <b>1. </b>When the user first put on the headset,  <span style="color: #853129"><b>they find themselves offstage.</b></span><br>
+              <b>2. </b> <span style="color: #853129"><b>They can hear the audience murmuring</b></span> and talking amongst themselves.<br>
+              <b>3. </b>When they click on the controller,  <span style="color: #853129"><b>the lights dim and the user automatically walks onstage</b></span> and stops at the podium.<br>
+              <b>4. </b>When the user begins speaking/playing music,  <span style="color: #853129"><b>the audience quiets down.</b></span>
+              <br><br>
+              <iframe width="100%" height="728" src="https://www.youtube.com/embed/nLcgj7RLdHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+            <div class = "column-full">
+              <br>
+              <span style="color: #853129"><b>To simulate a real audience, the audience members shift in their seats and will start murmuring again</b></span> if there is too long of a pause by the speaker/performer. Like a live audience, some audience members will cause disturbances and walk out of the auditorium.
+            </div>
+            <div class = "right-two-third">
+              <br><br><br>
+              <hr align="left" width="50%">
+            </div>
+          </div>
+
+          <br>
+          <div class = "row">
+            <div class = "left-third">
+              <br>
+              <h3><SUP>&nbsp;</SUP>The details</h3>
+              <br><br>
+            </div>
+            <div class = "column-full">
+              <img src = "assets\images\projects\crowd-sim.PNG" align = "right" width ="100%">
+            </div>
+            <div class = "column-full">
+              <br>
+              <b><span style="color: #853129">We modelled almost all of the art assets used in the app. </span></b>We also animated multiple resting animations like breathing, turning, and repositioning hands for the people. Transitioning between
+              these animations made movements a bit more organic as each person animated independently from the rest of the audience. We also created walking animations that had a small
+              probability of being triggered for each person in the audience. When triggered, the person would get up from their seat and walk to the nearest exit.
+              <br><br>
+              <b><span style="color: #853129">We simulated the audio of the audience murmuring by listening for sound from the user.</span></b> When the headset picked out sound that was above a certain level, the audience would be triggered
+              to slowly quiet down. On the other side, if the headset does not pick up sound for a set amount of time, the audience begins murmuring to each other again.
+            </div>
+            <div class = "right-two-third">
+              <br><br><br>
+              <hr align="left" width="50%">
+            </div>
+          </div>
+
+          <br>
+          <div class = "row">
+            <div class = "left-third">
+              <br>
+              <h3><SUP>&nbsp;</SUP>The expansions</h3>
+            </div>
+            <div class = "right-two-third">
+              <br>
+              <h4><b> For Speakers </b></h4>
+              To allow speakers to practice their speech, we want to add a feature where our app can <b><span style="color: #853129">connect to Google Drive to allow the user to display
+                their presentation on a screen behind them</span></b> on the virtual stage. This way, they can actually more realistically practice in front of an audience.
+                <br><br>
+                <h4><b> For Musicians </b></h4>
+                We want to add a feature for musicians where they can <b><span style="color: #853129">upload their sheet music and it will appear on the podium/stand on stage.</span></b> Having this feature
+                allows musicians (who don't need to look at their hands when playing) to practice in front of our virtual crowd. Another beneficial addition would be
+                to <b><span style="color: #853129">model different locations from a school auditorium to Carnegie Hall.</span></b> This would allow the musician to slowly work their way up to larger audiences
+                in more stressful performance halls.
+                <br><br><br><br>
+                <hr align="left" width="50%">
+              </div>
+            </div>
+            <br>
+
+
+            <div class = "row">
+              <div class = "left-third">
+                <br>
+                <h3><SUP>&nbsp;</SUP>The challenges</h3>
+              </div>
+              <div class = "right-two-third">
+                <br>
+                <span style="color: #853129"><b>The biggest challenge we faced was balancing how realistic we could our app and how much the Oculus Go could handle.</b></span>
+                Because we had so many chair models, people models, and lighting effects, the headset became rather laggy. To fix this issue, we had to simplify all of the models and fill only
+                about 10% of the seats with people. But, because the user can't move off the stage, we used lighting to hide some of the lower resolution models in the back of the auditorium.
+                We also had to reduce our lighting effects like
+                lens flares that would have simulated a spotlight-type glare from the stage.
+                <br><br>
+                Another challenge was making the people look realistic. We worked with four pre-made human models, and tried to vary their appearances by editing materials in Photoshop.
+                However, we soon realized that drastically different clothing colors make it easier to pinpoint which models were the same in the audience. Rather than create a new materal
+                for each person, we kept their default one and changed subtle shades of it. <span style="color: #853129"><b>The other challenge of the audience was animating the people.</span></b> We tried to prevent their movements from being
+                in sync with each other but creating multiple resting animations and using code to transition between random ones for each person.
+                <br><br>
+                <br><br><br>
+                <hr align="left" width="50%">
+              </div>
+            </div>
+
+
+            <br>
+            <div class = "row">
+              <div class = "left-third">
+                <br>
+                <h3><SUP>&nbsp;</SUP>The takeaways</h3>
+              </div>
+              <div class = "right-two-third">
+                <br>
+                This project taught me a lot about the impacts that VR can have. This kind of technology really opens a whole new realm of use that we still have to explore. It also taught me about the limits and difficulties
+                of working with such new products.
+                <br><br><br>
+                <h4><span style="color: #853129">I really enjoyed being able to create something that is both useful and impactful. I'm also really glad that I could experiment with VR and really push the boundaries of what I could build.</span></h4>
+              </div>
+            </div>
+
+            <div class = "sign">
+              <br><br><br><br>
+              <center>Made with <span style="color: #853129">♥</span> by me</center>
+            </div>
+          </div>
+          </html>

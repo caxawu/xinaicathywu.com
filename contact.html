@@ -1,87 +1,286 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <link rel = "stylesheet" href="assets/stylesheets/style.css">
-  <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+<div class = "top-contact">
+  <head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href="assets/stylesheets/style.css">
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b><br>Top</button>
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+  </head>
+
+</div>
 <div class = "container">
+
   <header class = "nav">
     <nav>
       <a href = "index.html">home</a>
       <a href = "projects.html">projects</a>
       <a href = "studio-art.html">studio art</a>
-      <a href = "about.html">about</a>
     </nav>
   </header>
-  <div class = "main-content">
-    <div class = "row">
-      <div class = "column-text">
-        <br><div class = "title"><b>Contact</b></div>
-        <br><span style="color: #148f9f"><b>Skills:</span></b> User Research, Interviewing, Needfinding, Storyboarding
-        <br><span style="color: #148f9f"><b>Tools:</span></b> Final Cut Pro
-        <br><br>
-        <h3><b>The prompt</b></h3>
-        Imagine the experience of work/learning/recreation/parenting/the arts in the year 2025.
-        Explore how to improve this experience with interactive digital technology.
-      </div>
-      <div class = "column">
-        <br>
-        <img src = "assets\images\projects\lens.jpg" align = "right" width="85%">
-      </div>
-    </div>
 
-    <div class = "row">
-      <h3><b>What we chose</b></h3>
-      My team chose to focus on learning and began by researching existing trends and technologies.
-      After multiple mind maps and interviews with the
-      Student Accessibility Office we targeted several pain points
-      and began brainstorming way in which we could improve them.
-      <br><br>
-      <h3><b>The problem</b></h3>
-      We thought about how we might more easily and more seamlessly connect with people who speak a different language.
-      <span style="color: #148f9f"><b>Ultimately, we set our sights on how individuals who does not speak
-        American Sign Language need to communicate with hearing impaired individuals in order to
-        form emotional connections.</span></b>
-      </div>
-      <div class = "row">
-        <div class = "column-galleryfull">
-          <img src = "assets\images\projects\mindmap.jpg" align = "left" width ="100%">
-        </div>
-        <div class = "column-galleryfull">
-          <br>
-          <img src = "assets\images\projects\stickies.png" align = "left" width ="100%">
-        </div>
-      </div>
+  <br>
+  <center><h1>Contact</h1></center>
 
-
-      <div class = "row">
-        <br>
-        <h3><b>Our answer</b></h3>
-        <br>
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/ViBX4dgV5CY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br><br>
-        We envisioned a product that takes contact lenses to the next level. With translating technologies built in,
-        it provides real-time translations&mdash;allowing people who do not speak the same language to
-        communicate seamlessly. In today's world where technology is becoming more and more prominent,
-        we wanted to use technology to bring people together and foster connection.
-        <br><br>
-        <h3><b>Future uses and next steps</b></h3>
-        <br>
-        <b><i>Foreign countries</i></b>
-        <br>Besides helping those who do not know sign language, this same technology can be used as a faster version of Google Translate,
-        allowing people to feel more comfortable when travelling. This can help people feel less overwhelmed and safer in
-        an unfamiliar location.
-        <br><br>
-        <b><i>Classrooms</i></b>
-        <br>The technology would have applications in the classroom as well. Students with hearing disabilities and students
-        sitting in the back of a big lecture hall could see what the professor is saying without distractions from other students.
-        <br><br>
-        <b><i>Loud environments</i></b>
-        <br>People could better communicate with their friends at concerts and other noisy environments without having to shout. This contributes to people
-        staying safe and aware.
-      </div>
-    </div>
+  <br>
+  <div class = "column-third">
+    <h5><span style="color: 	#128DA9"><b>Skills:</span></b></h5>
   </div>
-</div>
-</html>
+  <div class = "column-third">
+    <h5><span style="color: 	#128DA9"><b>Tools:</span></b></h5>
+  </div>
+  <div class = "column-third">
+    <h5><span style="color: 	#128DA9"><b>Time:</span></b></h5>
+  </div>
+
+  <div class = "column-third">
+    <h5>User Research, Interviewing, Needfinding, Brainstorming, Storyboarding</h5>
+  </div>
+  <div class = "column-third">
+    <h5>Final Cut Pro</h5>
+  </div>
+  <div class = "column-third">
+    <h5>2 Weeks</h5>
+  </div>
+
+  <br><br><br><br>
+
+  <div class = "main-content">
+    <hr>
+    <br>
+    <center>Contact is a envisioned product of the future that fosters connection by allowing for communication between
+      people who do not speak the same language. It is a contact lens that "subtitles your life" through real-time translation
+      of speech-to-text.
+      <br>
+    </center>
+    <br>
+    <hr width = "150%">
+
+    <br><br><br>
+    <div class = "row">
+      <div class = "left-third">
+        <h3><SUP>&nbsp;</SUP>The project brief</h3>
+      </div>
+      <div class = "right-two-third">
+        Imagine the experience of work/learning/recreation/parenting/the arts in the year 2025.
+        Explore how to improve this experience with interactive digital technology.<br><br><br><br>
+        <hr align="left" width="50%"><br><br>
+      </div>
+    </div>
+
+
+    <div class = "row">
+      <div class = "left-third">
+        <h3><SUP>&nbsp;</SUP>The research</h3>
+      </div>
+      <div class = "right-two-third">
+        Since the project was rather open-ended, my team chose to focus on learning and began by researching emerging trends and technologies.
+        We found articles on augmented-reality and contact lenses that merged the real world and
+        the digital world.
+        <br><br>
+        <span style="color: #128DA9"><b>To understand more about the current state of technology used for learning, we interviewed people who worked at Dartmouth's Student
+          Accessibility Office.</b></span> We found that  When the Accessibility Office provies access to real-time translations for students who need
+          hearing assistance. A technology called CART (Communication Access Realtime Translation) provides the students with live transcriptions on their
+          laptops of what the professor is saying. <span style="color: #128DA9"><b>However, this useful technology requires a lot of setup and is difficult to get into every classroom
+            where a student needs it.</b></span>
+            <br><br>
+            <h4><span style="color: #128DA9">To provide a student with real-time translations:</span></h4>
+            <div class = "indent">
+              <b>1. </b>The professor needs to wear a microphone that plugs into a laptop.
+              <br><b>2. </b>The laptop runs Skype and is connected to a transcription agency.
+              <br><b>3. </b>A transcriber at the agency on the other end of Skype transcribes what the professor is saying.
+              <br><b>4.  </b>The live transcriptions from the transcriber is sent to the student's laptop as he/she sits in class.
+            </div>
+            <br><br><br>
+
+            <hr align="left" width="50%">
+          </div>
+        </div>
+
+
+        <br>
+        <div class = "row">
+          <div class = "left-third">
+            <br>
+            <h3><SUP>&nbsp;</SUP>The problem</h3>
+          </div>
+          <div class = "right-two-third">
+            <br>
+            <h4><span style="color: #128DA9">We thought about how we might more easily and more seamlessly provide people with speech-to-text technology.</span></h4>
+            <br><br><br>
+          </div>
+          <div class = "column-full">
+            To guide us on our project, we first formulated a series of <b><span style="color: #128DA9">needs where people face the problem of communication and learning from each other.</span></b>
+            <br><br>
+            <h4><span style="color: #128DA9">Needs:</span></h4>
+            <br>
+            <div class="flex-container">
+              <div1><h5><br><br>A student in a <br>big lecture hall<br><br><br></h5></div1>
+              <div2><h5><br><br><b>needs to</b><br><br><br></h5></div2>
+              <div3><h5><br><br>hear the <br>professor during <br>the lecture<br><br><br></h5></div3>
+              <div4><h5><br><br><b>in order to</b><br><br><br><br></h5></div4>
+              <div5><h5><br><br>do well in class.<br><br></h5></div5>
+            </div>
+            <div class="flex-container">
+              <div1><h5><br><br>A deaf person<br><br><br></h5></div1>
+              <div2><h5><br><br><b>needs to</b><br><br><br></h5></div2>
+              <div3><h5><br><br>communicate <br>with a non-ASL speaker<br><br><br></h5></div3>
+              <div4><h5><br><br><b>in order to</b><br><br><br><br></h5></div4>
+              <div5><h5><br><br>interact with a <br>wider range of people.<br><br></h5></div5>
+            </div>
+            <div class="flex-container">
+              <div1><h5><br><br>An American <br>traveller in China<br><br><br></h5></div1>
+              <div2><h5><br><br><b>needs to</b><br><br><br></h5></div2>
+              <div3><h5><br><br>understand a <br>foreign language<br><br><br></h5></div3>
+              <div4><h5><br><br><b>in order to</b><br><br><br><br></h5></div4>
+              <div5><h5><br><br>find his/her hotel.<br><br></h5></div5>
+            </div>
+
+            <br><br>
+            From these needs, we synthesized our research into a target problem and How-Might-We question to guide our process.
+            <br><br>
+            <h4><span style="color: #128DA9">Problem Statement</span></h4>
+            <div class="flex-container">
+              <div0><h5><br><br>A person who does <br>not know American <br>Sign Language <br><br><br></h5></div0>
+              <div2><h5><br><br><b>needs to</b><br><br><br></h5></div2>
+              <div0><h5><br><br>communicate with <br>a hearing-impaired individual<br><br></h5></div0>
+              <div4><h5><br><br><b>in order to</b><br><br><br></h5></div4>
+              <div0><h5><br><br>form a personal <br>and emotional connection.<br><br><br></h5></div0>
+            </div>
+            <br>
+            <h4><span style="color: #128DA9">How Might We...</span></h4>
+            <div class = "flex-container">
+              <div6><h5><br><br><br>Connect faster and easier <br>with people who speak a <br>different language?<br><br><br><br><br></h5></div6>
+            </div>
+            <div class = "right-two-third">
+              <br><br>
+              <hr align="left" width="50%">
+              <br><br><br><br>
+            </div>
+          </div>
+
+          <div class = "row">
+
+            <div class = "left-third">
+              <h3><SUP>&nbsp;</SUP>The brainstorm</h3>
+            </div>
+            <div class = "right-two-third">
+              <img src = "assets\images\projects\mindmap.jpg" align = "left" width="100%">
+            </div>
+            <div class = "right-two-third">
+              <br><br><br>
+              <hr align="left" width="50%">
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "left-third">
+              <br><br>
+              <h3><SUP>&nbsp;</SUP>The storyboard</h3>
+            </div>
+            <div class = "right-two-third">
+              <br><br>
+              <img src = "assets\images\projects\storyboard1.jpg" align = "left" width="100%">
+            </div>
+            <div class = "right-two-third">
+              <br>
+              <img src = "assets\images\projects\storyboard2.jpg" align = "left" width="100%">
+            </div>
+            <div class = "right-two-third">
+              <br><br><br>
+
+              <hr align="left" width="50%">
+            </div>
+          </div>
+
+          <br>
+          <div class = "row">
+            <div class = "left-third">
+              <br>
+              <h3><SUP>&nbsp;</SUP>Our answer</h3>
+            </div>
+            <div class = "right-two-third">
+              <br>
+              <h4><span style="color: #128DA9">We envisioned a contact lens with technology built in
+                to provide real-time translations&mdash;allowing people who do not speak the same language to
+                communicate seamlessly.</span></h4>
+                <br><br>
+              </div>
+
+
+              <div class = "column-full">
+                <iframe width="100%" height="728" src="https://www.youtube.com/embed/ViBX4dgV5CY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+              <div class = "right-two-third">
+                <br><br><br>
+                <hr align="left" width="50%">
+              </div>
+            </div>
+
+
+            <br>
+            <div class = "row">
+              <div class = "left-third">
+                <br>
+                <h3><SUP>&nbsp;</SUP>The expansions</h3>
+              </div>
+              <div class = "right-two-third">
+                <br>
+                <h4><b> Foreign countries </b></h4>
+                Besides helping those who do not know sign language, this same technology can be used as a faster version of Google Translate,
+                allowing people to feel more comfortable when travelling. This can help people feel less overwhelmed and safer in
+                an unfamiliar location.
+                <br><br>
+                <h4><b> Classrooms </b></h4>
+                The technology could have helpful applications in the classroom. Students with hearing disabilities and students
+                sitting in the back of a big lecture hall could see what the professor is saying without distractions from other students.
+
+                <br><br>
+                <h4><b> Loud environments </b></h4>
+                People could better communicate with their friends at concerts and other noisy environments without having to shout. This contributes to people
+                staying safe and aware.
+                <br><br><br><br>
+                <hr align="left" width="50%">
+              </div>
+            </div>
+
+
+            <br>
+            <div class = "row">
+              <div class = "left-third">
+                <br>
+                <h3><SUP>&nbsp;</SUP>The takeaways</h3>
+              </div>
+              <div class = "right-two-third">
+                <br>
+                This project really made me think about the direction that technology is moving since technology is becoming more and more prominent in everyday life.
+                <br><br>
+                <span style="color: #128DA9"><h4>I learned that imagining a way to use technology to bring people together and foster connection was especially important.</h4></span>
+              </div>
+            </div>
+
+            <div class = "sign">
+              <br><br><br><br>
+              <center>Made with <span style="color: #128DA9">♥</span> by me</center>
+            </div>
+          </div>
+          </html>

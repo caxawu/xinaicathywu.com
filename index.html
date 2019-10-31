@@ -3,6 +3,26 @@
 <head>
   <meta charset="utf-8">
   <link rel = "stylesheet" href="assets/stylesheets/style.css">
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b><br>Top</button>
+  <script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
 </head>
 
 
@@ -42,6 +62,7 @@
       <div class = "column-titletext">
         <br><br><br><br><br><br><br>
         <h1>Hello! I'm Cathy.</h1>
+        <br>
 
         <h2>I'm
           <span
@@ -54,45 +75,52 @@
     </div>
   </body>
   <br><br>
-  <h4><center> Scroll down for more about me!</h4></center>
+  <h6><center> Scroll down for more about me!</h6></center>
   <center><img src = "assets\images\down-icon.png" width = "1%"></center>
   <br><br><br><br><br><br>
-
-  <div class = "column-text2">
-    <p class = "profile-text">
-      I discovered the world of UX design in my sophomore year at Dartmouth College.
-      Since then, I have been intrigued and inspired by design
-      and its ability to impact the world.
-      I am currently a junior
-      studying <span style="color: #9C7F82"><b>Cognitive Science</b></span>
-      with a focus in <span style="color:	#9C7F82"><b>Human-Computer Interaction</b></span>
-      as a major and <span style="color: #9C7F82"><b>Human-Centered Design</b></span> as a minor.
-      <br><br>
-      I was born in Singapore and raised in Rhode Island, so I am super lucky to have been exposed to a ton of new things. Because of it, I have
-      found a love of exploring that manifests itself in everything I do&mdash;from
-      my love of travelling to my love of picking up new skills and hobbies.
-      I am most recently an avid bullet journaler, fountain pen user, tech enthusiast, and tea lover.
-      <br><br>
-      I would love to connect!
-    </p>
-    <div class = contact-column>
-      <p class = "contact-link">
-        <a href = "mailto:xinai.wu.21@dartmouth.edu" target = "_blank"><img src = "assets\images\mail.png" width = "100%">
-        </p>
-      </div>
+  <div class = "row">
+    <div class = "column-L45">
+      <p class = "profile-text">
+        I discovered the world of UX design in my sophomore year at Dartmouth College.
+        Since then, I have been intrigued and inspired by design
+        and its ability to impact the world.
+        I am currently a junior
+        studying <span style="color: #825055"><b>Cognitive Science</b></span>
+        with a focus in <span style="color:	#825055"><b>Human-Computer Interaction</b></span>
+        as a major and <span style="color: #825055"><b>Human-Centered Design</b></span> as a minor.
+        <br><br>
+        I was born in Singapore and raised in Rhode Island, so I am super lucky to have been exposed to a ton of new things. Because of it, I have
+        found a love of exploring that manifests itself in everything I do&mdash;from
+        my love of travelling to my love of picking up new skills and hobbies.
+        I am most recently an avid bullet journaler, fountain pen user, tech enthusiast, and tea lover.
+        <br><br>
+        I would love to connect!
+      </p>
       <div class = contact-column>
         <p class = "contact-link">
-          <a href = "https://www.linkedin.com/in/xinai-cathy-wu" target = "_blank"><img src = "assets\images\linkedin.png" width = "100%">
+          <a href = "mailto:xinai.wu.21@dartmouth.edu" target = "_blank"><img src = "assets\images\mail.png" width = "100%"></a>
           </p>
         </div>
+        <div class = contact-column>
+          <p class = "contact-link">
+            <a href = "https://www.linkedin.com/in/xinai-cathy-wu" target = "_blank"><img src = "assets\images\linkedin.png" width = "100%"></a>
+            </p>
+          </div>
+        </div>
+
+
+        <div class = "column-profilepic2">
+          <br>
+          <img src = "assets\images\profile.JPG" width = "100%">
+        </div>
       </div>
+      <br><br>
 
 
-      <div class = "column-profilepic2">
-        <br>
-        <img src = "assets\images\profile.JPG" width = "100%";
+      <div class = "row">
+        <div class = "sign">
+          <center>Made with <span style="color: #825055">♥</span> by me</center>
+        </div>
       </div>
-      <br><br><br><br><br><br>
-
     </div>
     </html>
