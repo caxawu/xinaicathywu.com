@@ -91,6 +91,18 @@ html {
   background-image: linear-gradient(white, #6B7191, white);
   opacity: 0.5;
 }
+.top-tree:before {
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 23vw;
+  margin: -2% 0;
+  z-index: -1;
+  left:0px;
+  background-image: linear-gradient(white, #326B45, white);
+  opacity: 0.5;
+}
+
 
 
 .nav {
