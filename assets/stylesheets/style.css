@@ -39,22 +39,22 @@ html {
   content:'';
   position: absolute;
   width: 100%;
-  height: 21vw;
-  margin: -2% 0;
+  height: 5vw;
+  margin: -1.8% 0;
   z-index: -1;
   left:0px;
-  background-image: linear-gradient(white, #9BAAD1, #9BAAD1);
+  background-image: linear-gradient(#9BAAD1, white);
   opacity: 0.5;
 }
 .top-ARTrek:before {
   content:'';
   position: absolute;
   width: 100%;
-  height: 24.5vw;
-  margin: -2% 0;
+  height: 5vw;
+  margin: -1.8% 0;
   z-index: -1;
   left:0px;
-  background-image: linear-gradient(white, #8EE2A6, #8EE2A6);
+  background-image: linear-gradient(#8EE2A6, white);
   opacity: 0.5;
 }
 
@@ -62,55 +62,55 @@ html {
   content:'';
   position: absolute;
   width: 100%;
-  height: 21vw;
-  margin: -2% 0;
+  height: 5vw;
+  margin: -1.8% 0;
   z-index: -1;
   left:0px;
-  background-image: linear-gradient(white, #710000, #710000);
+  background-image: linear-gradient(#710000, white);
   opacity: 0.5;
 }
 .top-contact:before {
   content:'';
   position: absolute;
   width: 100%;
-  height: 21vw;
-  margin: -2% 0;
+  height: 5vw;
+  margin: -1.8% 0;
   z-index: -1;
   left:0px;
-  background-image: linear-gradient(white, #90DCF3, #90DCF3);
+  background-image: linear-gradient(#90DCF3, white);
   opacity: 0.5;
 }
 .top-lending:before {
   content:'';
   position: absolute;
   width: 100%;
-  height: 21vw;
-  margin: -2% 0;
+  height: 5vw;
+  margin: -1.8% 0;
   z-index: -1;
   left:0px;
-  background-image: linear-gradient(white, #77A88B, #77A88B);
+  background-image: linear-gradient(#77A88B, white);
   opacity: 0.5;
 }
 .top-spot:before {
   content:'';
   position: absolute;
   width: 100%;
-  height: 21vw;
-  margin: -2% 0;
+  height: 5vw;
+  margin: -1.8% 0;
   z-index: -1;
   left:0px;
-  background-image: linear-gradient(white, #6B7191, #6B7191);
+  background-image: linear-gradient(#6B7191, white);
   opacity: 0.5;
 }
 .top-tree:before {
   content:'';
   position: absolute;
   width: 100%;
-  height: 21vw;
-  margin: -2% 0;
+  height: 5vw;
+  margin: -1.8% 0;
   z-index: -1;
   left:0px;
-  background-image: linear-gradient(white, #326B45, #326B45);
+  background-image: linear-gradient(#326B45, white);
   opacity: 0.5;
 }
 
