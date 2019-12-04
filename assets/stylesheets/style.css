@@ -35,15 +35,26 @@ html {
   color: black;
   line-height: 160%; */
 }
+.top-tarsier:before {
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 21vw;
+  margin: -2% 0;
+  z-index: -1;
+  left:0px;
+  background-image: linear-gradient(white, #9BAAD1, #9BAAD1);
+  opacity: 0.5;
+}
 .top-ARTrek:before {
   content:'';
   position: absolute;
   width: 100%;
-  height: 26vw;
+  height: 24.5vw;
   margin: -2% 0;
   z-index: -1;
   left:0px;
-  background-image: linear-gradient(white, #8EE2A6, white);
+  background-image: linear-gradient(white, #8EE2A6, #8EE2A6);
   opacity: 0.5;
 }
 
@@ -51,55 +62,55 @@ html {
   content:'';
   position: absolute;
   width: 100%;
-  height: 23vw;
+  height: 21vw;
   margin: -2% 0;
   z-index: -1;
   left:0px;
-  background-image: linear-gradient(white, #611515, white);
+  background-image: linear-gradient(white, #710000, #710000);
   opacity: 0.5;
 }
 .top-contact:before {
   content:'';
   position: absolute;
   width: 100%;
-  height: 23vw;
+  height: 21vw;
   margin: -2% 0;
   z-index: -1;
   left:0px;
-  background-image: linear-gradient(white, #90DCF3, white);
+  background-image: linear-gradient(white, #90DCF3, #90DCF3);
   opacity: 0.5;
 }
 .top-lending:before {
   content:'';
   position: absolute;
   width: 100%;
-  height: 23vw;
+  height: 21vw;
   margin: -2% 0;
   z-index: -1;
   left:0px;
-  background-image: linear-gradient(white, #77A88B, white);
+  background-image: linear-gradient(white, #77A88B, #77A88B);
   opacity: 0.5;
 }
 .top-spot:before {
   content:'';
   position: absolute;
   width: 100%;
-  height: 23vw;
+  height: 21vw;
   margin: -2% 0;
   z-index: -1;
   left:0px;
-  background-image: linear-gradient(white, #6B7191, white);
+  background-image: linear-gradient(white, #6B7191, #6B7191);
   opacity: 0.5;
 }
 .top-tree:before {
   content:'';
   position: absolute;
   width: 100%;
-  height: 23vw;
+  height: 21vw;
   margin: -2% 0;
   z-index: -1;
   left:0px;
-  background-image: linear-gradient(white, #326B45, white);
+  background-image: linear-gradient(white, #326B45, #326B45);
   opacity: 0.5;
 }
 
@@ -204,8 +215,14 @@ hr {
   width: 31%;
   margin-left: 2%;
 }
+.column-thirdL {
+  float: left;
+  text-align: left;
+  width: 31%;
+  margin-right: 2.33%;
+}
 .grid {
-  float: right;
+  float: left;
   width: 33.33%;
 }
 .contain {
@@ -231,6 +248,14 @@ hr {
 .right-half {
   float: right;
   width: 50%;
+}
+.left-half1 {
+  float: left;
+  width: 47%;
+}
+.right-half1 {
+  float: right;
+  width: 47%;
 }
 .text-left {
   float: left;
@@ -351,7 +376,7 @@ hr {
   color: black;
   font-size: 1.2vw;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);

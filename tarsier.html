@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<div class = "top-tarsier">
+  <head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href="assets/stylesheets/style.css">
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b><br>Top</button>
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+  </head>
+
+</div>
+<div class = "container">
+
+  <header class = "nav">
+    <nav>
+      <a href = "index.html">home</a>
+      <a href = "projects.html">projects</a>
+      <a href = "studio-art.html">studio & digital art</a>
+    </nav>
+  </header>
+
+  <br>
+  <center><h1>Tarsier Goggles</h1></center>
+
+  <br>
+  <div class = "column-third">
+    <h5><span style="color: #7D8DB9"><b>Skills:</span></b></h5>
+  </div>
+  <div class = "column-third">
+    <h5><span style="color: #7D8DB9"><b>Tools:</span></b></h5>
+  </div>
+  <div class = "column-third">
+    <h5><span style="color: #7D8DB9"><b>Time:</span></b></h5>
+  </div>
+
+  <div class = "column-third">
+    <h5>User testing, Iterating</h5>
+  </div>
+  <div class = "column-third">
+    <h5>Maya, Unity</h5>
+  </div>
+  <div class = "column-third">
+    <h5>10 Weeks</h5>
+  </div>
+
+
+
+  <br><br><br><br>
+
+  <div class = "main-content">
+
+    <br>
+    <center>
+      Tarsier Goggles is an educational tool for students to learn interactively in the classroom. It enables users to experience the world from the perspective of a tarsier and
+      focuses on the visual system&mdash;allowing students to see and learn firsthand the differences between animal visions.
+      <br><br>
+
+      <a href = "assets\links\Tarsier-doc.pdf" target = "_blank" class = "button">Check out the details</a>
+      &nbsp;&nbsp;&nbsp;
+      <a href = "https://www.geek.com/tech/this-vr-tool-lets-you-see-the-world-through-the-eyes-of-a-tiny-tarsier-1780033/" target = "_blank" class = "button">Read about the project!</a>
+    </center>
+    <br>
+    <hr width = "150%">
+
+    <br><br><br>
+    <div class = "row">
+      <div class = "left-third">
+        <h3><SUP>&nbsp;</SUP>The team</h3>
+      </div>
+      <div class = "right-two-third">
+        <img src = "assets\images\projects\group.jpeg" align = "left" width="100%">
+      </div>
+      <div class = "right-two-third">
+        <br><br><br>
+        <hr align="left" width="50%"><br><br>
+      </div>
+    </div>
+
+    <div class = "row">
+      <div class = "left-third">
+        <h3><SUP>&nbsp;</SUP>The background</h3>
+      </div>
+      <div class = "right-two-third">
+        <b><span style="color: #7D8DB9">Tarsiers are a small primate that live in the Borneo rainforest.</span></b>
+        They are nocturnal, dichromatic (red-green colorblind) and carnivorous. What makes them special is that they
+        have the largest eyes-to-body ratio out of all mammals. Their brain-sized eyes maximizes
+        their ability to see in low-light to better hunt prey.
+        <br><br><br>
+        <img src = "assets\images\projects\tarsier.jpg" align = "left" width="100%">
+      </div>
+      <div class = "right-two-third">
+        <br><br><br>
+        <hr align="left" width="50%">
+      </div>
+    </div>
+
+
+
+    <br>
+    <div class = "row">
+      <div class = "left-third">
+        <br>
+        <h3><SUP>&nbsp;</SUP>The goal</h3>
+      </div>
+      <div class = "right-two-third">
+        <br>
+        <b><span style="color: #7D8DB9">The goal of Tarsier Goggles is to provide an educational experience, </span></b>
+        primarily for students, but also for anyone interested in learning about how different animals see. As a member of
+        the DALI lab, we partnered with the Dartmouth Center for the Advancement of Learning
+        (DCAL) and two biology professors. This project has been in the works for a few terms, but our main goal was
+        to bring this project to Dartmouth classrooms and labs.
+        <br><br>
+        <h4><span style="color: #7D8DB9"> Our task this term was to:</span></h4>
+        <SUP>&nbsp;</SUP><b>1.</b> <b><span style="color: #7D8DB9">Migrate the project from the HTC Vive to the more portable Oculus Quest </span></b>so that the program could be used in classrooms without the need for wires, sensors, high powered computers, or expensive headsets.
+        <br><b>2.</b> <b><span style="color: #7D8DB9">Optimize assets, scripts, and optics features </span></b>so that the program could run on the Oculus Quest without lag as the HTC Vive was a more powerful headset.
+        <br><b>3.</b> <b><span style="color: #7D8DB9">Improve usability and intuitiveness </span></b>so that anyone can put on the headset and learn about vision.
+        <br><b>4.</b> <b><span style="color: #7D8DB9">Add a new tutorial system </span></b>so that first-time VR users can learn the basics of controls and be guided through the experience with minimal to no outside guidance.
+        <br><b>5.</b> <b><span style="color: #7D8DB9">Add interactions with katydids and redesign the scenes </span></b>to make the experience more immersive.
+        <br><br><br>
+        <hr align="left" width="50%">
+      </div>
+    </div>
+
+
+    <br>
+    <div class = "row">
+      <div class = "left-third">
+        <br>
+        <h3><SUP>&nbsp;</SUP>The user</h3>
+      </div>
+      <div class = "right-two-third">
+        <br>
+        Tarsier Goggles was designed for students in Dartmouth’s Biology 14 class set to run next term. However, multiple departments across campus,
+        from the Anthropology department to the Dartmouth medical school to even an English class, are
+        interested in incorporating this project into their courses.
+        <br><br><br>
+        <hr align="left" width="50%">
+      </div>
+    </div>
+
+
+    <br>
+    <div class = "row">
+      <div class = "left-third">
+        <br>
+        <h3><SUP>&nbsp;</SUP>The app</h3>
+      </div>
+      <div class = "right-two-third">
+        <br>
+        <h4><span style="color: #7D8DB9">The program consists of four scenes&mdash;each designed for a specific purpose.</span></h4>
+      </div>
+
+      <div class = "column-full">
+        <br><br><br>
+        <h4><b>The lobby</b></h4>
+        The user <b><span style="color: #7D8DB9">learns the basics of how to use the controllers</span></b> as they get used to VR.<br>
+        <br>
+      </div>
+      <div class = "left-half1">
+        <img src = "assets\images\projects\lobby.png" align = "right" width="80%">
+      </div>
+      <div class = "right-half1">
+        <img src = "assets\images\projects\lobby2.png" align = "left" width="80%">
+      </div>
+      <div class = "column-full">
+        <br><br>
+        <h4><b>The labyrinth</b></h4>
+        The user <b><span style="color: #7D8DB9">learns about differences in brightness</span></b> between human and tarsier vision as they try to navigate to the center of a dark labyrinth.
+        <br><br>
+      </div>
+      <div class = "left-half1">
+        <img src = "assets\images\projects\lab.jpg" align = "right" width="80%">
+      </div>
+      <div class = "right-half1">
+        <img src = "assets\images\projects\lab2.jpg" align = "left" width="80%">
+      </div>
+      <div class = "column-full">
+        <br><br>
+        <h4><b>The matrix</b></h4>
+        The user <b><span style="color: #7D8DB9">learns about the color differences</span></b> between human and tarsier vision as we simulate a dichromat’s vision.
+        <br><br>
+      </div>
+      <div class = "left-half1">
+        <img src = "assets\images\projects\matrix.jpg" align = "right" width="80%">
+      </div>
+      <div class = "right-half1">
+        <img src = "assets\images\projects\matrix1.jpg" align = "left" width="80%">
+      </div>
+      <div class = "column-full">
+        <br><br>
+        <h4><b>The borneo forest</b></h4>
+        <b><span style="color: #7D8DB9">The user sees from a tarsier’s eyes in the natural habitat of the tarsiers.</span></b> They can hop from sapling to sapling and
+        try to catch katydids. The katydids’ sound also changes as the user switches between human and tarsier as tarsiers would be better at localizing the bugs than humans.
+        The user can also better understand how tarsiers look around. (Since their eyes are so big, their eyes can't rotate so they move their whole head instead.)
+        To simulate this, tarsier vision appears blurry until the user moves their head to a specific object and that sole object comes into focus.
+        <br><br><br>
+      </div>
+      <div class = "left-half1">
+        <img src = "assets\images\projects\forest.jpg" align = "right" width="80%">
+      </div>
+      <div class = "right-half1">
+        <img src = "assets\images\projects\forest1.jpg" align = "left" width="80%">
+      </div>
+
+    </div>
+
+    <div class = "row">
+      <div class = "right-two-third">
+        <br><br><br>
+        <hr align="left" width="50%">
+      </div>
+    </div>
+
+
+    <br>
+    <div class = "row">
+      <div class = "left-third">
+        <br>
+        <h3><SUP>&nbsp;</SUP>The walkthrough</h3>
+      </div>
+      <div class = "column-full">
+        <br><br>
+        <iframe width="100%" height="728" src="https://www.youtube.com/embed/-fHCozgUo50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class = "right-two-third">
+        <br><br><br><br>
+        <hr align="left" width="50%">
+      </div>
+    </div>
+
+    <br>
+    <div class = "row">
+      <div class = "left-third">
+        <br>
+        <h3><SUP>&nbsp;</SUP>The user test</h3>
+      </div>
+      <div class = "right-two-third">
+        <br>
+        <h4><span style="color: #7D8DB9">We user tested Tarsier Goggles with BIO 14 TA’s, professors, and first-time users of VR.</span></h4><br>
+      </div>
+      <div class = "row">
+          <div class = "left-half1">
+          <img src = "assets\images\projects\test.jpg" align = "right" width="80%">
+        </div>
+        <div class = "right-half1">
+          <img src = "assets\images\projects\test1.jpg" align = "left" width="80%">
+        </div>
+      </div>
+      <div class = "row">
+        <div class = "left-half1">
+          <img src = "assets\images\projects\test3.jpeg" align = "right" width="80%">
+        </div>
+        <div class = "right-half1">
+          <img src = "assets\images\projects\test4.jpg" align = "left" width="80%">
+        </div>
+      </div>
+        <div class = "right-two-third">
+      <br><br><br><br>
+        <hr align="left" width="50%">
+      </div>
+    </div>
+
+    <br>
+    <div class = "row">
+      <div class = "left-third">
+        <br>
+        <h3><SUP>&nbsp;</SUP>The iteration</h3>
+      </div>
+      <div class = "right-two-third">
+        <br>
+        We found that first-time users of VR especially relied heavily on us guiding them through the experience despite there being an in-app tutorial. So, we redesigned the tutorial panel multiple times so that the wording was clear and was as helpful as possible.
+        <b><span style="color: #7D8DB9">Each iteration of user testing gave us feedback on the usability and intuitiveness of the program which we used to refine the experience.</span></b>
+        <br><br>
+        <h4><span style="color: #7D8DB9">Ultimately, we implemented a new tutorial system, redesigned the entire forest scene, and refined the details of the tarsier visual system to be as accurate as possible.</span></h4>
+        <br><br><br><br>
+        <hr align="left" width="50%">
+      </div>
+    </div>
+
+    <br>
+    <div class = "row">
+      <div class = "left-third">
+        <br>
+        <h3><SUP>&nbsp;</SUP>The challenges</h3>
+      </div>
+      <div class = "right-two-third">
+        <br>
+        <h4><span style="color: #7D8DB9">One of the biggest challenges we faced throughout the whole process was teaching people how to use a VR headset for the first time
+          as well as teaching them about the tarsier visual system.</span></h4>
+          <br><b><span style="color: #7D8DB9">We found that even though we had a tutorial, people were not reading it</span></b> because
+          the colors made it hard to read and the words were just slightly too close to their headset. So, we did a lot of iterating on the tutorial to maximize
+          its usefulness.
+          <br><b><span style="color: #7D8DB9">Another challenge was optimization.</span></b> Because the Oculus Quest has less processing power than the HTC Vive, we had to
+          redesign all the scenes and incorporate all the new functions without lag. We spent a lot of time reducing poly counts of our 3D models, simplifying
+          all the scenes, and editing lighting. While these definitely helped, we had to keep this limitation in mind throughout every step of the process.
+          <br><br><br><br>
+          <hr align="left" width="50%">
+        </div>
+      </div>
+
+
+      <br>
+      <div class = "row">
+        <div class = "left-third">
+          <br>
+          <h3><SUP>&nbsp;</SUP>The takeaways</h3>
+        </div>
+        <div class = "right-two-third">
+          <br>
+          This was a really exciting project to work on as this project is leading the initiative to incorporate VR into classrooms. I really enjoyed working
+          on something that has the potential to be so impactful for our fellow classmates. <b><span style="color: #7D8DB9">This project also taught me a lot about how VR can be used
+          in an educational space</span></b> where it has the ability to teach people first-hand something that they would otherwise read about and memorize
+          from a textbook.
+          <br><br><br>
+          <h4><span style="color: #7D8DB9">I learned a lot from working as a team, collaborating with our partners, and applying my knowledge to develop
+            this project.</span></h4>
+            <br><br><br><br>
+          </div>
+        </div>
+
+        <div class = "sign">
+          <center>Made with <span style="color: #7D8DB9">♥</span> by me</center>
+        </div>
+      </div>
+
+      </html>
