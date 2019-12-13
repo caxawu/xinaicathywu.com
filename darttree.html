@@ -1,339 +1,340 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<div class = "top-tree">
-  <head>
-    <meta charset="utf-8">
-    <link rel = "stylesheet" href="assets/stylesheets/style.css">
-    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b><br>Top</button>
-    <script>
-    //Get the button
-    var mybutton = document.getElementById("myBtn");
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
+<div class="style fade-in">
+  <div class = "top-tree">
+    <head>
+      <meta charset="utf-8">
+      <link rel = "stylesheet" href="assets/stylesheets/style.css">
+      <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b><br>Top</button>
+      <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
 
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
       }
-    }
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-    </script>
-  </head>
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+    </head>
 
-</div>
-<div class = "container">
-
-  <header class = "nav">
-    <nav>
-      <a href = "index.html">home</a>
-      <a href = "projects.html">projects</a>
-      <a href = "studio-art.html">studio & digital art</a>
-    </nav>
-  </header>
-
-  <br>
-  <center><h1>DartTree</h1></center>
-
-  <br>
-  <div class = "column-third">
-    <h5><span style="color: 	#326B45"><b>Skills:</span></b></h5>
   </div>
-  <div class = "column-third">
-    <h5><span style="color: 	#326B45"><b>Tools:</span></b></h5>
-  </div>
-  <div class = "column-third">
-    <h5><span style="color: 	#326B45"><b>Time:</span></b></h5>
-  </div>
+  <div class = "container">
 
-  <div class = "column-third">
-    <h5>User Research, Interviewing, Needfinding, Brainstorming, Prototyping, Iterating</h5>
-  </div>
-  <div class = "column-third">
-    <h5>The Design Process</h5>
-  </div>
-  <div class = "column-third">
-    <h5>3 Weeks</h5>
-  </div>
+    <header class = "nav">
+      <nav>
+        <a href = "index.html">home</a>
+        <a href = "projects.html">projects</a>
+        <a href = "studio-art.html">studio & digital art</a>
+      </nav>
+    </header>
 
-  <br><br><br><br>
-
-  <div class = "main-content">
     <br>
-    <center>DartTree is a redesign of the Dartmouth Alumni Career Network that connects people based on interests both inside and outside of the professional realm.
-      It also allows students to connect more easily and more comfortably with alumni by making profiles a better reflection of who a person is.
-      <br><br>
-      <a href = "assets\links\DartTree.pdf" target = "_blank" class = "button">Full Paper</a>
-    </center>
+    <center><h1>DartTree</h1></center>
+
     <br>
-    <hr width = "150%">
-
-    <br><br><br>
-    <div class = "row">
-      <div class = "left-third">
-        <h3><SUP>&nbsp;</SUP>The project brief</h3>
-      </div>
-      <div class = "right-two-third">
-        Authentic design develops from deeply understanding the real needs of end users. Address your team's specific challenge of improving
-        the experience of Dartmouth students.
-        <br><br>
-        <span style="color: #326B45"><h4>Use the design process to enable students to prepare for and pursue careers "off the beaten path."</h4></span>
-        <br><br><br>
-        <hr align="left" width="50%"><br><br>
-      </div>
+    <div class = "column-third">
+      <h5><span style="color: 	#326B45"><b>Skills:</span></b></h5>
+    </div>
+    <div class = "column-third">
+      <h5><span style="color: 	#326B45"><b>Tools:</span></b></h5>
+    </div>
+    <div class = "column-third">
+      <h5><span style="color: 	#326B45"><b>Time:</span></b></h5>
     </div>
 
-
-    <div class = "row">
-      <div class = "left-third">
-        <h3><SUP>&nbsp;</SUP>The research</h3>
-      </div>
-      <div class = "right-two-third">
-        <span style="color: #326B45"><h4>To tackle this challenge, my team first set out to understand what "off the beaten path" careers were.</h4></span>
-      </div>
-
-      <div class = "column-full">
-        <br><br>
-        Before we started designing, we had to clarify some assumptions. We all projected that finance and consulting paths were the most popular
-        and assumed that this sector would make up about half of the graduating student population. To find the real numbers, we sorted through
-        statistics released by Dartmouth and found Dartmouth's 2018 Cap & Gown Survey.
-        <br><br>
-      </div>
-
-      <div class = "indent-large">
-        <img src = "assets\images\projects\capgown.jpg" align = "left" width ="100%">
-      </div>
-
-      <div class = "column-full">
-        <br><br><br>
-        From the data that this survey provided, it became rather clear what the distribution of career paths were. In the words of Mindy Kaling:
-        <br><br>
-          <iframe width="100%" height="728" src="https://www.youtube.com/embed/GSMczrG0Vqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br><br>
-
-        We found that <span style="color: #326B45"><b>students intending to get a job in finance or consulting made up 47% of the graduating population.</b></span> However, we also found that the next most popular career
-        path was in tech with 16% of students. Therefore, we decided that tech jobs would also be considered "on the beaten path."
-      </div>
-      <div class = "right-two-third">
-        <br><br><br>
-        <hr align="left" width="50%">
-        <br><br>
-      </div>
+    <div class = "column-third">
+      <h5>User Research, Interviewing, Needfinding, Brainstorming, Prototyping, Iterating</h5>
+    </div>
+    <div class = "column-third">
+      <h5>The Design Process</h5>
+    </div>
+    <div class = "column-third">
+      <h5>3 Weeks</h5>
     </div>
 
+    <br><br><br><br>
 
-    <div class = "row">
-      <div class = "left-third">
-        <h3><SUP>&nbsp;</SUP>The user</h3>
-      </div>
-      <div class = "right-two-third">
-        <h4><span style="color: #326B45">The group that we focused on was the 37% of students who were pursing jobs in fields other than finance, consulting, or tech.</h4></span>
-        <br><br><br>
-        <hr align="left" width="50%">
-      </div>
-    </div>
-
-    <div class = "row">
+    <div class = "main-content">
       <br>
-      <div class = "left-third">
-        <h3><SUP>&nbsp;</SUP>The interviews</h3>
-      </div>
-      <div class = "right-two-third">
-        To gain a variety of perspectives, we conducted interviews with:<br><br>
-        <div class = "indent">
-          <span style="color: #326B45">&#x2B21;</span> People on "the beaten path" and people off "the beaten path."
-          <br>
-          <span style="color: #326B45">&#x2B21;</span> Dartmouth students who were seeking jobs and Dartmouth alums who were already employed.
-          <br>
-          <span style="color: #326B45">&#x2B21;</span> Students from all class years and recent graduates.
+      <center>DartTree is a redesign of the Dartmouth Alumni Career Network that connects people based on interests both inside and outside of the professional realm.
+        It also allows students to connect more easily and more comfortably with alumni by making profiles a better reflection of who a person is.
+        <br><br>
+        <a href = "assets\links\DartTree.pdf" target = "_blank" class = "button">Full Paper</a>
+      </center>
+      <br>
+      <hr width = "150%">
+
+      <br><br><br>
+      <div class = "row">
+        <div class = "left-third">
+          <h3><SUP>&nbsp;</SUP>The project brief</h3>
         </div>
-        <br>
+        <div class = "right-two-third">
+          Authentic design develops from deeply understanding the real needs of end users. Address your team's specific challenge of improving
+          the experience of Dartmouth students.
+          <br><br>
+          <span style="color: #326B45"><h4>Use the design process to enable students to prepare for and pursue careers "off the beaten path."</h4></span>
+          <br><br><br>
+          <hr align="left" width="50%"><br><br>
+        </div>
       </div>
 
-      <div class = "column-full">
+
+      <div class = "row">
+        <div class = "left-third">
+          <h3><SUP>&nbsp;</SUP>The research</h3>
+        </div>
+        <div class = "right-two-third">
+          <span style="color: #326B45"><h4>To tackle this challenge, my team first set out to understand what "off the beaten path" careers were.</h4></span>
+        </div>
+
+        <div class = "column-full">
+          <br><br>
+          Before we started designing, we had to clarify some assumptions. We all projected that finance and consulting paths were the most popular
+          and assumed that this sector would make up about half of the graduating student population. To find the real numbers, we sorted through
+          statistics released by Dartmouth and found Dartmouth's 2018 Cap & Gown Survey.
+          <br><br>
+        </div>
+
         <div class = "indent-large">
-          <img src = "assets\images\projects\darttree-img1.png" align = "left" width ="80%">
+          <img src = "assets\images\projects\capgown.jpg" align = "left" width ="100%">
+        </div>
+
+        <div class = "column-full">
+          <br><br><br>
+          From the data that this survey provided, it became rather clear what the distribution of career paths were. In the words of Mindy Kaling:
+          <br><br>
+          <iframe width="100%" height="728" src="https://www.youtube.com/embed/GSMczrG0Vqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br><br>
+
+          We found that <span style="color: #326B45"><b>students intending to get a job in finance or consulting made up 47% of the graduating population.</b></span> However, we also found that the next most popular career
+          path was in tech with 16% of students. Therefore, we decided that tech jobs would also be considered "on the beaten path."
+        </div>
+        <div class = "right-two-third">
+          <br><br><br>
+          <hr align="left" width="50%">
+          <br><br>
         </div>
       </div>
-      <div class = "column-full">
-        <br><br>
-        This timeline summarized the demographic of people we interviewed as well as their experiences with Dartmouth's Center for Professional Development (CPD).
-        <span style="color: #326B45"><b>Almost all the interviewees who were "on the beaten path" made use of the CPD while almost all of those who were
-          "off the beaten path" did not. </b></span>
-          <br><br>
-          We further looked at quotes from the interviewees to see why this pattern existed.
-          <br><br><br>
+
+
+      <div class = "row">
+        <div class = "left-third">
+          <h3><SUP>&nbsp;</SUP>The user</h3>
         </div>
+        <div class = "right-two-third">
+          <h4><span style="color: #326B45">The group that we focused on was the 37% of students who were pursing jobs in fields other than finance, consulting, or tech.</h4></span>
+          <br><br><br>
+          <hr align="left" width="50%">
+        </div>
+      </div>
+
+      <div class = "row">
+        <br>
+        <div class = "left-third">
+          <h3><SUP>&nbsp;</SUP>The interviews</h3>
+        </div>
+        <div class = "right-two-third">
+          To gain a variety of perspectives, we conducted interviews with:<br><br>
+          <div class = "indent">
+            <span style="color: #326B45">&#x2B21;</span> People on "the beaten path" and people off "the beaten path."
+            <br>
+            <span style="color: #326B45">&#x2B21;</span> Dartmouth students who were seeking jobs and Dartmouth alums who were already employed.
+            <br>
+            <span style="color: #326B45">&#x2B21;</span> Students from all class years and recent graduates.
+          </div>
+          <br>
+        </div>
+
         <div class = "column-full">
           <div class = "indent-large">
-            <img src = "assets\images\projects\darttree-img2.png" align = "left" width ="80%">
+            <img src = "assets\images\projects\darttree-img1.png" align = "left" width ="80%">
           </div>
         </div>
         <div class = "column-full">
           <br><br>
-          <span style="color: #326B45"><h4>"The alumni network is so diverse, but the CPD offerings just aren't."</h4></span>
-          <br>
-          This was the quote that caught our attention. We realized that this sentiment was echoed by many interviewees.
-          <span style="color: #326B45"><b>Most importantly, the general view from undergraduates was that the CPD was only helpful to those going into finance or consulting.</b></span>
-        </div>
-        <div class = "right-two-third">
-          <br><br><br>
-          <hr align="left" width="50%">
-        </div>
-      </div>
-
-      <div class = "row">
-        <br><br>
-        <div class = "left-third">
-          <h3><SUP>&nbsp;</SUP>The key findings</h3>
-        </div>
-        <div class = "right-two-third">
-          <img src = "assets\images\projects\darttree-img3.png" align = "left" width ="100%">
-        </div>
-        <div class = "right-two-third">
-          <br>
-          <hr align="left" width="50%">
-        </div>
-      </div>
-
-
-
-      <br>
-      <div class = "row">
-        <div class = "left-third">
-          <br>
-          <h3><SUP>&nbsp;</SUP>The problem</h3>
-        </div>
-
-        <div class = "column-full">
-          <br><br>
-          <div class="flex-container">
-            <div0><h5><br><br>Students "off the beaten path"<br><br><br></h5></div0>
-            <div2><h5><br><br><b>need to</b><br><br><br></h5></div2>
-            <div0><h5><br><br>experience <br>greater exposure <br>to diverse career options<br><br></h5></div0>
-            <div4><h5><br><br><b>in order to</b><br><br><br></h5></div4>
-            <div0><h5><br><br>successfully <br>network with <br>alumni and pursue their interests.<br><br><br></h5></div0>
-          </div>
-          <br>
-
-          <div class = "right-two-third">
+          This timeline summarized the demographic of people we interviewed as well as their experiences with Dartmouth's Center for Professional Development (CPD).
+          <span style="color: #326B45"><b>Almost all the interviewees who were "on the beaten path" made use of the CPD while almost all of those who were
+            "off the beaten path" did not. </b></span>
             <br><br>
-            <hr align="left" width="50%">
+            We further looked at quotes from the interviewees to see why this pattern existed.
             <br><br><br>
+          </div>
+          <div class = "column-full">
+            <div class = "indent-large">
+              <img src = "assets\images\projects\darttree-img2.png" align = "left" width ="80%">
+            </div>
+          </div>
+          <div class = "column-full">
+            <br><br>
+            <span style="color: #326B45"><h4>"The alumni network is so diverse, but the CPD offerings just aren't."</h4></span>
+            <br>
+            This was the quote that caught our attention. We realized that this sentiment was echoed by many interviewees.
+            <span style="color: #326B45"><b>Most importantly, the general view from undergraduates was that the CPD was only helpful to those going into finance or consulting.</b></span>
+          </div>
+          <div class = "right-two-third">
+            <br><br><br>
+            <hr align="left" width="50%">
           </div>
         </div>
 
         <div class = "row">
-          <br>
+          <br><br>
           <div class = "left-third">
-            <h3><SUP>&nbsp;</SUP>The brainstorm</h3>
+            <h3><SUP>&nbsp;</SUP>The key findings</h3>
           </div>
+          <div class = "right-two-third">
+            <img src = "assets\images\projects\darttree-img3.png" align = "left" width ="100%">
+          </div>
+          <div class = "right-two-third">
+            <br>
+            <hr align="left" width="50%">
+          </div>
+        </div>
+
+
+
+        <br>
+        <div class = "row">
+          <div class = "left-third">
+            <br>
+            <h3><SUP>&nbsp;</SUP>The problem</h3>
+          </div>
+
           <div class = "column-full">
             <br><br>
-            <div class = "indent-large">
-              <img src = "assets\images\projects\darttree-brainstorm1.png" align = "left" width ="80%">
+            <div class="flex-container">
+              <div0><h5><br><br>Students "off the beaten path"<br><br><br></h5></div0>
+              <div2><h5><br><br><b>need to</b><br><br><br></h5></div2>
+              <div0><h5><br><br>experience <br>greater exposure <br>to diverse career options<br><br></h5></div0>
+              <div4><h5><br><br><b>in order to</b><br><br><br></h5></div4>
+              <div0><h5><br><br>successfully <br>network with <br>alumni and pursue their interests.<br><br><br></h5></div0>
             </div>
-          </div>
-          <div class = "column-full">
-            <br><br>
-            <div class = "indent-large">
-              <img src = "assets\images\projects\darttree-brainstorm2.png" align = "left" width ="80%">
-            </div>
-          </div>
-          <div class = "column-full">
-            <br><br>
-            <b><span style="color: #326B45">Because students "off the beaten path" found alumni most helpful,
-              we focused on improving this connection.</span></b> After brainstorming multiple ideas, we created
-              our final product&mdash;DartTree.
-            </div>
+            <br>
+
             <div class = "right-two-third">
-              <br><br><br>
+              <br><br>
               <hr align="left" width="50%">
+              <br><br><br>
             </div>
           </div>
 
-          <br>
           <div class = "row">
+            <br>
             <div class = "left-third">
-              <br>
-              <h3><SUP>&nbsp;</SUP>Our answer</h3>
+              <h3><SUP>&nbsp;</SUP>The brainstorm</h3>
             </div>
-            <div class = "right-two-third">
-              <br>
-              <h4><span style="color: #326B45">DartTree is an interest-based network that connects
-                alumni and students through information that is not found on Dartmouth Alumni Career Network.</span></h4>
-                <br><br>
+            <div class = "column-full">
+              <br><br>
+              <div class = "indent-large">
+                <img src = "assets\images\projects\darttree-brainstorm1.png" align = "left" width ="80%">
               </div>
-              <div class = "column-full">
-                DartTree focuses on shared interests between students and alumni outside of just the professional realm. This creates a strong connection that is similar to that of
-                students and alumni from athletic teams. Because connections can be created through any student involvement on campus, students can curate
-                more intimate relationships with alumni sooner.
+            </div>
+            <div class = "column-full">
+              <br><br>
+              <div class = "indent-large">
+                <img src = "assets\images\projects\darttree-brainstorm2.png" align = "left" width ="80%">
               </div>
-              <div class = "column-full">
-                <br><br>
-                <div class = "indent-large">
-                  <img src = "assets\images\projects\darttree1.png" align = "left" width ="80%">
-                </div>
+            </div>
+            <div class = "column-full">
+              <br><br>
+              <b><span style="color: #326B45">Because students "off the beaten path" found alumni most helpful,
+                we focused on improving this connection.</span></b> After brainstorming multiple ideas, we created
+                our final product&mdash;DartTree.
               </div>
-              <div class = "column-full">
-                <br>
-                Each branch of a student's DartTree represents a different interest. The number under each branch is the number of alumni with that same interest.
-              </div>
-              <div class = "column-full">
-                <br><br>
-                <div class = "indent-large">
-                  <img src = "assets\images\projects\darttree2.png" align = "left" width ="80%">
-                </div>
-              </div>
-              <div class = "column-full">
-                <br>
-                This tree is interactive such that if the student zooms in on a part of their DartTree, they have access to the alumni who share one or more of the
-                student's interests.
-              </div>
-              <div class = "column-full">
-                <br><br>
-                <div class = "indent-large">
-                  <img src = "assets\images\projects\darttree3.png" align = "left" width ="80%">
-                </div>
-              </div>
-              <div class = "column-full">
-                <br>
-                Zooming in on one alum reveals more information. DartTree provides the alum's contact information, his/her employment history, and other information such as a personal website.
-                These aspects allow the alum's profile to have a more personal feel than the existing Dartmouth Alumni Career Networks catalogue-style database. DartTree would also require
-                a profile picture and inputting interests so that students immediately feel a more personal connection to the alum.
-                <br><br>
-                <span style="color: #326B45"><h4>This redesign targets the awkward nature of contacting and interacting with alumni without knowing anything about them outside of the professional world.</h4></span>
-              </div>
-
               <div class = "right-two-third">
                 <br><br><br>
                 <hr align="left" width="50%">
               </div>
             </div>
 
-
             <br>
             <div class = "row">
               <div class = "left-third">
                 <br>
-                <h3><SUP>&nbsp;</SUP>The features</h3>
+                <h3><SUP>&nbsp;</SUP>Our answer</h3>
               </div>
               <div class = "right-two-third">
                 <br>
-                <h4><span style="color: #326B45">Outside of the main uses of DartTree, we thought of a few ways to improve the experience of connecting with alumni.</h4></span>
+                <h4><span style="color: #326B45">DartTree is an interest-based network that connects
+                  alumni and students through information that is not found on Dartmouth Alumni Career Network.</span></h4>
+                  <br><br>
+                </div>
+                <div class = "column-full">
+                  DartTree focuses on shared interests between students and alumni outside of just the professional realm. This creates a strong connection that is similar to that of
+                  students and alumni from athletic teams. Because connections can be created through any student involvement on campus, students can curate
+                  more intimate relationships with alumni sooner.
+                </div>
+                <div class = "column-full">
+                  <br><br>
+                  <div class = "indent-large">
+                    <img src = "assets\images\projects\darttree1.png" align = "left" width ="80%">
+                  </div>
+                </div>
+                <div class = "column-full">
+                  <br>
+                  Each branch of a student's DartTree represents a different interest. The number under each branch is the number of alumni with that same interest.
+                </div>
+                <div class = "column-full">
+                  <br><br>
+                  <div class = "indent-large">
+                    <img src = "assets\images\projects\darttree2.png" align = "left" width ="80%">
+                  </div>
+                </div>
+                <div class = "column-full">
+                  <br>
+                  This tree is interactive such that if the student zooms in on a part of their DartTree, they have access to the alumni who share one or more of the
+                  student's interests.
+                </div>
+                <div class = "column-full">
+                  <br><br>
+                  <div class = "indent-large">
+                    <img src = "assets\images\projects\darttree3.png" align = "left" width ="80%">
+                  </div>
+                </div>
+                <div class = "column-full">
+                  <br>
+                  Zooming in on one alum reveals more information. DartTree provides the alum's contact information, his/her employment history, and other information such as a personal website.
+                  These aspects allow the alum's profile to have a more personal feel than the existing Dartmouth Alumni Career Networks catalogue-style database. DartTree would also require
+                  a profile picture and inputting interests so that students immediately feel a more personal connection to the alum.
+                  <br><br>
+                  <span style="color: #326B45"><h4>This redesign targets the awkward nature of contacting and interacting with alumni without knowing anything about them outside of the professional world.</h4></span>
+                </div>
+
+                <div class = "right-two-third">
+                  <br><br><br>
+                  <hr align="left" width="50%">
+                </div>
               </div>
-              <div class = "column-full">
-                <br><br>
-                <h5><b> Centralization </b></h5>
-                One problem with the existing resources is that many students cannot locate them. Because they are so hard to find, some students don't even know that they exist. One simple solution would be
-                to link Dartmouth's career site (Dartboard) on the student gateway page (Darthub), so that students have a centralized entry point to all resources available to them.
-              </div>
+
+
+              <br>
+              <div class = "row">
+                <div class = "left-third">
+                  <br>
+                  <h3><SUP>&nbsp;</SUP>The features</h3>
+                </div>
+                <div class = "right-two-third">
+                  <br>
+                  <h4><span style="color: #326B45">Outside of the main uses of DartTree, we thought of a few ways to improve the experience of connecting with alumni.</h4></span>
+                </div>
+                <div class = "column-full">
+                  <br><br>
+                  <h5><b> Centralization </b></h5>
+                  One problem with the existing resources is that many students cannot locate them. Because they are so hard to find, some students don't even know that they exist. One simple solution would be
+                  to link Dartmouth's career site (Dartboard) on the student gateway page (Darthub), so that students have a centralized entry point to all resources available to them.
+                </div>
                 <div class = "column-full">
                   <br>
                   <div class = "indent-large">
@@ -344,64 +345,65 @@
                   <br><br><br>
                   <h5><b> Alumni on Campus </b></h5>
                   When we talked to the assistant director of the Center for Professional Development, she told us that <b><span style="color: #326B45">the Hanover Inn has an alumni board that displays all alumni who are on campus each
-                  week.</span></b> Most students are unaware of this and the board is in a location where students rarely pass by. <b><span style="color: #326B45">As part of DartTree, we want to digitize the board for easier access.</span></b>
-                  <br><br>
-                  One page in DartTree would have all the alumni who are on campus.
-                </div>
-                <div class = "column-full">
-                  <br>
-                  <div class = "indent-large">
-                    <img src = "assets\images\projects\on-campus3.jpg" align = "left" width ="80%">
+                    week.</span></b> Most students are unaware of this and the board is in a location where students rarely pass by. <b><span style="color: #326B45">As part of DartTree, we want to digitize the board for easier access.</span></b>
+                    <br><br>
+                    One page in DartTree would have all the alumni who are on campus.
+                  </div>
+                  <div class = "column-full">
+                    <br>
+                    <div class = "indent-large">
+                      <img src = "assets\images\projects\on-campus3.jpg" align = "left" width ="80%">
+                    </div>
+                  </div>
+                  <div class = "column-full">
+                    <br><br><br>
+                    Each alum would also have a bell tower icon next to their profile picture that lights up when he/she is on campus.
+                  </div>
+                  <div class = "column-full">
+                    <div class = "indent-large">
+                      <img src = "assets\images\projects\on-campus2.jpg" align = "left" width ="80%">
+                    </div>
+                  </div>
+                  <div class = "column-full">
+                    <br><br>
+                    <h5><b> Pet Peeves & Networking Preferences </b></h5>
+                    Another barrier students face when reaching out to alumni is the fear of "cold-calling." Students agonize over sending the perfect email&mdash;attempting to strike the perfect balance between
+                    professionalism and sounding human. By allowing alumni to add their pet peeves and networking preferences, we hope to reduce friction in reaching out to someone for the first time.
+                  </div>
+                  <div class = "column-full">
+                    <br><br>
+                    <div class = "indent-large">
+                      <img src = "assets\images\projects\pet-peeves.jpg" align = "left" width ="80%">
+                    </div>
+                  </div>
+                  <div class = "right-two-third">
+                    <br><br><br><br>
+                    <hr align="left" width="50%">
                   </div>
                 </div>
-                <div class = "column-full">
-                  <br><br><br>
-                  Each alum would also have a bell tower icon next to their profile picture that lights up when he/she is on campus.
-                </div>
-                <div class = "column-full">
-                  <div class = "indent-large">
-                    <img src = "assets\images\projects\on-campus2.jpg" align = "left" width ="80%">
+
+
+                <br>
+                <div class = "row">
+                  <div class = "left-third">
+                    <br>
+                    <h3><SUP>&nbsp;</SUP>The takeaways</h3>
                   </div>
-                </div>
-                <div class = "column-full">
-                  <br><br>
-                  <h5><b> Pet Peeves & Networking Preferences </b></h5>
-                  Another barrier students face when reaching out to alumni is the fear of "cold-calling." Students agonize over sending the perfect email&mdash;attempting to strike the perfect balance between
-                  professionalism and sounding human. By allowing alumni to add their pet peeves and networking preferences, we hope to reduce friction in reaching out to someone for the first time.
-                </div>
-                <div class = "column-full">
-                  <br><br>
-                  <div class = "indent-large">
-                    <img src = "assets\images\projects\pet-peeves.jpg" align = "left" width ="80%">
+                  <div class = "right-two-third">
+                    <br>
+                    <span style="color: #326B45"><h4>This project taught me a lot about designing real-world solutions to a very immediate problem.</h4></span>
+                    <br><br> I found it to be rewarding that we followed the design process all the way through and found a solution to a problem that has not yet been solved.
+                    Thoughout this process, I also learned and understood a lot more about this problem that students face. <span style="color: #326B45"><b>I had the chance to
+                      deeply understand the need of a very real user group, since the job search is such an important process that virtually
+                      everyone has to go through.</b></span> Ultimately, this project was definitely a challenge, but I loved being able to apply my design skills to a real-world problem.
+                    </div>
                   </div>
-                </div>
-                <div class = "right-two-third">
-                  <br><br><br><br>
-                  <hr align="left" width="50%">
-                </div>
-              </div>
 
+                  <div class = "sign">
+                    <br><br><br><br>
+                    <center>Made with <span style="color: #326B45">♥</span> by me</center>
+                  </div>
 
-              <br>
-              <div class = "row">
-                <div class = "left-third">
-                  <br>
-                  <h3><SUP>&nbsp;</SUP>The takeaways</h3>
-                </div>
-                <div class = "right-two-third">
-                  <br>
-                  <span style="color: #326B45"><h4>This project taught me a lot about designing real-world solutions to a very immediate problem.</h4></span>
-                  <br><br> I found it to be rewarding that we followed the design process all the way through and found a solution to a problem that has not yet been solved.
-                  Thoughout this process, I also learned and understood a lot more about this problem that students face. <span style="color: #326B45"><b>I had the chance to
-                  deeply understand the need of a very real user group, since the job search is such an important process that virtually
-                   everyone has to go through.</b></span> Ultimately, this project was definitely a challenge, but I loved being able to apply my design skills to a real-world problem.
                 </div>
               </div>
-
-              <div class = "sign">
-                <br><br><br><br>
-                <center>Made with <span style="color: #326B45">♥</span> by me</center>
-              </div>
-
-            </div>
-            </html>
+              </html>

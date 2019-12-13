@@ -286,14 +286,6 @@ hr {
   padding-left: 3%;
 }
 
-/* .column-small {
-  float: right;
-  width: 30%;
-}
-.column-text {
-  float: left;
-  width: 66%;
-} */
 .column-L45 {
   float: left;
   width: 45%;
@@ -302,10 +294,7 @@ hr {
   float: right;
   width: 50%;
 }
-/* .column-text-wide {
-  float: left;
-  width: 70%;
-} */
+
 .column-titletext {
   float: right;
   width: 40%;
@@ -315,27 +304,6 @@ hr {
   width: 50%;
 }
 
-/* .column-gallery1 {
-  float: left;
-  width: 25%;
-  margin: 0 37.5%;
-}
-.column-gallery2 {
-  float: left;
-  margin: 0 12.5%;
-  width: 25%;
-}
-.column-gallery2long {
-  float: left;
-  margin: 0 0%;
-  width: 50%;
-}
-.column-galleryfull {
-  float: left;
-  margin: 0 10%;
-  width: 80%;
-}
-*/
 .column-gallery3 {
   float: left;
   margin: 0 5%;
@@ -528,4 +496,57 @@ hr {
   font-weight: 250;
   font-size: 1em;
   margin-bottom: -1%;
+}
+.fade-in {
+  animation: fadeIn ease 1.5s;
+  -webkit-animation: fadeIn ease 1.5s;
+  -moz-animation: fadeIn ease 1.5s;
+  -o-animation: fadeIn ease 1.5s;
+  -ms-animation: fadeIn ease 1.5s;
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }

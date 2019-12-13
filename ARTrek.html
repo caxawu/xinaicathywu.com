@@ -1,169 +1,150 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<div class = "top-ARTrek">
-  <head>
-    <meta charset="utf-8">
-    <link rel = "stylesheet" href="assets/stylesheets/style.css">
-    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b><br>Top</button>
-    <script>
-    //Get the button
-    var mybutton = document.getElementById("myBtn");
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
+<div class="style fade-in">
+  <div class = "top-ARTrek">
+    <head>
+      <meta charset="utf-8">
+      <link rel = "stylesheet" href="assets/stylesheets/style.css">
+      <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b><br>Top</button>
+      <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
 
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
       }
-    }
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-    </script>
-  </head>
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+    </head>
 
-</div>
-<div class = "container">
-
-  <header class = "nav">
-    <nav>
-      <a href = "index.html">home</a>
-      <a href = "projects.html">projects</a>
-      <a href = "studio-art.html">studio & digital art</a>
-    </nav>
-  </header>
-
-  <br>
-  <center><h1>ARTrek</h1></center>
-  <center><h4><span style="color: #C3AA4D"><b>1st Place at HackDartmouth 2019</b></span></h4></center>
-
-
-  <br>
-  <div class = "column-third">
-    <h5><span style="color: #015E31"><b>Skills:</span></b></h5>
   </div>
-  <div class = "column-third">
-    <h5><span style="color: #015E31"><b>Tools:</span></b></h5>
-  </div>
-  <div class = "column-third">
-    <h5><span style="color: #015E31"><b>Time:</span></b></h5>
-  </div>
+  <div class = "container">
 
-  <div class = "column-third">
-    <h5>Needfinding, Brainstorming, Prototyping</h5>
-  </div>
-  <div class = "column-third">
-    <h5>Unity, ARCore, Java</h5>
-  </div>
-  <div class = "column-third">
-    <h5>24 Hours</h5>
-  </div>
-
-
-
-  <br><br><br>
-
-  <div class = "main-content">
+    <header class = "nav">
+      <nav>
+        <a href = "index.html">home</a>
+        <a href = "projects.html">projects</a>
+        <a href = "studio-art.html">studio & digital art</a>
+      </nav>
+    </header>
 
     <br>
-    <center>
-      ARTrek is a cross-platform augmented-reality mobile indoor navigation app. The app has two sections. As a finder, the user inputs their destination and
-      follows the AR path markers that appear. As a forger, that same user can mark a path for others to use.
-      <br><br>
+    <center><h1>ARTrek</h1></center>
+    <center><h4><span style="color: #C3AA4D"><b>1st Place at HackDartmouth 2019</b></span></h4></center>
 
-      <a href = "https://devpost.com/software/artrek" target = "_blank" class = "button">Check it out on Devpost here</a>
-    </center>
+
     <br>
-    <hr width = "150%">
-
-    <br><br><br>
-    <div class = "row">
-      <div class = "left-third">
-        <br><br>
-        <br>
-        <h3><SUP>&nbsp;</SUP>The team</h3>
-      </div>
-      <div class = "right-two-third">
-        <img src = "assets\images\projects\team-pic.jpg" align = "left" width="100%">
-      </div>
-      <div class = "right-two-third">
-        <br><br><br>
-        <hr align="left" width="50%"><br><br>
-      </div>
+    <div class = "column-third">
+      <h5><span style="color: #015E31"><b>Skills:</span></b></h5>
+    </div>
+    <div class = "column-third">
+      <h5><span style="color: #015E31"><b>Tools:</span></b></h5>
+    </div>
+    <div class = "column-third">
+      <h5><span style="color: #015E31"><b>Time:</span></b></h5>
     </div>
 
-    <div class = "row">
-      <div class = "left-third">
-        <h3><SUP>&nbsp;</SUP>The pain points</h3>
-      </div>
-      <div class = "right-two-third">
-        <b>1.</b> As a student who has taken a couple classes in our Thayer School of Engineering, <span style="color: #015E31"><b>I still get lost in the building sometimes.</b></span>
-        Between the strange layout of the building that is actually comprised of two buildings and the interesting placement of auditoriums
-        in both the basement and the second floor, <span style="color: #015E31"><b>the maps on the walls are, needless to say, not very helpful.</b></span>
-        <br><br>
-        <b>2.</b> I was lucky enough to study abroad last year in France and travel a bit. One thing I found amazing in Switzerland was how accurate the trains were.
-        They arrived and left exactly on the minute. But because of this, <span style="color: #015E31"><b>the time between transferring trains was really short</b></span> (like 3 minutes). Track numbers
-        were clearly displayed, but getting to that track was another story&mdash;<span style="color: #015E31"><b>especially when I only had 3 minutes to navigate a crowded and unfamiliar location.</b></span>
-        <br><br>
-        <b>3.</b> Have you ever gotten an email with picture attachment of a building map with a line badly drawn in to show how to get from point A (usually the front door)
-        to point B (the event location)? Similarly, have you ever gotten a text message from someone detailing exactly how to get to where they are?
-        <span style="color: #015E31"><b>When getting somewhere is confusing enough to need such an email or text, the email or text doesn't do much more to help.</b></span>
-        <br><br><br>
-        <h4><span style="color: #015E31">Digital maps today have gotten pretty good though. If they can help someone navigate to basicially anywhere on the street, why can’t the same
-          type of system exist for indoor destinations?</span></h4>
-          <br><br><br>
-          <hr align="left" width="50%">
-        </div>
-      </div>
+    <div class = "column-third">
+      <h5>Needfinding, Brainstorming, Prototyping</h5>
+    </div>
+    <div class = "column-third">
+      <h5>Unity, ARCore, Java</h5>
+    </div>
+    <div class = "column-third">
+      <h5>24 Hours</h5>
+    </div>
 
 
+
+    <br><br><br>
+
+    <div class = "main-content">
 
       <br>
+      <center>
+        ARTrek is a cross-platform augmented-reality mobile indoor navigation app. The app has two sections. As a finder, the user inputs their destination and
+        follows the AR path markers that appear. As a forger, that same user can mark a path for others to use.
+        <br><br>
+
+        <a href = "https://devpost.com/software/artrek" target = "_blank" class = "button">Check it out on Devpost here</a>
+      </center>
+      <br>
+      <hr width = "150%">
+
+      <br><br><br>
       <div class = "row">
         <div class = "left-third">
+          <br><br>
           <br>
-          <h3><SUP>&nbsp;</SUP>The problem</h3>
+          <h3><SUP>&nbsp;</SUP>The team</h3>
         </div>
         <div class = "right-two-third">
-          <br>
-          Though there are many applicable situations, we decided to focus in on navigating indoor spaces. Since HackDartmouth was held in the Thayer School of Engineering (a really confusing building), it was
-          the perfect use case.
+          <img src = "assets\images\projects\team-pic.jpg" align = "left" width="100%">
+        </div>
+        <div class = "right-two-third">
+          <br><br><br>
+          <hr align="left" width="50%"><br><br>
+        </div>
+      </div>
+
+      <div class = "row">
+        <div class = "left-third">
+          <h3><SUP>&nbsp;</SUP>The pain points</h3>
+        </div>
+        <div class = "right-two-third">
+          <b>1.</b> As a student who has taken a couple classes in our Thayer School of Engineering, <span style="color: #015E31"><b>I still get lost in the building sometimes.</b></span>
+          Between the strange layout of the building that is actually comprised of two buildings and the interesting placement of auditoriums
+          in both the basement and the second floor, <span style="color: #015E31"><b>the maps on the walls are, needless to say, not very helpful.</b></span>
           <br><br>
-          The problem lies in the fact that certain buildings are difficult to navigate, some rooms are hard to find, and maps are also not always
-          helpful or accessible.
+          <b>2.</b> I was lucky enough to study abroad last year in France and travel a bit. One thing I found amazing in Switzerland was how accurate the trains were.
+          They arrived and left exactly on the minute. But because of this, <span style="color: #015E31"><b>the time between transferring trains was really short</b></span> (like 3 minutes). Track numbers
+          were clearly displayed, but getting to that track was another story&mdash;<span style="color: #015E31"><b>especially when I only had 3 minutes to navigate a crowded and unfamiliar location.</b></span>
           <br><br>
-          <div class="flex-container2">
-            <div00><h5><br><br>People in large and unfamiliar buildings <br><br><br></h5></div00>
-            <div2><h5><br><br><b>need to</b><br><br><br></h5></div2>
-            <div00><h5><br><br>find their way to their destination quickly<br><br></h5></div00>
-            <div4><h5><br><br><b>in order to</b><br><br><br></h5></div4>
-            <div00><h5><br><br>not be frustrated or late for their event.<br><br><br></h5></div00>
+          <b>3.</b> Have you ever gotten an email with picture attachment of a building map with a line badly drawn in to show how to get from point A (usually the front door)
+          to point B (the event location)? Similarly, have you ever gotten a text message from someone detailing exactly how to get to where they are?
+          <span style="color: #015E31"><b>When getting somewhere is confusing enough to need such an email or text, the email or text doesn't do much more to help.</b></span>
+          <br><br><br>
+          <h4><span style="color: #015E31">Digital maps today have gotten pretty good though. If they can help someone navigate to basicially anywhere on the street, why can’t the same
+            type of system exist for indoor destinations?</span></h4>
+            <br><br><br>
+            <hr align="left" width="50%">
           </div>
-          <br><br><br>
-          <hr align="left" width="50%">
         </div>
-      </div>
 
 
-      <br>
-      <div class = "row">
-        <div class = "left-third">
-          <br>
-          <h3><SUP>&nbsp;</SUP>The inspiration</h3>
-        </div>
-        <div class = "right-two-third">
-          <br>
-          My brother and I have always been fascinated by AR and all that it can do. In the Spring term when HackDartmouth took place, I was also in an
-          AR/VR class. My class was about halfway though the AR section of the class, so I already knew a bit about Unity and setting up AR image targets.
-          We were also both comfortable with coding in Java and wanted to play to our strengths.
-          <br><br><br>
-          <h4><span style="color: #015E31">So, our inspiration for the augmented-reality project came from combining our strengths
-            with our interests.</span></h4>
+
+        <br>
+        <div class = "row">
+          <div class = "left-third">
+            <br>
+            <h3><SUP>&nbsp;</SUP>The problem</h3>
+          </div>
+          <div class = "right-two-third">
+            <br>
+            Though there are many applicable situations, we decided to focus in on navigating indoor spaces. Since HackDartmouth was held in the Thayer School of Engineering (a really confusing building), it was
+            the perfect use case.
+            <br><br>
+            The problem lies in the fact that certain buildings are difficult to navigate, some rooms are hard to find, and maps are also not always
+            helpful or accessible.
+            <br><br>
+            <div class="flex-container2">
+              <div00><h5><br><br>People in large and unfamiliar buildings <br><br><br></h5></div00>
+              <div2><h5><br><br><b>need to</b><br><br><br></h5></div2>
+              <div00><h5><br><br>find their way to their destination quickly<br><br></h5></div00>
+              <div4><h5><br><br><b>in order to</b><br><br><br></h5></div4>
+              <div00><h5><br><br>not be frustrated or late for their event.<br><br><br></h5></div00>
+            </div>
             <br><br><br>
             <hr align="left" width="50%">
           </div>
@@ -174,183 +155,203 @@
         <div class = "row">
           <div class = "left-third">
             <br>
-            <h3><SUP>&nbsp;</SUP>The details</h3>
+            <h3><SUP>&nbsp;</SUP>The inspiration</h3>
           </div>
           <div class = "right-two-third">
             <br>
-            <h4><span style="color: #015E31">ARTrek is an augmented reality app that consists of two elements: Finder and Forger.</span></h4>
-          </div>
-
-          <div class = "column-full">
+            My brother and I have always been fascinated by AR and all that it can do. In the Spring term when HackDartmouth took place, I was also in an
+            AR/VR class. My class was about halfway though the AR section of the class, so I already knew a bit about Unity and setting up AR image targets.
+            We were also both comfortable with coding in Java and wanted to play to our strengths.
             <br><br><br>
-            <h4><b>Finder</b></h4>
-            On the finder side, users use their phone to recognize their surroundings to launch the augmented reality path markers. Once they pop up,
-            the user follows this path to get to their location.
-            <br><br><br>
-            <h4><span style="color: #015E31">To be a finder, users:</span></h4>
-            <br>
-          </div>
-
-          <div class = "row">
-            <div class = "column-4">
-              <b>1. </b><span style="color: #015E31"><b>Click</b></span> on finder in the home screen.
-            </div>
-            <div class = "column-4">
-              <b>2. </b><span style="color: #015E31"><b>Type</b></span> in the place/room they are looking for.
-            </div>
-            <div class = "column-4">
-              <b>3. </b><span style="color: #015E31"><b>Scan</b></span> their surroundings so the app knows where they are in the building.
-            </div>
-            <div class = "column-4">
-              <b>4. </b><span style="color: #015E31"><b>Follow</b></span> the AR path markers that appear to their destination!
-            </div>
-          </div>
-
-
-
-          <div class = "row">
-            <div class = "column-4">
-              <img src = "assets\images\projects\Android - 1.png" align = "right" width ="100%">
-            </div>
-            <div class = "column-4">
-              <img src = "assets\images\projects\Android - 2.png" align = "right" width ="100%">
-            </div>
-            <div class = "column-4">
-              <img src = "assets\images\projects\Android - 3.png" align = "right" width ="100%">
-            </div>
-            <div class = "column-4">
-              <img src = "assets\images\projects\Android - 4.png" align = "right" width ="100%">
-            </div>
-          </div>
-          <br>
-
-          <div class = "column-full">
-            <br>
-            <h4><b> Forger </b></h4>
-            On the forger side, users who are familiar with a location can place path markers to help others. Existing digital maps rely on premapping
-            all existing streets and roads, so that it can suggest paths to users. This process is not feasible for mapping every building. So,
-            we used a "Waze-like" approach where users can contribute to a network of defined paths.
-            <span style="color: #015E31"><b>By making the data user-driven, more buildings can be mapped&mdash;allowing
-              more paths become available for people to use.</b></span>
+            <h4><span style="color: #015E31">So, our inspiration for the augmented-reality project came from combining our strengths
+              with our interests.</span></h4>
               <br><br><br>
-              <h4><span style="color: #015E31">To be a forger, users:</span></h4>
-              <br>
-            </div>
-
-            <div class = "row">
-              <div class = "column-5">
-                <b>1. </b><span style="color: #015E31"><b>Click</b></span> on forger in the home screen.
-              </div>
-              <div class = "column-5">
-                <b>2. </b><span style="color: #015E31"><b>Type</b></span> in their current (starting) location.
-              </div>
-              <div class = "column-5">
-                <b>3. </b><span style="color: #015E31"><b>Scan</b></span> the surroundings so the app know where they are in the building.
-              </div>
-              <div class = "column-5">
-                <b>4. </b><span style="color: #015E31"><b>Place</b></span> the AR path markers as they walk to the end destination.
-              </div>
-              <div class = "column-5">
-                <b>5. </b><span style="color: #015E31"><b>Submit</b></span> their path to the database of paths on Microsoft's Azure Cloud.<br><br>
-              </div>
-
-              <div class = "row">
-                <div class = "column-5">
-                  <img src = "assets\images\projects\Android - 1.png" align = "right" width ="100%">
-                </div>
-                <div class = "column-5">
-                  <img src = "assets\images\projects\Android - 5.png" align = "right" width ="100%">
-                </div>
-                <div class = "column-5">
-                  <img src = "assets\images\projects\Android - 6.png" align = "right" width ="100%">
-                </div>
-                <div class = "column-5">
-                  <img src = "assets\images\projects\Android - 7.png" align = "right" width ="100%">
-                </div>
-                <div class = "column-5">
-                  <img src = "assets\images\projects\Android - 8.png" align = "right" width ="100%">
-                </div>
-              </div>
-              <br>
-              <div class = "column-full">
-                <div class = "indent">
-                  To maintain the accuracy and reliability of the paths, a submitted path would only be verified as an offical path once enough people have marked the same path to a destination.
-                  To maintain the reliability of the system, a path is only verified and uploaded for all users to see after multiple people have marked the
-                  same path to a destination.
-                </div>
-              </div>
-              <div class = "right-two-third">
-                <br><br><br>
-                <hr align="left" width="50%">
-              </div>
-            </div>
-
-
-            <br>
-            <div class = "row">
-              <div class = "left-third">
-                <br>
-                <h3><SUP>&nbsp;</SUP>The bonus features</h3>
-              </div>
-              <div class = "right-two-third">
-                <br>
-                Though we focused our user group on people navigating a confusing building, our solution also targets the other pain points we identified.
-                <br><br>
-                <h4><b> Personalized Paths </b></h4>
-                Because users can contribute paths anyways, <b><span style="color: #015E31">being able to send a specific path to a specific person could
-                  come in handy.</b></span> This could be used to show a friend/delivery person how to get from the front of an apartment complex to a specific door, since following a path on a phone
-                  is much simplier than trying to decipher a message specifying the steps. This also allows people to meet up more easily in hard-to-find/less-travelled locations.
-                  <br><br>
-                  <h4><b> Quick Updating </b></h4>
-                  User-driven data also allows paths to be updated quickly. <b><span style="color: #015E31">In the face of construction in front of someone's house, or a last-minute room change, this feature is really helpful. </b></span>
-                  As long as one person maps the path, everyone else can easily follow it around the construction/to the right room.
-                  <br><br><br><br>
-                  <hr align="left" width="50%">
-                </div>
-              </div>
-
-              <br>
-              <div class = "row">
-                <div class = "left-third">
-                  <br>
-                  <h3><SUP>&nbsp;</SUP>The challenges</h3>
-                </div>
-                <div class = "right-two-third">
-                  <br>
-                  We ran into a lot of version incompatibilities between ARCore, Android Studio, and Unity. A good portion of the time was dedicated to re-downloaded different versions
-                  to try to get everything to connect. My brother and I also had to learn how to use ARCore to recognize a location instead of a still image. We also had to find a way to save
-                  this path information. Luckily, with the help of the Microsoft reps at the event, we found that Microsoft's Azure Cloud Anchors provided exactly what we needed. The software
-                  also provided example code of how these anchors worked. We spent a lot of time looking through the code, and ultimately modifying it to build our project.
-                  <br><br><br><br>
-                  <hr align="left" width="50%">
-                </div>
-              </div>
-
-
-              <br>
-              <div class = "row">
-                <div class = "left-third">
-                  <br>
-                  <h3><SUP>&nbsp;</SUP>The takeaways</h3>
-                </div>
-                <div class = "right-two-third">
-                  <br>
-                  I definitely had a great time at HackDartmouth. This was my first time dealing with smartphone coding and I'm glad that I had a chance to explore it a bit. I also learned a lot
-                  about how different softwares talk to each other and how clouds connect to local devices. Working with AR gave me a better understanding of
-                  the impact of this kind of technology. Another takeaway was that new technologies like AR requires a different kind of user interface since it is both on the phone screen and in the real world.
-                  <br><br>
-                  Since this was my first time participating in hackathon, I learned about how much can happen in the span of 24 hours. I were able to attend workshops, talk to other teams, and work on our project. While the projects were the main
-                  focus, I had a great time seeing what other teams were up to, talking to the organizers and sponsors, and going to every workshop I could.
-                </main>
-                <br><br><br>
-                <h4><span style="color: #015E31">Ultimately, I'm proud that we were not only able to conceptualize and develop our idea in such a short time, but also win in the first hackathon we participated in!</span></h4>
-                <br><br><br><br>
-              </div>
-            </div>
-
-            <div class = "sign">
-              <center>Made with <span style="color: #015E31">♥</span> by me</center>
+              <hr align="left" width="50%">
             </div>
           </div>
 
+
+          <br>
+          <div class = "row">
+            <div class = "left-third">
+              <br>
+              <h3><SUP>&nbsp;</SUP>The details</h3>
+            </div>
+            <div class = "right-two-third">
+              <br>
+              <h4><span style="color: #015E31">ARTrek is an augmented reality app that consists of two elements: Finder and Forger.</span></h4>
+            </div>
+
+            <div class = "column-full">
+              <br><br><br>
+              <h4><b>Finder</b></h4>
+              On the finder side, users use their phone to recognize their surroundings to launch the augmented reality path markers. Once they pop up,
+              the user follows this path to get to their location.
+              <br><br><br>
+              <h4><span style="color: #015E31">To be a finder, users:</span></h4>
+              <br>
+            </div>
+
+            <div class = "row">
+              <div class = "column-4">
+                <b>1. </b><span style="color: #015E31"><b>Click</b></span> on finder in the home screen.
+              </div>
+              <div class = "column-4">
+                <b>2. </b><span style="color: #015E31"><b>Type</b></span> in the place/room they are looking for.
+              </div>
+              <div class = "column-4">
+                <b>3. </b><span style="color: #015E31"><b>Scan</b></span> their surroundings so the app knows where they are in the building.
+              </div>
+              <div class = "column-4">
+                <b>4. </b><span style="color: #015E31"><b>Follow</b></span> the AR path markers that appear to their destination!
+              </div>
+            </div>
+
+
+
+            <div class = "row">
+              <div class = "column-4">
+                <img src = "assets\images\projects\Android - 1.png" align = "right" width ="100%">
+              </div>
+              <div class = "column-4">
+                <img src = "assets\images\projects\Android - 2.png" align = "right" width ="100%">
+              </div>
+              <div class = "column-4">
+                <img src = "assets\images\projects\Android - 3.png" align = "right" width ="100%">
+              </div>
+              <div class = "column-4">
+                <img src = "assets\images\projects\Android - 4.png" align = "right" width ="100%">
+              </div>
+            </div>
+            <br>
+
+            <div class = "column-full">
+              <br>
+              <h4><b> Forger </b></h4>
+              On the forger side, users who are familiar with a location can place path markers to help others. Existing digital maps rely on premapping
+              all existing streets and roads, so that it can suggest paths to users. This process is not feasible for mapping every building. So,
+              we used a "Waze-like" approach where users can contribute to a network of defined paths.
+              <span style="color: #015E31"><b>By making the data user-driven, more buildings can be mapped&mdash;allowing
+                more paths become available for people to use.</b></span>
+                <br><br><br>
+                <h4><span style="color: #015E31">To be a forger, users:</span></h4>
+                <br>
+              </div>
+
+              <div class = "row">
+                <div class = "column-5">
+                  <b>1. </b><span style="color: #015E31"><b>Click</b></span> on forger in the home screen.
+                </div>
+                <div class = "column-5">
+                  <b>2. </b><span style="color: #015E31"><b>Type</b></span> in their current (starting) location.
+                </div>
+                <div class = "column-5">
+                  <b>3. </b><span style="color: #015E31"><b>Scan</b></span> the surroundings so the app know where they are in the building.
+                </div>
+                <div class = "column-5">
+                  <b>4. </b><span style="color: #015E31"><b>Place</b></span> the AR path markers as they walk to the end destination.
+                </div>
+                <div class = "column-5">
+                  <b>5. </b><span style="color: #015E31"><b>Submit</b></span> their path to the database of paths on Microsoft's Azure Cloud.<br><br>
+                </div>
+
+                <div class = "row">
+                  <div class = "column-5">
+                    <img src = "assets\images\projects\Android - 1.png" align = "right" width ="100%">
+                  </div>
+                  <div class = "column-5">
+                    <img src = "assets\images\projects\Android - 5.png" align = "right" width ="100%">
+                  </div>
+                  <div class = "column-5">
+                    <img src = "assets\images\projects\Android - 6.png" align = "right" width ="100%">
+                  </div>
+                  <div class = "column-5">
+                    <img src = "assets\images\projects\Android - 7.png" align = "right" width ="100%">
+                  </div>
+                  <div class = "column-5">
+                    <img src = "assets\images\projects\Android - 8.png" align = "right" width ="100%">
+                  </div>
+                </div>
+                <br>
+                <div class = "column-full">
+                  <div class = "indent">
+                    To maintain the accuracy and reliability of the paths, a submitted path would only be verified as an offical path once enough people have marked the same path to a destination.
+                    To maintain the reliability of the system, a path is only verified and uploaded for all users to see after multiple people have marked the
+                    same path to a destination.
+                  </div>
+                </div>
+                <div class = "right-two-third">
+                  <br><br><br>
+                  <hr align="left" width="50%">
+                </div>
+              </div>
+
+
+              <br>
+              <div class = "row">
+                <div class = "left-third">
+                  <br>
+                  <h3><SUP>&nbsp;</SUP>The bonus features</h3>
+                </div>
+                <div class = "right-two-third">
+                  <br>
+                  Though we focused our user group on people navigating a confusing building, our solution also targets the other pain points we identified.
+                  <br><br>
+                  <h4><b> Personalized Paths </b></h4>
+                  Because users can contribute paths anyways, <b><span style="color: #015E31">being able to send a specific path to a specific person could
+                    come in handy.</b></span> This could be used to show a friend/delivery person how to get from the front of an apartment complex to a specific door, since following a path on a phone
+                    is much simplier than trying to decipher a message specifying the steps. This also allows people to meet up more easily in hard-to-find/less-travelled locations.
+                    <br><br>
+                    <h4><b> Quick Updating </b></h4>
+                    User-driven data also allows paths to be updated quickly. <b><span style="color: #015E31">In the face of construction in front of someone's house, or a last-minute room change, this feature is really helpful. </b></span>
+                    As long as one person maps the path, everyone else can easily follow it around the construction/to the right room.
+                    <br><br><br><br>
+                    <hr align="left" width="50%">
+                  </div>
+                </div>
+
+                <br>
+                <div class = "row">
+                  <div class = "left-third">
+                    <br>
+                    <h3><SUP>&nbsp;</SUP>The challenges</h3>
+                  </div>
+                  <div class = "right-two-third">
+                    <br>
+                    We ran into a lot of version incompatibilities between ARCore, Android Studio, and Unity. A good portion of the time was dedicated to re-downloaded different versions
+                    to try to get everything to connect. My brother and I also had to learn how to use ARCore to recognize a location instead of a still image. We also had to find a way to save
+                    this path information. Luckily, with the help of the Microsoft reps at the event, we found that Microsoft's Azure Cloud Anchors provided exactly what we needed. The software
+                    also provided example code of how these anchors worked. We spent a lot of time looking through the code, and ultimately modifying it to build our project.
+                    <br><br><br><br>
+                    <hr align="left" width="50%">
+                  </div>
+                </div>
+
+
+                <br>
+                <div class = "row">
+                  <div class = "left-third">
+                    <br>
+                    <h3><SUP>&nbsp;</SUP>The takeaways</h3>
+                  </div>
+                  <div class = "right-two-third">
+                    <br>
+                    I definitely had a great time at HackDartmouth. This was my first time dealing with smartphone coding and I'm glad that I had a chance to explore it a bit. I also learned a lot
+                    about how different softwares talk to each other and how clouds connect to local devices. Working with AR gave me a better understanding of
+                    the impact of this kind of technology. Another takeaway was that new technologies like AR requires a different kind of user interface since it is both on the phone screen and in the real world.
+                    <br><br>
+                    Since this was my first time participating in hackathon, I learned about how much can happen in the span of 24 hours. I were able to attend workshops, talk to other teams, and work on our project. While the projects were the main
+                    focus, I had a great time seeing what other teams were up to, talking to the organizers and sponsors, and going to every workshop I could.
+                  </main>
+                  <br><br><br>
+                  <h4><span style="color: #015E31">Ultimately, I'm proud that we were not only able to conceptualize and develop our idea in such a short time, but also win in the first hackathon we participated in!</span></h4>
+                  <br><br><br><br>
+                </div>
+              </div>
+
+              <div class = "sign">
+                <center>Made with <span style="color: #015E31">♥</span> by me</center>
+              </div>
+            </div>
+          </div>
           </html>

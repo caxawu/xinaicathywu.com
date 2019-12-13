@@ -1,101 +1,102 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<div class = "top-spot">
-  <head>
-    <meta charset="utf-8">
-    <link rel = "stylesheet" href="assets/stylesheets/style.css">
-    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b><br>Top</button>
-    <script>
-    //Get the button
-    var mybutton = document.getElementById("myBtn");
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
+<div class="style fade-in">
+  <div class = "top-spot">
+    <head>
+      <meta charset="utf-8">
+      <link rel = "stylesheet" href="assets/stylesheets/style.css">
+      <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b><br>Top</button>
+      <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
 
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
       }
-    }
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-    </script>
-  </head>
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+    </head>
 
-</div>
-<div class = "container">
-
-  <header class = "nav">
-    <nav>
-      <a href = "index.html">home</a>
-      <a href = "projects.html">projects</a>
-      <a href = "studio-art.html">studio & digital art</a>
-    </nav>
-  </header>
-
-  <br>
-  <center><h1>Spot-the-Difference</h1></center>
-
-  <br>
-  <div class = "column-third">
-    <h5><span style="color: 	#6B7191"><b>Skills:</span></b></h5>
   </div>
-  <div class = "column-third">
-    <h5><span style="color: 	#6B7191"><b>Tools:</span></b></h5>
-  </div>
-  <div class = "column-third">
-    <h5><span style="color: 	#6B7191"><b>Time:</span></b></h5>
-  </div>
+  <div class = "container">
 
-  <div class = "column-third">
-    <h5>Brainstorming, Prototyping</h5>
-  </div>
-  <div class = "column-third">
-    <h5>Maya, Unity</h5>
-  </div>
-  <div class = "column-third">
-    <h5>2 Weeks</h5>
-  </div>
+    <header class = "nav">
+      <nav>
+        <a href = "index.html">home</a>
+        <a href = "projects.html">projects</a>
+        <a href = "studio-art.html">studio & digital art</a>
+      </nav>
+    </header>
 
-  <br><br><br>
-
-  <div class = "main-content">
     <br>
-    <center>Spot-the-Difference is a reimagination of the classic game in VR. Bringing it to a 3D space allows us to
-      take advantage of the exploratory nature of the game as players can walk around
-      two scenes and discover different elements.
-      <br><br>
-      <a href = "assets\links\spot-the-diffeence.apk" target = "_blank" class = "button">apk for Oculus Go</a>
-    </center>
-    <br>
-    <hr width = "150%">
+    <center><h1>Spot-the-Difference</h1></center>
 
-    <br><br><br>
-    <div class = "row">
-      <div class = "left-third">
-        <h3><SUP>&nbsp;</SUP>The project brief</h3>
-      </div>
-      <div class = "right-two-third">
-        Work in a team of two to create any VR experience that is something meaningful,
-        informative, beautiful, or all three. Try to not have the three dimensional spatial aspect
-        of VR be an irrelevant gimmick but rather something more intrinsic where the overall user experience is delightful.
-        <br><br><br><br>
-        <hr align="left" width="50%"><br><br>
-      </div>
+    <br>
+    <div class = "column-third">
+      <h5><span style="color: 	#6B7191"><b>Skills:</span></b></h5>
+    </div>
+    <div class = "column-third">
+      <h5><span style="color: 	#6B7191"><b>Tools:</span></b></h5>
+    </div>
+    <div class = "column-third">
+      <h5><span style="color: 	#6B7191"><b>Time:</span></b></h5>
     </div>
 
-    <div class = "row">
-      <div class = "left-third">
-        <h3><SUP>&nbsp;</SUP>The inspiration</h3>
+    <div class = "column-third">
+      <h5>Brainstorming, Prototyping</h5>
+    </div>
+    <div class = "column-third">
+      <h5>Maya, Unity</h5>
+    </div>
+    <div class = "column-third">
+      <h5>2 Weeks</h5>
+    </div>
+
+    <br><br><br>
+
+    <div class = "main-content">
+      <br>
+      <center>Spot-the-Difference is a reimagination of the classic game in VR. Bringing it to a 3D space allows us to
+        take advantage of the exploratory nature of the game as players can walk around
+        two scenes and discover different elements.
+        <br><br>
+        <a href = "assets\links\spot-the-diffeence.apk" target = "_blank" class = "button">apk for Oculus Go</a>
+      </center>
+      <br>
+      <hr width = "150%">
+
+      <br><br><br>
+      <div class = "row">
+        <div class = "left-third">
+          <h3><SUP>&nbsp;</SUP>The project brief</h3>
+        </div>
+        <div class = "right-two-third">
+          Work in a team of two to create any VR experience that is something meaningful,
+          informative, beautiful, or all three. Try to not have the three dimensional spatial aspect
+          of VR be an irrelevant gimmick but rather something more intrinsic where the overall user experience is delightful.
+          <br><br><br><br>
+          <hr align="left" width="50%"><br><br>
+        </div>
       </div>
-      <div class = "right-two-third">
-        Because there were so many directions we could take this project, my partner and I first thought of ways in which VR could
-        add to an experience.
+
+      <div class = "row">
+        <div class = "left-third">
+          <h3><SUP>&nbsp;</SUP>The inspiration</h3>
+        </div>
+        <div class = "right-two-third">
+          Because there were so many directions we could take this project, my partner and I first thought of ways in which VR could
+          add to an experience.
           <br><br><br>
           <h4><span style="color: #6B7191">We found our way to spot-the-difference games and thought to reimagining this static 2D game into an animated 3D one.</span></h4>
           <br><br><br>
@@ -114,99 +115,100 @@
         <div class = "right-two-third">
           <br>
           Our goal for this project was to create a <b><span style="color: #6B7191">fun</span></b> and <b><span style="color: #6B7191">delightful</span></b> experience that <b><span style="color: #6B7191">combines nostalgia from classic spot-the-difference
-          games with the newest innovations in technology</span></b> with VR.
-          <br><br><br><br>
-          <hr align="left" width="50%">
+            games with the newest innovations in technology</span></b> with VR.
+            <br><br><br><br>
+            <hr align="left" width="50%">
+          </div>
         </div>
-      </div>
 
 
 
-          <br>
-          <div class = "row">
-            <div class = "left-third">
-              <br>
-              <h3><SUP>&nbsp;</SUP>The app</h3>
-            </div>
-            <div class = "right-two-third">
-              <br>
-              <h4><span style="color: #6B7191">Players explore the world in the real scene, then head over to the difference scene to try to spot the differences.</span></h4>
-              <br><br>
-            </div>
+        <br>
+        <div class = "row">
+          <div class = "left-third">
+            <br>
+            <h3><SUP>&nbsp;</SUP>The app</h3>
+          </div>
+          <div class = "right-two-third">
+            <br>
+            <h4><span style="color: #6B7191">Players explore the world in the real scene, then head over to the difference scene to try to spot the differences.</span></h4>
+            <br><br>
+          </div>
 
 
-            <div class = "column-full">
-              <iframe width="100%" height="728" src="https://www.youtube.com/embed/5YAZ2gzwauc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <br><br>
-              When the game starts, the player is in a lobby where they have the option of visiting either the actual scene or the differences scene.
-              <br><br>
-              <h4><span style="color: #6B7191">In the real scene, the player can walk around and explore the world:</span></h4>
-              <div class = "indent">
+          <div class = "column-full">
+            <iframe width="100%" height="728" src="https://www.youtube.com/embed/5YAZ2gzwauc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><br>
+            When the game starts, the player is in a lobby where they have the option of visiting either the actual scene or the differences scene.
+            <br><br>
+            <h4><span style="color: #6B7191">In the real scene, the player can walk around and explore the world:</span></h4>
+            <div class = "indent">
               <br>The <b><span style="color: #6B7191">swaying trees</span></b> have <b><span style="color: #6B7191">squirrels</span></b> and <b><span style="color: #6B7191">birds</span></b> idling in the branches.
               <br>The <b><span style="color: #6B7191">pond</span></b> contains a <b><span style="color: #6B7191">fish</span></b> swimming around while <b><span style="color: #6B7191">lilypads</span></b> float on top.
               <br><b><span style="color: #6B7191">Grass, flowers, and mushroom</span></b> are scattered throughout on the ground while
               a <b><span style="color: #6B7191">hot air balloon</span></b> and <b><span style="color: #6B7191">butterfly</span></b> float overhead.
               <br><br>
             </div>
-              <h4><span style="color: #6B7191">In the differences scene, the player has 5 lives to guess all 6 differences:</span></h4>
-              <div class = "indent">
-                The player uses the trigger on the controller to select an object in the scene.
-                <br>If they are <b><span style="color: #6B7191">correct </span></b>in identifying an object, <b><span style="color: #6B7191">the object turns green.</span></b>
-                <br>If they are <b><span style="color: #6B7191">wrong</span></b>, they lose a life and <b><span style="color: #6B7191">the object turns red.</span></b>
-              </div>
-            </div>
-
-            <div class = "right-two-third">
-              <br><br><br>
-              <hr align="left" width="50%">
-            </div>
-
-            <div class = "left-third">
-              <br><br><br><br><br><br><br>
-              <h3><SUP>&nbsp;</SUP>The gallery</h3>
-            </div>
-              <br><br><br>
-            <div class = "column-full">
-              <br><br><br>
-              <img src = "assets\images\projects\difference.JPG" align = "right" width ="100%">
-            </div>
-            <div class = "column-full">
-              <br>
-              <img src = "assets\images\projects\difference1.PNG" align = "right" width ="100%">
-            </div>
-            <div class = "column-full">
-              <br>
-              <img src = "assets\images\projects\difference3.PNG" align = "right" width ="100%">
-            </div>
-            <div class = "column-full">
-              <br>
-              <img src = "assets\images\projects\difference4.PNG" align = "right" width ="100%">
-            </div>
-
-            <div class = "right-two-third">
-              <br><br><br><br>
-              <hr align="left" width="50%">
-            </div>
-
-
-
-            <br><br>
-            <div class = "row">
-              <div class = "left-third">
-                <br><br><br><br><br><br>
-                <h3><SUP>&nbsp;</SUP>The takeaways</h3>
-              </div>
-              <div class = "right-two-third">
-                <br>
-                This project was a lot of fun to work on. I was able to experiment with how to use a 3-dimensional space in
-                a productive way which allowed me to really appreciate what an extra dimension could add to an experience.
-                I also found that an experience can still be very immersive even with a rather simplistic aesthetic like low-poly.
-                <br><br><br>
-              </div>
-            </div>
-
-            <div class = "sign">
-              <center>Made with <span style="color: #6B7191">♥</span> by me</center>
+            <h4><span style="color: #6B7191">In the differences scene, the player has 5 lives to guess all 6 differences:</span></h4>
+            <div class = "indent">
+              The player uses the trigger on the controller to select an object in the scene.
+              <br>If they are <b><span style="color: #6B7191">correct </span></b>in identifying an object, <b><span style="color: #6B7191">the object turns green.</span></b>
+              <br>If they are <b><span style="color: #6B7191">wrong</span></b>, they lose a life and <b><span style="color: #6B7191">the object turns red.</span></b>
             </div>
           </div>
-          </html>
+
+          <div class = "right-two-third">
+            <br><br><br>
+            <hr align="left" width="50%">
+          </div>
+
+          <div class = "left-third">
+            <br><br><br><br><br><br><br>
+            <h3><SUP>&nbsp;</SUP>The gallery</h3>
+          </div>
+          <br><br><br>
+          <div class = "column-full">
+            <br><br><br>
+            <img src = "assets\images\projects\difference.JPG" align = "right" width ="100%">
+          </div>
+          <div class = "column-full">
+            <br>
+            <img src = "assets\images\projects\difference1.PNG" align = "right" width ="100%">
+          </div>
+          <div class = "column-full">
+            <br>
+            <img src = "assets\images\projects\difference3.PNG" align = "right" width ="100%">
+          </div>
+          <div class = "column-full">
+            <br>
+            <img src = "assets\images\projects\difference4.PNG" align = "right" width ="100%">
+          </div>
+
+          <div class = "right-two-third">
+            <br><br><br><br>
+            <hr align="left" width="50%">
+          </div>
+
+
+
+          <br><br>
+          <div class = "row">
+            <div class = "left-third">
+              <br><br><br><br><br><br>
+              <h3><SUP>&nbsp;</SUP>The takeaways</h3>
+            </div>
+            <div class = "right-two-third">
+              <br>
+              This project was a lot of fun to work on. I was able to experiment with how to use a 3-dimensional space in
+              a productive way which allowed me to really appreciate what an extra dimension could add to an experience.
+              I also found that an experience can still be very immersive even with a rather simplistic aesthetic like low-poly.
+              <br><br><br>
+            </div>
+          </div>
+
+          <div class = "sign">
+            <center>Made with <span style="color: #6B7191">♥</span> by me</center>
+          </div>
+        </div>
+      </div>
+      </html>
