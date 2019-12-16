@@ -209,6 +209,11 @@ hr {
   width: 100%;
   margin-left: 1%;
 }
+.column-center {
+  float: left;
+  width: 85%;
+  margin-left: 9%;
+}
 .column-third {
   float: left;
   text-align: center;
@@ -276,14 +281,13 @@ hr {
 .column-4 {
   float: left;
   width: 21%;
-  padding-right: 1%;
-  padding-left: 3%;
+  padding-right: 4%;
+
 }
 .column-5 {
   float: left;
-  width: 16.5%;
-  padding-right: .5%;
-  padding-left: 3%;
+  width: 18.5%;
+  padding-right: 1.5%;
 }
 
 .column-L45 {
@@ -306,8 +310,8 @@ hr {
 
 .column-gallery3 {
   float: left;
-  margin: 0 5%;
-  width: 20%;
+  margin-right: 10%;
+  width: 23%;
 }
 
 .row:after {
@@ -374,15 +378,15 @@ hr {
 .flex-container2 > div00 {
   /* yellow */
   background-color:	#FFDC10;
-  width: 60%;
-  margin: 10px;
+  width: 100%;
+  margin: 5px;
   text-align: center;
   line-height: 1.5em;
   font-size: 1.2vw;
   font-weight: 500;
 }
 .flex-container2 > div2 {
-  width: 15%;
+  width: 10%;
   margin: 10px;
   text-align: center;
   line-height: 1.5em;
@@ -390,7 +394,7 @@ hr {
   font-weight: 500;
 }
 .flex-container2 > div4 {
-  width: 15%;
+  width: 10%;
   margin: 10px;
   text-align: center;
   line-height: 1.5em;
