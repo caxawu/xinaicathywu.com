@@ -4,7 +4,7 @@ particlesJS("particles-js", {
       value: 10,
       density: { enable: true, value_area: 1362.4196573113848 }
     },
-    color: { value: "#B2D1E8" },	
+    color: { value: "8AB2B2" },	
     shape: {
       type: "polygon",
       stroke: { width: 0, color: "#000000" },
