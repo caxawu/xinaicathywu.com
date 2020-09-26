@@ -1,226 +1,170 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<div class="style fade-in">
-  <div class = "top-spot">
-    <head>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155129215-1"></script>
-<script>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155129215-1"></script>
+  <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-155129215-1');
-</script>
+  </script>
 
-      <meta charset="utf-8">
-      <link rel = "stylesheet" href="assets/stylesheets/style.css">
-      <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b><br>Top</button>
-      <script>
-      //Get the button
-      var mybutton = document.getElementById("myBtn");
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function() {scrollFunction()};
+  <meta charset="utf-8">
+  <link rel = "stylesheet" href="assets/stylesheets/style.css">
+  <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b><br>Top</button>
+  <script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
 
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-      </script>
-    </head>
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+</head>
 
-  </div>
-  <div class = "container">
-
-    <header class = "nav">
-      <nav>
-        <a href = "index.html">home</a>
-        <a href = "projects.html">projects</a>
-        <a href = "studio-art.html">studio & digital art</a>
-      </nav>
-    </header>
-
-    <br>
-    <center><h1>Spot-the-Difference</h1></center>
-
-    <br>
-    <div class = "column-third">
-      <h5><span style="color: 	#6B7191"><b>Skills:</span></b></h5>
+<div class="mainContainer fade-in">
+  <header class = "navContainer">
+    <div class="navBar">
+      <a href = "index.html">home</a>
+      <a href = "projects.html"><span class = "underline">projects</span></a>
+      <a href = "studio-art.html">studio & digital art</a>
     </div>
-    <div class = "column-third">
-      <h5><span style="color: 	#6B7191"><b>Tools:</span></b></h5>
-    </div>
-    <div class = "column-third">
-      <h5><span style="color: 	#6B7191"><b>Time:</span></b></h5>
-    </div>
+  </header>
 
-    <div class = "column-third">
-      <h5>Brainstorming, Prototyping</h5>
-    </div>
-    <div class = "column-third">
-      <h5>Maya, Unity</h5>
-    </div>
-    <div class = "column-third">
-      <h5>2 Weeks</h5>
+  <div class = "summary" id = "spot-background">
+    <div class = "summary-text">
+      <h1>Spot-the-Difference</h1>
+      <h2>Designer</h2>
+      <h3>Spot-the-Difference is a reimagination of the classic game in VR. Bringing it to a 3D space allows us to
+        take advantage of the exploratory nature of the game as players can walk around
+        two scenes and discover different elements.</h3>
+        <div class = "row">
+          <div class = "column-4"><b>Type</b><br>Class Project</div>
+          <div class = "column-4"><b>Time</b><br>2 weeks</div>
+          <div class = "column-4"><b>Tools</b><br>Maya<br>Unity</div>
+          <div class = "column-4"><b>Team</b><br>Sofia Stanescu-Bellu</div>
+        </div>
+        <br>
+        <div class = "linkButtonContainer"><a href = "assets\links\spot-the-difference.apk" target = "_blank" class = "button boldText" id="linkButton">apk for Oculus Go</a></div>
+      </div>
+
+      <div class = "summary-right">
+        <div class="imgContainer-1">
+          <img src = "assets\images\projects\spot\difference-summary.png" width = 115%>
+        </div>
+      </div>
     </div>
 
-    <br><br><br>
+    <div class = "centerButtonContainer"><a href = #prototype class = "button boldText" id="skipButtonSpot">Jump to walkthrough</a></div>
 
     <div class = "main-content">
-      <br>
-      <center>Spot-the-Difference is a reimagination of the classic game in VR. Bringing it to a 3D space allows us to
-        take advantage of the exploratory nature of the game as players can walk around
-        two scenes and discover different elements.
-        <br><br>
-        <a href = "assets\links\spot-the-diffeence.apk" target = "_blank" class = "button">apk for Oculus Go</a>
-      </center>
-      <br>
-      <hr width = "150%">
 
-      <br><br><br>
-      <div class = "row">
-        <div class = "left-third">
-          <h3><SUP>&nbsp;</SUP>The project brief</h3>
-        </div>
-        <div class = "right-two-third">
-          Work in a team of two to create any VR experience that is something meaningful,
-          informative, beautiful, or all three. Try to not have the three dimensional spatial aspect
-          of VR be an irrelevant gimmick but rather something more intrinsic where the overall user experience is delightful.
-          <br><br><br><br>
-          <hr align="left" width="50%"><br><br>
-        </div>
-      </div>
-
-      <div class = "row">
-        <div class = "left-third">
-          <h3><SUP>&nbsp;</SUP>The inspiration</h3>
-        </div>
-        <div class = "right-two-third">
-          Because there were so many directions we could take this project, my partner and I first thought of ways in which VR could
-          add to an experience.
-          <br><br><br>
-          <h4><span style="color: #6B7191">We found our way to spot-the-difference games and thought to reimagining this static 2D game into an animated 3D one.</span></h4>
-          <br><br><br>
-          <hr align="left" width="50%">
-        </div>
-      </div>
-
-
-
-      <br>
-      <div class = "row">
-        <div class = "left-third">
-          <br>
-          <h3><SUP>&nbsp;</SUP>The goal</h3>
-        </div>
-        <div class = "right-two-third">
-          <br>
-          Our goal for this project was to create a <b><span style="color: #6B7191">fun</span></b> and <b><span style="color: #6B7191">delightful</span></b> experience that <b><span style="color: #6B7191">combines nostalgia from classic spot-the-difference
-            games with the newest innovations in technology</span></b> with VR.
-            <br><br><br><br>
-            <hr align="left" width="50%">
-          </div>
-        </div>
-
-
-
-        <br>
-        <div class = "row">
-          <div class = "left-third">
-            <br>
-            <h3><SUP>&nbsp;</SUP>The product</h3>
-          </div>
-          <div class = "right-two-third">
-            <br>
-            <h4><span style="color: #6B7191">Players explore the world in the real scene, then head over to the difference scene to try to spot the differences.</span></h4>
-            <br><br>
-          </div>
-
-
-          <div class = "column-full">
-            <iframe width="100%" height="728" src="https://www.youtube.com/embed/5YAZ2gzwauc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <br><br>
-          </div>
-          <div class = "column-center">
-            When the game starts, the player is in a lobby where they have the option of visiting either the actual scene or the differences scene.
-            <br><br>
-            <h4><span style="color: #6B7191">In the real scene, the player can walk around and explore the world:</span></h4>
+      <div class = "contentSegment">
+        <div class = "leftTitle">My contribution</div>
+        <div class = "rightContent">
+          <div class = "section-text">I was the designer on this project which encompassed:</div>
+          <div class = "bar-section">
             <div class = "indent">
-              The <b><span style="color: #6B7191">swaying trees</span></b> have <b><span style="color: #6B7191">squirrels</span></b> and <b><span style="color: #6B7191">birds</span></b> idling in the branches.
-              <br>The <b><span style="color: #6B7191">pond</span></b> contains a <b><span style="color: #6B7191">fish</span></b> swimming around while <b><span style="color: #6B7191">lilypads</span></b> float on top.
-              <br><b><span style="color: #6B7191">Grass, flowers, and mushroom</span></b> are scattered throughout on the ground while
-              a <b><span style="color: #6B7191">hot air balloon</span></b> and <b><span style="color: #6B7191">butterfly</span></b> float overhead.
+              <div class = "semibold">Asset creation</div>
+              I 3D modelled almost all of the assets used in a low-poly style through Maya.
               <br><br>
             </div>
-            <h4><span style="color: #6B7191">In the differences scene, the player has 5 lives to guess all 6 differences:</span></h4>
             <div class = "indent">
-              The player uses the trigger on the controller to select an object in the scene.
-              <br>If they are <b><span style="color: #6B7191">correct </span></b>in identifying an object, <b><span style="color: #6B7191">the object turns green.</span></b>
-              <br>If they are <b><span style="color: #6B7191">wrong</span></b>, they lose a life and <b><span style="color: #6B7191">the object turns red.</span></b>
+              <div class = "semibold">Scene design</div>
+              I pulled my 3D models into Unity to create a cohesive nature-y environment that looked appealing and fun to be in. I also animated most of the assets and added sound to the environment to make it even more immersive.
+              <br><br>
+            </div>
+            <div class = "indent">
+              <div class = "semibold">Experience design</div>
+              While making this game, I focused on the user’s experience of playing it to make sure that the game was fun and the experience was delightful.
             </div>
           </div>
-
-          <div class = "right-two-third">
-            <br><br><br>
-            <hr align="left" width="50%">
-          </div>
-
-          <div class = "left-third">
-            <br><br><br><br><br><br><br>
-            <h3><SUP>&nbsp;</SUP>The gallery</h3>
-          </div>
-          <br><br><br>
-          <div class = "column-full">
-            <br><br><br>
-            <img src = "assets\images\projects\difference.JPG" align = "right" width ="100%">
-          </div>
-          <div class = "column-full">
-            <br>
-            <img src = "assets\images\projects\difference1.PNG" align = "right" width ="100%">
-          </div>
-          <div class = "column-full">
-            <br>
-            <img src = "assets\images\projects\difference3.PNG" align = "right" width ="100%">
-          </div>
-          <div class = "column-full">
-            <br>
-            <img src = "assets\images\projects\difference4.PNG" align = "right" width ="100%">
-          </div>
-
-          <div class = "right-two-third">
-            <br><br><br><br>
-            <hr align="left" width="50%">
-          </div>
-
-
-
-          <br><br>
-          <div class = "row">
-            <div class = "left-third">
-              <br><br><br><br><br><br>
-              <h3><SUP>&nbsp;</SUP>The takeaways</h3>
-            </div>
-            <div class = "right-two-third">
-              <br>
-              This project was a lot of fun to work on. I was able to experiment with how to use a 3-dimensional space in
-              a productive way which allowed me to really appreciate what an extra dimension could add to an experience.
-              I also found that an experience can still be very immersive even with a rather simplistic aesthetic like low-poly.
-              <br><br><br>
-            </div>
-          </div>
-
-          <div class = "sign">
-            <center>Made with <span style="color: #6B7191">♥</span> by me</center>
-          </div>
+          <hr align="left"> <!-- A horizontal line -->
         </div>
       </div>
-      </html>
+
+      <div class = "contentSegment">
+        <div class = "leftTitle">The project brief</div>
+        <div class = "rightContent">
+          The assignment tasked us with creating any VR experience that is meaningful,
+          informative, beautiful, or all three. We were guided by the mission of trying not have the three dimensional spatial aspect
+          of VR be an irrelevant gimmick but rather something more intrinsic where the overall user experience is delightful.
+          <hr align="left"> <!-- A horizontal line -->
+        </div>
+      </div>
+
+      <div class = "contentSegment">
+        <div class = "leftTitle">The inspiration</div>
+        <div class = "rightContent">
+          Because there were so many directions we could take this project, my partner and I first thought of ways in which VR could
+          add to an experience. We wanted to take full advantage of the immersiveness and the access to a third dimension in VR.
+          <br><br>
+          When considering games for inspiration, we found our way to spot-the-difference games. Most notably, these games are incredibly simple, but <span class="highlight" id = "spot">they have always been static and 2D.
+            So, we thought to reimagining it into an animated 3D one where the player could be dropped into the world and actually walk around and explore the environment.</span>
+            <br><br><br>
+            <div class = "quote-block">
+              <span class = "semibold">Our goal:</span> Create a <b><span style="color: #6B7191">fun</span></b> and <b><span style="color: #6B7191">delightful</span></b> experience that <b><span style="color: #6B7191">combines nostalgia from classic spot-the-difference
+                games with the newest innovations in technology</span></b> with VR.
+              </div>
+              <div id="prototype"></div>
+              <hr align="left"> <!-- A horizontal line -->
+            </div>
+          </div>
+
+          <div class = "contentSegment">
+            <div class = "leftTitle">The walkthrough</div>
+            <div class = "rightContent">
+              Players start off in a mini lobby scene with options to go into two scenes. They can explore the real scene first, then head into the differences scene to try and spot the elements that are different.
+              <br><br>
+              <div class = "half-line-spacing">The low poly island contains:</div>
+              <div class = "indent">
+                <div class = "half-line-spacing">
+                  <b><span style="color: #6B7191">Swaying trees</span></b> with <b><span style="color: #6B7191">squirrels</span></b> and <b><span style="color: #6B7191">birds</span></b> idling in the branches.
+                </div>
+                <div class = "half-line-spacing">
+                  A <b><span style="color: #6B7191">pond</span></b> with a <b><span style="color: #6B7191">fish</span></b> swimming around while <b><span style="color: #6B7191">lilypads</span></b> float on top.
+                </div>
+                <div class = "half-line-spacing">
+                  <b><span style="color: #6B7191">Grass, flowers, and mushrooms</span></b> are occasionally visited by a butterfly while
+                  a <b><span style="color: #6B7191">hot air balloon</span></b> floats overhead.
+                </div>
+              </div>
+              <br>
+              <iframe width="100%" height="650" src="https://www.youtube.com/embed/5YAZ2gzwauc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <hr align="left"> <!-- A horizontal line -->
+            </div>
+          </div>
+
+          <div class = "contentSegment">
+            <div class = "leftTitle">The gallery</div>
+            <div class = "rightContent">
+              <img src = "assets\images\projects\spot\difference.JPG" align = "right" width ="100%" vspace = 0.5%;>
+              <img src = "assets\images\projects\spot\difference1.PNG" align = "right" width ="100%" vspace = 0.5%;>
+              <img src = "assets\images\projects\spot\difference2.PNG" align = "right" width ="100%" vspace = 0.5%;>
+              <img src = "assets\images\projects\spot\difference3.PNG" align = "right" width ="100%" vspace = 0.5%;>
+            </div>
+          </div>
+
+
+        <div class = "sign">Designed and coded with<span style="color: #6D8C8E">&nbsp;&nbsp;❤</span></div>
+        <div class = "sign">
+          <a href = "mailto:xinai.cathy.wu@gmail.com" id = "icon" target = "_blank"><img src = "assets\icons\mail.png" height = "40%" style = "margin-left: 2px; margin-right: 2px"></a>
+          <a href = "https://www.linkedin.com/in/xinai-cathy-wu" id = "icon"target = "_blank"><img src = "assets\icons\linkedin.png" height = "40%" style = "padding-left: 2px; padding-right: 2px"></a>
+        </div>
+    </div>
+</div>
+</html>

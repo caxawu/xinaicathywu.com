@@ -1,622 +1,507 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<div class="style fade-in">
-  <div class = "top-lending">
-    <head>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155129215-1"></script>
-      <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155129215-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      gtag('config', 'UA-155129215-1');
-      </script>
+  gtag('config', 'UA-155129215-1');
+  </script>
 
-      <meta charset="utf-8">
-      <link rel = "stylesheet" href="assets/stylesheets/style.css">
-      <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b><br>Top</button>
-      <script>
-      //Get the button
-      var mybutton = document.getElementById("myBtn");
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function() {scrollFunction()};
+  <meta charset="utf-8">
+  <link rel = "stylesheet" href="assets/stylesheets/style.css">
+  <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b><br>Top</button>
+  <script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
 
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-      </script>
-    </head>
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+</head>
 
-  </div>
-  <div class = "container">
-
-    <header class = "nav">
-      <nav>
-        <a href = "index.html">home</a>
-        <a href = "projects.html">projects</a>
-        <a href = "studio-art.html">studio & digital art</a>
-      </nav>
-    </header>
-
-    <br>
-    <center><h1>Smartphone Lending</h1></center>
-
-    <br>
-    <div class = "column-third">
-      <h5><span style="color: 	#6D8C8E"><b>Skills:</span></b></h5>
+<div class="mainContainer fade-in">
+  <header class = "navContainer">
+    <div class="navBar">
+      <a href = "index.html">home</a>
+      <a href = "projects.html"><span class = "underline">projects</span></a>
+      <a href = "studio-art.html">studio & digital art</a>
     </div>
-    <div class = "column-third">
-      <h5><span style="color: 	#6D8C8E"><b>Tools:</span></b></h5>
-    </div>
-    <div class = "column-third">
-      <h5><span style="color: 	#6D8C8E"><b>Time:</span></b></h5>
+  </header>
+
+  <div class = "summary" id = "lending-background">
+    <div class = "summary-text">
+      <h1>Smartphone Lending</h1>
+      <h2>UX Researcher | UI/UX Designer</h2>
+      <h3>Smartphone Lending is a research project centered around exploring how people share technology. Because phones contain so much
+        personal information, people are uncomfortable with lending their phone to others. So, I prototyped a security app that allows people to
+        quickly and discreetly "lock" their phone in modes with restricted access before letting someone borrow it.</h3>
+        <div class = "row">
+          <div class = "column-4"><b>Type</b><br>XDiscovery HCI Lab</div>
+          <div class = "column-4"><b>Time</b><br>15 weeks</div>
+          <div class = "column-4"><b>Tools</b><br>Figma</div>
+          <div class = "column-4"><b>Team</b><br>Eric Zhang<br>Katrina Yu<br>Jasmine Mai</div>
+        </div>
+        <br>
+        <div class = "linkButtonContainer"><a href = "assets\links\smartphone-lending.pdf" target = "_blank" class = "button boldText" id="linkButton">Research paper</a></div>
+      </div>
+
+      <div class = "summary-right">
+        <div class="imgContainer-2">
+          <img src = "assets\images\projects\lending\lending-home.png" width = 87%>
+        </div>
+        <div class="imgContainer-2">
+          <img src = "assets\images\projects\lending\lending-strangers.png" width = 87%>
+        </div>
+      </div>
     </div>
 
-    <div class = "column-third">
-      <h5>User Research, Interviewing, Needfinding, Brainstorming, Prototyping, Iterating</h5>
-    </div>
-    <div class = "column-third">
-      <h5>Figma</h5>
-    </div>
-    <div class = "column-third">
-      <h5>10 weeks</h5>
-    </div>
+    <div class = "centerButtonContainer"><a href = #prototype class = "button boldText" id="skipButtonLending">Jump to prototype</a></div>
 
-    <br><br><br><br>
 
     <div class = "main-content">
-      <br>
-      <center>Smartphone Lending is a research project centered around exploring how people share technology.
-        We focused on a pain point within that experience where people are uncomfortable with letting another
-        person borrow their phone. Using the reseach, I prototyped an app that allows people to quickly "lock" their phone
-        in certain modes with restricted access to apps before letting someone borrow it.
-        <br><br>
-        <a href = "assets\links\smartphone-lending.pdf" target = "_blank" class = "button">Research case study</a>
-      </center>
-      <br>
-      <hr width = "150%">
 
-      <br><br>
-      <div class = "row">
-        <div class = "left-third">
-          <br>
-          <h3><SUP>&nbsp;</SUP>The project</h3>
-        </div>
-        <div class = "right-two-third">
-          <br>
-          As a project in Dartmouth's HCI lab, the Smartphone Lending project focused on how human-to-human connection could be
-          facilitated by technology. <b><span style="color: #6D8C8E">My role was to research this interaction and build an app that improves the way people interact
-          with each other during phone-lending situations.</span></b>
-          <br><br><br>
-          <hr align="left" width="50%">
+      <div class = "contentSegment">
+        <div class = "leftTitle">My contribution</div>
+        <div class = "rightContent">
+          <span class = "semibold">UX Researcher:</span> I joined this project during the research phase. Alongside Eric, Katrina, and Jasmine, I conducted user research in the form of interviews. Together,
+          we analyzed and synthesized the data to generate insights, identified the problem, and generated ideas for possible soutions. I also co-wrote a research paper detailing our findings.
+          <br><br>
+          <span class = "semibold">UI/UX Designer:</span> After the research phase, I was the solo designer on the project where I took the conclusions from our research and prototyped an app to target the issue of discomfort in phone-lending situations.
+
+          <hr align="left"> <!-- A horizontal line -->
         </div>
       </div>
 
-      <div class = "row">
-        <br>
-        <div class = "left-third">
-          <h3><SUP>&nbsp;</SUP>The research</h3>
+      <div class = "contentSegment">
+        <div class = "leftTitle">The background</div>
+        <div class = "rightContent">
+          As a project in the XDiscovery HCI lab, the Smartphone Lending project was focused on how human-to-human connection could be facilitated by technology. Specifically, we were interested in the moment of interaction when
+          someone asks to borrow someone else’s phone. <span class="highlight" id = "lending">The goal was to investigate this interaction to help inform design considerations that might improve this experience.</span>
+          <hr align="left"> <!-- A horizontal line -->
         </div>
-        <div class = "right-two-third">
-          To target this problem, we first looked at the current state of this interaction.
-          <span style="color: #6D8C8E"><b>The goal of this research phase was to investigate the experience of phone-lending
-            to inform design considerations in a phone-lending interaction.</b></span> We interviewed 21 participants and
-            found several patterns in the data.
-          </div>
-          <div class = "column-center">
-            <br><br><br>
-            <h4>Lending habits by group</h4>
-            During the interviews, we asked participants about their experiences with lending their phone.
-            The graphs are a synthesis of the habits that they mentioned.
-            Because we did not prompt participants about any specific groups, participants
-            generated categories of people themselves. However, some participants did not mention
-            some of the categories (marked in gray).
-            <br><br><br>
+      </div>
 
-            <div class = "text-left">
-
-              <span style="color: #6D8C8E"><h4>People were more willing to hand their unlocked phone to a family member or friend without first
-                taking any precautions or asking for a reason <br>(marked in dark blue).</h4></span>
-                <SUP>&nbsp;</SUP>
-                <span style="color: #6D8C8E"><h4>The strangers category is the only place where we see that people will deny all access.</h4></span>
-                <br><br>
-              </div>
-
-
-              <div class = "image-right">
-                <img src = "assets\images\projects\graph1.png" align = "left" width ="110%">
-              </div>
+      <div class = "contentSegment">
+        <div class = "leftTitle">The research</div>
+        <div class = "rightContent">
+          We began by conducting interviews with 21 participants who were all Dartmouth undergrads. The interview was divided into two parts:
+          <br><br>
+          <div class = "indent">
+            <div class = "hanging-indent">
+              <span class = "semibold">1. An experiment:</span> We interviewed all the participants in pairs so one of us could meet the participant at the scheduled
+              time and ask to borrow their phone to contact our partner who was “late.” We used this to directly observe the
+              phone-lending behavior of our participants.
             </div>
-          </div>
-          <div class = "column-center">
-            <br>
-            <h4>Concerns about phone lending</h4>
-            We asked the participants about the reasons why they woud not lend their phones. We did not prompt the participants, so all of these
-            reasons were generated by the participants. But, there may be more concerns that participants
-            may not have thought of or may not have told us. Regardless, this list indicates the concerns that were at the front of their minds.
-            <br><br>
-          </div>
-          <div class = "column-center">
-            <div class = "text-left-45">
-              <br>
-              <span style="color: #6D8C8E"><h4>The top concern was borrowers seeing text messages.</h4></span>
-              Interestingly, lenders were most concerned about the privacy of their contacts. People were worried about
-              a borrower seeing a sensitive text chain as it compromises the privacy of the person at the other end of the texts.
-              <h4><SUP>&nbsp;</SUP></h4>
-              <span style="color: #6D8C8E"><h4>The second-most prominent concern was theft.</h4></span>
-              This concern typically only applied to strangers. Several participants also said that they were likely to judge a borrower's
-              appearance and intentions to determine trustworthiness before lending their phone.
-              <br><br>
-            </div>
-
-            <div class = "image-right-50">
-              <br><br>
-              <img src = "assets\images\projects\graph2.png" align = "left" width ="100%">
+            <div class = "hanging-indent">
+              <span class = "semibold">2. The actual interview:</span> We then sat down with the participant and asked them questions about their experiences with
+              lending their phone.
             </div>
           </div>
 
-          <div class = "right-two-third">
-            <br><br>
-            <hr align="left" width="50%">
+          <div class = "category-title">Key takeaways</div>
+          <div class = "category">
+            <div class = "category-section-55">
+              <div class = "section-title-lending">Lending habits by group</div>
+              <div class = "section-text">
+                When we asked participants about their phone-lending experiences, most people broke down their experiences in terms of these four groups. This graph represents
+                how the participants’ behavior differs when lending to each group.
+              </div>
+              <div class = "bar-section">
+
+                <div class = "bar-section-title">The main insights were:</div>
+                <div class = "indent">
+                  <div class = "hanging-indent">
+                    <li>People were more willing to hand their unlocked phone to a family member or friend without first taking any precautions or asking for a reason (dark blue).</li>
+                    <li>The strangers category is the only place where people will refuse to lend their phone (black).</li>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section-image">
+              <img src = "assets\images\projects\lending\pie-chart.png" width = 100%>
+            </div>
           </div>
+          <br><br>
+          <div class = "category">
+            <div class = "category-section-55">
+              <div class = "section-title-lending">Concerns about phone-lending</div>
+              <div class = "section-text">
+                We also asked participants to list the reasons why they might be hesitant to lend their phone.
+              </div>
+              <div class = "bar-section">
 
-          <div class = "row">
-            <div class = "left-third">
-              <br><br><br><br><br><br>
-              <h3><SUP>&nbsp;</SUP>The user</h3>
-            </div>
-            <div class = "right-two-third">
-              <br><br><br>
-              After exploring the current state of smartphone-lending situations, I had a better sense of our user.
-              I found that in the current state of phone-sharing, most people are either unwilling or uncomfortable
-              handing their device over to someone who asks to borrow it. However, since people are generally nice,
-              they allow others to borrow their phone even though they are worried about others seeing sensitive content.
-              <br><br>So, I came to the conclusion that our users are
-              <span style="color: #6D8C8E"><b>smartphone owners who don't want to say no to a borrower, but are
-                not comfortable with allowing them full access of their phone.</b></span>
-              </div>
-              <div class = "right-two-third">
-                <br><br><br>
-                <hr align="left" width="50%">
-              </div>
-            </div>
-
-            <br>
-            <div class = "row">
-              <div class = "left-third">
-                <br>
-                <h3><SUP>&nbsp;</SUP>The problem</h3>
-              </div>
-              <div class = "right-two-third">
-                <br>
-                The research also led me to better define the problem. I realized that our main focus was to help a lender
-                feel more comfortable with their device in someone else's hands.
-              </div>
-            </div>
-
-            <div class = "column-center">
-              <br><br>
-              <h4><span style="color: #6D8C8E">Problem Statement</span></h4>
-            </div>
-            <div class = "column-full">
-              <div class="flex-container">
-                <div0><h5><br><br>Smartphone owners <br>(Lenders) <br><br><br></h5></div0>
-                <div2><h5><br><br><b>need to</b><br><br><br></h5></div2>
-                <div0><h5><br><br>feel like their device<br>and information are safe<br><br></h5></div0>
-                <div4><h5><br><br><b>in order to</b><br><br><br></h5></div4>
-                <div0><h5><br><br>be comfortable<br>with lending <br>their phones. <br><br><br><br></h5></div0>
-              </div>
-            </div>
-
-            <div class = "column-center">
-              <br><br>
-              <h4><span style="color: #6D8C8E">How Might We...</span></h4>
-            </div>
-            <div class = "column-full">
-              <div class = "flex-container">
-                <div6><h5><br><br><br>Facilitate an easier <br>phone lending/<br>phone borrowing <br>interaction?<br><br><br><br></h5></div6>
-              </div>
-              <div class = "right-two-third">
-                <br><br>
-                <hr align="left" width="50%">
-                <br>
-              </div>
-            </div>
-
-            <div class = "row">
-              <div class = "left-third">
-                <br><br>
-                <h3><SUP>&nbsp;</SUP>The ideation</h3>
-              </div>
-              <div class = "right-two-third">
-                <br><br>
-                From these findings, I thought of ways to target the users' key concerns and how to synthesize the data
-                into features.   <span style="color: #6D8C8E"><b>I wanted to create an experience where the interaction between the user and the app was straightforward and intuitive.</b></span>
-              </div>
-              <div class = "column-center">
-                <br><br>
-                <div class = "left-half1">
-                  <img src = "assets\images\projects\lendingpic1.JPG" align = "right" width="100%">
-                </div>
-                <div class = "right-half1">
-                  <img src = "assets\images\projects\lendingpic2.JPG" align = "left" width="100%">
-                </div>
-              </div>
-              <div class = "column-center">
-                <br><br>
-                <div class = "left-half1">
-                  <img src = "assets\images\projects\lendingpic3.JPG" align = "right" width="100%">
-                </div>
-                <div class = "right-half1">
-                  <img src = "assets\images\projects\lendingpic5.JPG" align = "left" width="100%">
-                </div>
-              </div>
-
-              <div class = "right-two-third">
-                <br><br><br>
-                <hr align="left" width="50%">
-              </div>
-            </div>
-
-            <div class = "row">
-              <div class = "left-third">
-                <br><br>
-                <h3><SUP>&nbsp;</SUP>The user flow</h3>
-              </div>
-              <div class = "right-two-third">
-                <br><br>
-                Creating a user flow helped me visualize how lenders and borrowers would interact with the app and with each other.
-              </div>
-              <div class = "column-center">
-                  <img src = "assets\images\projects\flow.png" align = "right" width="100%">
-              </div>
-              <div class = "right-two-third">
-                <br>
-                <hr align="left" width="50%">
-              </div>
-
-              <br>
-              <div class = "row">
-                <div class = "left-third">
-                  <br><br><br><br>
-                  <h3><SUP>&nbsp;</SUP>The sketches & <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wireframes</h3>
-                </div>
-                <div class = "right-two-third">
-                  <br><br><br>
-                  Now that I had an idea of what features I wanted to include, I started on the UI component and explore different layouts of the app.
-                </div>
-                <div class = "column-center">
-                  <br><br>
-                  <div class = "left-third">
-                    <img src = "assets\images\projects\lendingpic4.JPG" align = "left" width="90%">
-                  </div>
-                  <div class = "right-two-third">
-                    <img src = "assets\images\projects\sketch1.png" align = "right" width="90%">
-                  </div>
-                </div>
-                <div class = "column-center">
-                  <br><br>
-                  <div class = "left-half1">
-                    <img src = "assets\images\projects\sketch2.png" align = "left" width="100%">
-                  </div>
-                  <div class = "right-half1">
-                    <img src = "assets\images\projects\sketch3.png" align = "left" width="100%">
-                  </div>
-                </div>
-                <div class = "right-two-third">
-                  <br><br><br>
-                  <hr align="left" width="50%">
-                </div>
-              </div>
-
-            <div class = "row">
-              <div class = "left-third">
-                <br><br>
-                <h3><SUP>&nbsp;</SUP>The low-fi's</h3>
-              </div>
-              <div class = "right-two-third">
-                <br><br>
-                Once I had a good idea of the basic layout, I created low-fi's digitally to further flesh out the design.
-                Each iteration informed the next until I reached the final prototype.
-              </div>
-              <div class = "column-center">
-                <br><br>
-                  <img src = "assets\images\projects\process.png" align = "right" width="100%">
-              </div>
-
-
-              <div class = "right-two-third">
-                <br><br><br>
-                <hr align="left" width="50%">
-              </div>
-            </div>
-
-            <br>
-
-            <div class = "left-third">
-              <br>
-              <h3><SUP>&nbsp;</SUP>The prototype</h3>
-            </div>
-            <div class = "right-two-third">
-              <br>
-              <h4><span style="color: #6D8C8E">
-                This smartphone-lending app “locks” the phone in certain preset modes (strangers mode,
-                friends mode, etc). The modes restrict access of the phone until the owner unlocks their phone using
-                their typical unlocking method such as fingerprint, faceID, or password.</span></h4>
-                <br><br><br>
-              </div>
-              <div class = "column-center">
-
-                <div class = "column-4">
-                  <img src = "assets\images\projects\Lending.png" align = "right" width ="90%">
-                </div>
-                <div class = "column-4">
-                  <img src = "assets\images\projects\Strangers.png" align = "right" width ="90%">
-                </div>
-                <div class = "column-4">
-                  <img src = "assets\images\projects\other1.png" align = "right" width ="90%">
-                </div>
-                <div class = "column-4">
-                  <img src = "assets\images\projects\other2.png" align = "right" width ="90%">
-                </div>
-
-                <div class = "text-left">
-                  <br><br><br><br>
-                  <h4><b>Presets</b></h4>
-                  <br>
-                  In our research, we found that people typically categorized borrowers into four categories. Because
-                  these categories were the same among most people, I decided to make them into existing presets.
-                  <br><br><br>
-                  <b><span style="color: #6D8C8E">The app comes preloaded with the four preset modes:</span></b>
-                  <br>
-                  <div class = "indent">
-                    1. Strangers<br>
-                    2. Acquaintances<br>
-                    3. Friends<br>
-                    4. Family<br>
-                  </div>
-                  <br><br>
-                  Users have the ability to modify these presets according to their own preferences. They can also add their
-                  own preset mode. By default, the family preset is the least restrictive while the strangers preset is the most
-                  restrictive.
-                </div>
-
-                <div class = "image-right">
-                  <br><br><br>
-                  <img src = "assets\images\projects\lending1.png" align = "right" width ="80%">
-                </div>
-              </div>
-
-
-              <div class = "column-center">
-
-                <br><br><br>
-                <h4><b>Security options</b></h4>
-                <br>
-                <b><span style="color: #6D8C8E">Within each mode, the user can choose which apps they wish to
-                  grant/restrict access to. Each app can be configured to have one of three security options.</span></b>
-                  <br><br><br>
-
-                  <h4><span style="color: #6D8C8E"><b>1. Hide app:</span></b> The app is not present on the home page. </h4>
-                  <div class = "indent">
-
-                    <br>
-
-                    <div class = "column-gallery3">
-                      <img src = "assets\images\projects\hide2.png" align = "left" width ="100%">
-                    </div>
-                    <div class = "column-gallery3">
-                      <img src = "assets\images\projects\hide3.png" align = "left" width ="100%">
-                    </div>
-                    <div class = "column-thirdL">
-                      <br><br><br><br><br><br>
-                      With this on, the lender protects their phone by making the borrower think that the app is not downloaded at all.
+                <div class = "bar-section-title">The main insights were:</div>
+                <div class = "indent">
+                  <div class = "hanging-indent">
+                    <li><span class="highlight" id = "lending">The #1 concern was message history.</span>
+                      <br>Interestingly, participants were not concerned about borrowers seeing the messages that they sent out to other people. Rather, they were worried about borrowers seeing a sensitive text chain and compromises the privacy of the person at the other end of the texts.</li>
+                      <li><span class="highlight" id = "lending">The #2 concern was theft.</span>
+                        <br>This concern only applied when lending to strangers. Several participants said they first would determine the stranger’s trustworthiness by judging their appearance and intentions before lending their phone.</li>
+                      </div>
                     </div>
                   </div>
                 </div>
-
-
-                <div class = "column-center">
-                  <br><br><br><br>
-                  <h4><span style="color: #6D8C8E"><b>2. Dummy app:</span></b> The app is present, but is not functional.</h4>
-                  <div class = "indent">
-                    <br>
-
-
-                    <div class = "column-gallery3">
-                      <img src = "assets\images\projects\dummy2.png" align = "left" width ="100%">
-                    </div>
-                    <div class = "column-gallery3">
-                      <img src = "assets\images\projects\dummy3.png" align = "left" width ="100%">
-                    </div>
-                    <div class = "column-thirdL">
-                      <br><br><br><br><br><br>
-                      When the app is clicked, the borrower sees an error such as a network connectivity error instead of seeing the lender's information.
-                    </div>
-                  </div>
+                <div class="section-image">
+                  <br><br><br><br><br><br>
+                  <img src = "assets\images\projects\lending\concerns-graph.png" width = 90%>
                 </div>
+              </div>
 
-                <div class = "column-center">
-                  <br><br><br><br>
-                  <h4><span style="color: #6D8C8E"><b>3. Privacy lock:</span></b> The app is functional, but has features restricted. </h4>
-                  <br>
-
-                  <div class = "indent">
-                    <div class = "column-gallery3">
-                      <img src = "assets\images\projects\lock2.png" align = "left" width ="100%">
-                    </div>
-                    <div class = "column-gallery3">
-                      <img src = "assets\images\projects\lock3.png" align = "left" width ="100%">
-                    </div>
-                    <div class = "column-thirdL">
-                      <br><br><br><br><br><br>
-                      This mode allows the borrower to use the app, but certain features like search history are restricted.
-                    </div>
+              <div class = "category-title">Research conclusions</div>
+              <div class = "category">
+                <div class = "category-section-full">
+                  <div class = "section-title-lending">Design considerations</div>
+                  <div class = "section-text">
+                    Based on the insights from our study, we outlined guidelines for possible solutions that might improve this phone lending/borrowing interaction.
                   </div>
-                </div>
+                  <div class = "bar-section">
 
-
-                <div class = "column-center">
-                  <div class = "text-left">
-                    <br><br><br><br>
-                    <h4><b>Launch options</b></h4>
-                    <br>
-                    <h4><span style="color: #6D8C8E">A user can launch their preset in multiple ways:</span></h4>
-                    <br>
-
+                    <div class = "bar-section-title">The three main guidelines were:</div>
                     <div class = "indent">
-                      <b><span style="color: #6D8C8E">Fingerprint scanner</span></b>
-                      <br>Using the scanner on the back
-                      of a smartphone allows for a total of 9 max presets (with the 10th finger to unlock the phone normally).
-                      <br><br>
-                      <b><span style="color: #6D8C8E">Smartwatch</span></b>
-                      <br>Clicking our app icon and using the side dial to scroll through presets allows for any number of presets.
-                      <br><br>
-                      <b><span style="color: #6D8C8E">Quick settings dropdown menu</span></b>
-                      <br>Each preset mode can be configured to an icon that can be added to the pulldown settings menu where users
-                      access things like the flashlight and WiFi settings.
+                      <div class = "half-line-spacing"><span class = "semibold">Customizability:</span> The solution should allow for varying levels of restrictions and have a one-time setup.</div>
+                      <div class = "half-line-spacing"><span class = "semibold">Inconspicuousness:</span> The borrower should not notice that the lender has set restrictions specific to the borrower. The solution should have a quick and discreet activation.</div>
+                      <div class = "half-line-spacing"><span class = "semibold">Theft and privacy:</span> Our features should make the lender more comfortable and confident in lending their phone.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br><br>
+              <div class = "category">
+                <div class = "category-section-full">
+                  <div class = "section-title-lending">Proposed solutions</div>
+                  <div class = "section-text">
+                    With the guidelines in mind, we thought about how to create a solution to facilitate easier phone lending/borrowing interactions. To target all three guidelines, we proposed an app where
+                    <span class="highlight" id = "lending">users could customize profiles with varying levels of restrictions that could be launched
+                      <span class = "semibold">quickly and discreetly</span> so that they could <span class = "semibold">feel safer</span> when sharing their phones.</span>
+                    </div>
+                    <div class = "bar-section">
+
+                      <div class = "bar-section-title">Outside of the core functionality, we also ideated on other features that would work in conjunction:</div>
+                      <div class = "indent">
+                        <div class = "half-line-spacing">
+                          <span class = "semibold">Smartwatch-enabled:</span> The idea behind this feature is to allow the owner of the phone to essentially “keep tabs” on what a borrower is doing on their phone.
+                          The smartwatch screen could display exactly what the borrower is seeing and could allow the owner to remotely lock certain apps or lock the entire phone. This feature also highlights <span class = "semibold">customizability</span>
+                          as users can change the level of restriction on their phone as someone is using it.
+                        </div>
+                        <div class = "half-line-spacing">
+                          <span class = "semibold">Fingerprint scanner:</span> Many smartphones have a fingerprint scanner and allow for multiple prints to be saved. Most people only use a few fingers to unlock their phones—so, we decided to use this
+                          to our advantage. This feature proposes using the fingerprint scanner to launch the profiles that users have created. By using “uncommon” fingers like the fourth finger or the pinky, users can
+                          <span class = "semibold">quickly and inconspicuously</span> launch a mode without the awkwardness of a borrower ever realizing that they have restricted access.
+                        </div>
+                        <div class = "half-line-spacing">
+                          <span class = "semibold">Hardware protection:</span> Because one of the top concerns in phone-lending experiences is the fear of <span class = "semibold">theft,</span> we decided to implement a hardware protection element.
+                          With this element on, if the phone’s accelerometer detects running (oh no a thief!), the phone would activate an alarm alerting everyone nearby. (“This person is holding a stolen phone! Stop them!”) In addition, this trigger
+                          could also lock the sim card tray—preventing the thief from rendering the phone untraceable.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr align="left"> <!-- A horizontal line -->
+              </div>
+            </div>
+
+            <div class = "contentSegment">
+              <div class = "leftTitle">The definition</div>
+              <div class = "rightContent">
+                <span class="highlight" id = "lending">After the research phase, this project was <span class = "semibold"><i>technically</i></span> over. But, rather than just leaving the project with the research and proposed solutions, I wanted to use the research to actually build a solution.</span>
+                So, I ventured on as a one-person team. But, before jumping into design, I wanted to define some things more formally to guide me through the rest of the design process.
+
+                <div class = "category-title">The user</div>
+                During the research phase, we all had a general idea of who the user was. But, rather than just running with a rather vague definition of “smartphone owners in a phone-lending situation,” I wanted a better sense of exactly who I would be designing for. Looking back on the research, I found a trend where many people are unwilling or uncomfortable with their device in someone else’s hands. However, people are generally nice (as least true for the people we interviewed). Because of that, they were willing to let others borrow their phone despite their discomfort in order to avoid confrontations and not say no.
+                <br><br><br>
+                <div class = "quote-block">
+                  <span class = "semibold">So, I formally defined users as:</span> Smartphone owner who are uncomfortable with allowing others full access of their phone, but are too nice to say no.
+                </div>
+                <br>
+                <div class = "category-title">The problem</div>
+                I wanted to better define the problem as well. Pinpointing the user helped me to pull out the main problem that I would be tackling: helping a phone-lender feel more comfortable with their device in someone else’s hands.
+                <br><br><br>
+                <img src = "assets\images\projects\lending\problem-statement.png" width = 100%>
+                <hr align="left"> <!-- A horizontal line -->
+              </div>
+            </div>
+
+            <div class = "contentSegment">
+              <div class = "leftTitle">The ideation</div>
+              <div class = "rightContent">
+                Now that I had a clearly defined direction, I could think more critically about the solution. The proposed solution from our research phase (an app that allows users to customize profiles with varying levels of restrictions) was a great
+                starting point—my research team and I had decided on it it during a ideation session towards the end of our research. Because the proposed solution was guided by research, I decided to run with it. I kept the core functionalities and
+                features and decided to build onto the basic structure. So, I set about fleshing out the details of how a user might interact with this app.
+                <br><br><br>
+                <div class="image-row">
+                  <img src = "assets\images\projects\lending\ideation1.png" width = 48% height= 48%>
+                  <img src = "assets\images\projects\lending\ideation2.png" width = 48% height= 48%>
+                </div>
+                <br><br>
+                <div class="image-row">
+                  <img src = "assets\images\projects\lending\ideation3.png" width = 48% height= 48%>
+                  <img src = "assets\images\projects\lending\ideation4.png" width = 48% height= 48%>
+                </div>
+                <div class = "category-title">Conclusions and realizations</div>
+                After thinking more critically about this app, I realized that it was really easy to make the app overly complicated with features and customizations.
+                <span class="highlight" id = "lending">I knew that most of all, I wanted to focus on create an experience where the interaction between the user and the app was simple and intuitive.</span>
+                Guided by this thought, I split the app into the three most important components:
+                <br><br><br>
+                <div class = "bar-section">
+                  <div class = "bar-section-title"><span class = "semibold">Presets</span></div>
+                  <div class = "indent">
+                    <div class = "half-line-spacing">
+                      I noticed that <span class="highlight" id = "lending">I had to balance customability and presets to accomodate all kinds of users.</span> Because our research showed that many people naturally talked about people in terms of four main groups
+                      (family, friends, acquaintances, and strangers), I decided to build those four presets into the app. This is especially useful for users who don’t want to spend much time on customizations and just want general functionalities to protect their device.
+                      Rather than just limiting it to just four presets, I thought to allow users to add their own preset for power users who enjoy customizing every little detail.
+                    </div>
+                  </div>
+                  <br>
+                  <div class = "bar-section-title"><span class = "semibold">Launching</span></div>
+                  <div class = "indent">
+                    <div class = "half-line-spacing">
+                      I also came up with multiple ideas of how to launch the modes. This included using the fingerprint scanner that my research team and I had originally thought of, but also included potentially using a smartwatch or phones’ pulldown settings menu.
+                      Ultimately, I decided to include all three as ways to launch modes. <span class="highlight" id = "lending">This decision was driven by trying to make the app accessible to a range of smartphone users such as those who might have a broken fingerprint
+                        scanner or those who have a phone without a fingerprint scanner at all.</span>
+                      </div>
                     </div>
                     <br>
+                    <div class = "bar-section-title"><span class = "semibold">Granting access</span></div>
+                    <div class = "indent">
+                      <div class = "half-line-spacing">
+                        While I was thinking about how a user could customize a preset for a certain lending situation, I realized that <span class="highlight" id = "lending">granting access to an app is as important as restricting access.</span>
+                        <br><br>
+                        <div class = "half-line-spacing"><div class = "semibold">Consider this interaction between a lender and a borrower:</div></div>
+                        <div class = "hanging-indent">1. The borrower asks the lender for their phone to call a friend, but they don’t remember their friend’s number.</div>
+                        <div class = "hanging-indent">2. The borrower asks the lender if they can use Facebook instead, but Facebook is restricted.</div>
+                        <div class = "hanging-indent">3. The lender decides to allow Facebook access so they ask for their phone back.</div>
+                        <div class = "hanging-indent">4. The lender exits our app to allow normal functionalities and hands the phone back to the borrower.</div>
+                        <br>
+                        This kind of interaction is rather awkward. More importantly, it defeats the purpose of a security app as the borrower is now holding a completely unlocked phone and has access to everything. I needed a way to allow for granting access
+                        after the preset mode had been launched. I decided that this could be accomplished through a quick access feature where people can add apps they may want to change access to depending on the situation. Though optional, this feature would
+                        be most beneficial with a secondary device like a a smartwatch where the lender could quickly scroll through their quick access app list.
+                      </div>
+                    </div>
                   </div>
-                  <div class = "image-right">
+                  <br>
+                  <div class = "half-line-spacing semibold">User flow</div>
+                  Even with the research distilled into three main components, it was still hard for me to visualize how this app would function in action during a lending situation. So, being a very visual person, I created a user flow to see all the paths that a lending
+                  situation could take. This flow was really helpful in helped me keep the big picture in mind and make sure that what I was making would fit well into this flow.
+                  <img src = "assets\images\projects\lending\user-flow.png" width = 100%>
+                  <hr align="left"> <!-- A horizontal line -->
+                </div>
+              </div>
+
+              <div class = "contentSegment">
+                <div class = "leftTitle">The UI</div>
+                <div class = "rightContent">
+                  All that work finally brought me to the UI. I knew what features I wanted to include, so I started thinking about the flow between screens. Because my goal was to make the interactionswith the app
+                  <span class = "semibold">simple</span> and <span class = "semibold">intuitive,</span> <span class="highlight" id = "lending">I focused on making sure that the navigation really clear</span> and that the app didn’t have much of a learning curve to it.
+                  <br><br><br>
+                  <div class="image-row">
+                    <img src = "assets\images\projects\lending\UI1.png" width = 34% height= 34%>
+                    <img src = "assets\images\projects\lending\UI2.png" width = 65% height= 65%>
+                  </div>
+                  <div class="image-row">
+                    <img src = "assets\images\projects\lending\UI3.png" width = 45% height= 45%>
+                    <img src = "assets\images\projects\lending\UI4.png" width = 55% height= 55%>
+                  </div>
+                  <br><br>
+                  Sketching helped me to think through the app on paper. Once I had a good idea of the basic flow and elements, I moved to Figma for grayscales as I tried out different layouts.
+                  <br><br>
+                  <img src = "assets\images\projects\lending\grayscales1.png" width = 100%>
+                  <img src = "assets\images\projects\lending\grayscales2.png" width = 39%>
+                  <br><br>
+                  Each iteration informed the next to get me to the final hi-fi mockups. As I iterated, I prioritized a simplicity&mdash;both visually and navigationally.
+                  <br><br>
+                  <img src = "assets\images\projects\lending\hifis.png" width = 100%>
+                  <div id="prototype"></div>
+                  <hr align="left"> <!-- A horizontal line -->
+                </div>
+              </div>
+
+              <div class = "contentSegment">
+                <div class = "leftTitle">The prototype</div>
+                <div class = "rightContent">
+                  <span class = "semibold">The smartphone-lending app “locks” the phone in certain preset modes (strangers mode, friends mode, etc). The modes restrict access to predetermined apps so the
+                    phone owner feels more comfortable with their phone in a borrower’s hands. The phone stays in the restricted mode until the owner unlocks their phone using their typical unlocking method
+                    such as fingerprint,faceID, or password.</span>
+                    <br><br><br>
+                    <div class = "category">
+                      <div class = "category-section-55">
+                        <div class = "half-line-spacing"><div class = "section-title-lending">Presets</div></div>
+                        <div class = "section-text">
+                          <div class = "semibold"><span class="highlight" id = "lending">The app comes preloaded with the four preset modes:</span></div><br>
+                          1. Strangers (most restrictive)<br>
+                          2. Acquaintances<br>
+                          3. Friends<br>
+                          4. Family (least restrictive)<br>
+                          <br><br>
+                          Because our interviewees naturally grouped borrowers into these four categories, I listed these four as the defaults under the presets section of the home page.
+                          This allows for easy access for users who might not want to customize their presets.
+                          <br><br>
+                          For users who do enjoy customization, the “Add Preset” button allows them to create an entirely new category and add various levels of restrictions to their heart’s content.
+                        </div>
+                      </div>
+                      <div class="section-image">
+                        <img src = "assets\images\projects\lending\strangers.png" width = 42% align = top style = "padding-left: 25px">
+                        <img src = "assets\images\projectslending\presets-highlight.png" width = 42%>
+                      </div>
+                    </div>
+                    <br><br>
+                    <div class = "half-line-spacing"><div class = "section-title-lending">Security options</div></div>
+                    <br>
+                    Within each preset, the user can choose which apps they wish to restrict access to. Each app can be configured to have one of three security options.
+                    <br><br><br>
+                    <div class = "category">
+                      <div class = "category-section-55">
+                        <div class = "section-text">
+                          <span class="highlight" id = "lending"><b>1. Hide app:</b> <span class = "semibold">The app is not present on the home page.</span></span>
+                          <br><br>
+                          Under this option, the lender protects their phone by making the borrower think that the app is not downloaded at all.
+                        </div>
+                      </div>
+                      <div class="section-image">
+                        <br>
+                        <img src = "assets\images\projects\lending\hide2.png" width = 45% align = top style = "padding-left: 25px">
+                        <img src = "assets\images\projects\lending\hide1.png" width = 45%>
+                      </div>
+                    </div>
+                    <br><br><br>
+                    <div class = "category">
+                      <div class = "category-section-55">
+                        <div class = "section-text">
+                          <span class="highlight" id = "lending"><b>2. Dummy app:</b> <span class = "semibold">The app is present, but not functional.</span></span>
+                          <br><br>
+                          Upon clicking the app, the borrower sees a “fake” error such as a network connectivity error. This prevents the borrower from accessing the app’s functionality.
+                        </div>
+                      </div>
+                      <div class="section-image">
+                        <br>
+                        <img src = "assets\images\projects\lending\dummy2.png" width = 41.75% align = top style = "padding-left: 25px">
+                        <img src = "assets\images\projects\lending\dummy1.png" width = 41.75%>
+                      </div>
+                    </div>
+                    <br><br><br>
+                    <div class = "category">
+                      <div class = "category-section-55">
+                        <div class = "section-text">
+                          <span class="highlight" id = "lending"><b>3. Privacy lock:</b> <span class = "semibold">The app is functional, but has features restricted.</span></span>
+                          <br><br>
+                          The borrower can click into and use the app. But, certain features like posting functionality and search history are restricted.
+                        </div>
+                      </div>
+                      <div class="section-image">
+                        <br>
+                        <img src = "assets\images\projects\lending\privacy2.png" width = 41.75% align = top style = "padding-left: 25px">
+                        <img src = "assets\images\projects\lending\privacy1.png" width = 41.75%>
+                      </div>
+                    </div>
+                    <br><br><br><br><br>
+                    <div class = "category">
+                      <div class = "category-section-70">
+                        <div class = "half-line-spacing"><div class = "section-title-lending">Launch options</div></div>
+                        <div class = "section-text">
+                          <div class = "semibold"><span class="highlight" id = "lending">The next section on the home page is the launch options&mdash;how to actually trigger the presets and “lock” the phone.</span></div><br>
+                          I had a lot of different launch options to consider&mdash;from secondary device such as wireless airbuds and powerbanks to a button in the app itself.
+                          Ultimately, my decision was made with <span class = "semibold">accessibility</span> in mind as these three options reach a range of smartphone users.
+                        </div>
+                        <div class = "bar-section">
+                          <div class = "indent">
+                            <div class = "half-line-spacing semibold">Smartwatch</div>
+                            Clicking our app icon and using the side dial to scroll through presets allows for any number of presets.
+                            <br><br>
+                          </div>
+                          <div class = "indent">
+                            <div class = "half-line-spacing semibold">Fingerprint scanner</div>
+                            Using the scanner on the back of a smartphone allows for a total of 9 max presets (with the 10th finger to unlock the phone normally).
+                            <br><br>
+                          </div>
+                          <div class = "indent">
+                            <div class = "half-line-spacing semibold">Settings dropdown menu</div>
+                            Each preset mode can be configured to an icon that can be added to the pulldown settings menu where users access things like the flashlight and WiFi settings.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="section-image">
+                        <img src = "assets\images\projects\lending\launch-highlight.png" width = 75%>
+                      </div>
+                    </div>
                     <br><br><br><br>
-                    <img src = "assets\images\projects\launch.png" align = "right" width ="80%">
+                    <div class = "category">
+                      <div class = "category-section-70">
+                        <div class = "half-line-spacing"><div class = "section-title-lending">Granting access</div></div>
+                        <div class = "section-text">
+                          <div class = "semibold"><span class="highlight" id = "lending">Because I also found that as granting access is as important as restricting it, I thought to add it as its own section on the home page.</span></div><br>
+                          In the case where the lender (the owner of the smartphone) wants to allow the borrower access to a restricted app, this section lets them to
+                          <span class = "semibold">quickly grant access without needing to exit the preset.</span>
+                          <br><br>
+                          In this section, users can see at a glance all of the quick access apps. Users can easily add apps to the list in order to allow for more flexibility in a phone-lending situation.
+                          <br><br>
+                          This feature is most beneficial on a device such as a smartwatch as lenders can use the dial on the side of their watch to quickly scroll through their quick access app list and grant access without needing to take back their smartphone first.
+                        </div>
+                      </div>
+                      <div class="section-image">
+                        <img src = "assets\images\projects\lending\access-highlight.png" width = 75%>
+                      </div>
+                    </div>
+                    <br><br><br><br>
+                    <div class = "category">
+                      <div class = "category-section-full">
+                        <div class = "half-line-spacing"><div class = "section-title-lending">Hardware concerns</div></div>
+                        <div class = "section-text">
+                          <div class = "semibold"><span class="highlight" id = "lending">To target people’s second-most prominent concern of theft, the “other security options” make people feel more comfortable lending their phones.</span></div>
+                          <br>
+                          <div class = "half-line-spacing semibold">Anti-theft</div>
+                          If anti-theft is enabled, <span class = "semibold">the phone’s accelerometer turns on once the preset launches.</span>
+                          If the accelerometer detects running, custom actions such as blaring an alarm and locking the sim card tray launch.
+                          <br><br>
+                          <div class = "half-line-spacing semibold">Anti-pickpocket</div>
+                          Since many pickpockets are discreet and slip away, using the accelerometer is not effective. If anti-pickpocket is enabled, the phone will
+                          <span class = "semibold">pair with any secondary device that has a bluetooth connection </span>(like a smartwatch or wireless earbuds).
+                          If the phone leaves the range of the bluetooth connection, it initiate a series of actions such as sounding an alarm and locking the sim card tray.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-row-left">
+                      <img src = "assets\images\projects\lending\security1.png" width = 25% style = "padding-left: 20px; padding-right: 20px">
+                      <img src = "assets\images\projects\lending\security2.png" width = 25% style = "padding-left: 20px; padding-right: 20px">
+                    </div>
+                    <hr align="left"> <!-- A horizontal line -->
                   </div>
                 </div>
 
-                <div class = "column-center">
-                  <div class = "text-left">
-                    <br><br><br><br>
-                    <h4><b>Granting access</b></h4>
-                    <br>
-                    <h4><span style="color: #6D8C8E">I also found that as granting access is as important as restricting it.</span></h4>
-                    <br>
-                    Imagine an interaction where:
-                    <div class = "indent">
-                      <b><span style="color: #6D8C8E">1. </span></b>
-                      A borrower <b><span style="color: #6D8C8E">needs a phone to call a friend</span></b>, but realizes that he/she does
-                      not have <br>&nbsp;&nbsp;&nbsp;&nbsp;the person's contact number.
-                      <br>
-                      <b><span style="color: #6D8C8E">2. </span></b>
-                      The borrower <b><span style="color: #6D8C8E">tries to access Facebook, but is denied access.</span></b>
-                      <br>
-                      <b><span style="color: #6D8C8E">3. </span></b>
-                      The lender sees that the borrower needs to contact the friend and <b><span style="color: #6D8C8E">
-                        decides to let <br>&nbsp;&nbsp;&nbsp;&nbsp;the borrower use Facebook.</span></b>
-                        <br>
-                        <b><span style="color: #6D8C8E">4. </span></b>
-                        The borrower <b><span style="color: #6D8C8E">hands the phone back to the lender.</span></b>
-                        <br>
-                        <b><span style="color: #6D8C8E">5. </span></b>
-                        The lender <b><span style="color: #6D8C8E">exits out of our app </span></b>to allow normal functionalities.
-                        <br>
-                        <b><span style="color: #6D8C8E">6. </span></b>
-                        The lender<b><span style="color: #6D8C8E"> hands the phone back to the borrower.</span></b>
-                      </div>
+                <div class = "contentSegment">
+                  <div class = "leftTitle">The takeaways</div>
+                  <div class = "rightContent">
+                    This project made me really think about how to design human interactions that are facilitated by technology. I learned a lot about people's relationship with their devices and with each other.
+                    This was also my first design project that had hardware integrations. <span class = "semibold"><span class="highlight" id = "lending">Needing to consider how hardware like smartwatches and smartphones
+                      fit into a phone-lending situation made me really focus on designing the interaction between the lender and the borrower rather than on the interface of the app itself.</span></span>
                       <br><br>
-                      This kind of interaction is awkward and uncomfortable. Most importantly though, it becomes unsafe as the borrower now has a completely unlocked phone and can now access everything.
-                      To target this issue, I needed a way to grant access to a specific app.
-                      <br><br>
-                      So, I added a quick access feature where people can add any apps they may want to grant access to depending on a situation.
-                      This feature is most beneficial on a smartwatch as lenders can quickly scroll through their quick access app list.
-                      <br><br>
-                    </div>
-                    <div class = "image-right">
-                      <br><br><br><br>
-                      <img src = "assets\images\projects\quick-access.png" align = "right" width ="80%">
+                      <div class = "semibold"><span class="highlight" id = "lending">This project also really taught me the merits of conducting good research during the early stages. </span></div>
+                      I could clearly see the benefits of the research informing design decisions as it made the process of designing much easier. This was especially beneficial when I was designing alone because I could
+                      lean on the research through the design process.<br><br>
                     </div>
                   </div>
-                  <div class = "column-center">
-                    <br>
-                    <h4><span style="color: #6D8C8E">When the situation arises, lenders can click the quick access icon on their smartwatch
-                      and use the side dial to scroll through their list and allow functionalities of a specific app.</span></h4>
-                      <br><br>
-                    </div>
 
-
-                    <div class = "column-center">
-                      <h4><b>Wouldn't people be offended if they had restricted access?</b></h4>
-                      <b><span style="color: #6D8C8E">Because the methods of launching are discreet, most of the time, borrowers wouldn't even know that they have restricted access. </b></span>
-                      They would likely think that there is really a connection error or that the lender just does not have a certain app installed.
-                      <br><br>Further, our research showed that
-                      people only ask to borrow a phone when they are really in need. Therefore, <b><span style="color: #6D8C8E">their
-                        need for a phone would generally outweigh any offense they might take </b></span>from the lender appearing to not trust them by restricting access.
-                        <br><br><br>
-                        <h4><b>What happens when people learn the "tricks" of launching the modes?</b></h4>
-                        Even if people learned the common features of the app and knew they had restricted access, <b><span style="color: #6D8C8E">the lender could reframe the interaction to ensure that there is no awkwardness.</b></span>
-                        Instead of framing the interaction as one of distrust, the lender could easily explain that they use one mode when lending to anyone regardless of it that is true or not.
-                      </div>
-
-
-                      <div class = "right-two-third">
-                        <br><br><br>
-                        <hr align="left" width="50%">
-                      </div>
-
-
-
-                      <div class = "row">
-                        <div class = "left-third">
-                          <br><br><br><br><br><br><br>
-                          <h3><SUP>&nbsp;</SUP>The bonus features</h3>
-                        </div>
-                        <div class = "right-two-third">
-                          <br><br><br>
-                          <b><span style="color: #6D8C8E">Another big reason people don’t lend their phones is due to concerns of theft. </b></span>
-                          The “other security” option targets this concern.
-                          <br><br>
-                          <h4><b>Anti-theft</b></h4>
-                          If the phone is on a mode with anti-theft enabled, <b><span style="color: #6D8C8E">the phone’s accelerometer turns on once that mode launches.</b></span>
-                          It can be customized to run actions like blaring an alarm and locking the sim card tray so the phone remains traceable. When the phone's accelerometer detects running, these actions launch.
-                          <br><br>
-                          <h4><b>Anti-pickpocket</b></h4>
-                          If the phone is on a mode with anti-pickpocket enabled, the phone "locks" in this mode. The phone will not turn on or function at all until the phone owner normally unlocks their phone. Since many pickpockets are discreet and slip away, using the accelerometer is not effective. Instead, a phone on this mode
-                          <b><span style="color: #6D8C8E">can be paired with any secondary device that has a bluetooth connection</b></span> (like a smartwatch or wireless earbuds). If a phone leaves a certain range with the secondary device, it can initiate a series of actions like
-                          sounding an alarm and locking the sim card tray.
-                          <br><br>
-                          <div class = "column-L45">
-                            <img src = "assets\images\projects\other1.png" align = "left" width ="70%">
-                          </div>
-                          <div class = "column-L45">
-                            <img src = "assets\images\projects\other2.png" align = "left" width ="70%">
-                          </div>
-                        </div>
-                        <div class = "right-two-third">
-                          <br><br><br><br>
-                          <hr align="left" width="50%">
-                        </div>
-
-
-                        <br>
-                        <div class = "row">
-                          <div class = "left-third">
-                            <br><br><br><br><br><br><br><br>
-                            <h3>The takeaways</h3>
-                          </div>
-                          <div class = "right-two-third">
-                            <br><br><br>
-                            <span style="color: #6D8C8E"><h4>This project gave me the chance to think about how people interact with each other about technology.</h4></span>
-                            <br>I learned a lot about people's relationship with
-                            their devices and with each other. I realized that because people tend to be non-confrontational (at least among the people we interviewed), they lack a subtle way to say no to others. By
-                            prototyping an app like this, I was able to really focus in on a specific type of user and how to improve their experiences with each other that are facilitated by technology.
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class = "sign">
-                        <br><br><br>
-                        <center>Made with <span style="color: #6D8C8E">♥</span> by me</center>
-                      </div>
-                    </div>
-                    </html>
+                  <div class = "sign">Designed and coded with<span style="color: #6D8C8E">&nbsp;&nbsp;❤</span></div>
+                  <div class = "sign">
+                    <a href = "mailto:xinai.cathy.wu@gmail.com" id = "icon" target = "_blank"><img src = "assets\icons\mail.png" height = "40%" style = "margin-left: 2px; margin-right: 2px"></a>
+                    <a href = "https://www.linkedin.com/in/xinai-cathy-wu" id = "icon"target = "_blank"><img src = "assets\icons\linkedin.png" height = "40%" style = "padding-left: 2px; padding-right: 2px"></a>
+                  </div>
+                </div>
+              </div>
+              </html>

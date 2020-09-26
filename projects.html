@@ -1,73 +1,70 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<div class="style fade-in">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155129215-1"></script>
-<script>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155129215-1"></script>
+  <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-155129215-1');
-</script>
+  </script>
 
-    <meta charset="utf-8">
-    <link rel = "stylesheet" href="assets/stylesheets/style.css">
-  </head>
-<div class = "container">
+  <meta charset="utf-8">
+  <link rel = "stylesheet" href="assets/stylesheets/style.css">
+  <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b><br>Top</button>
+  <script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
 
-  <header class = "nav">
-  <nav>
-    <a href = "index.html">home</a>
-    <a href = "projects.html"><span style="color: #89B5DA">projects</span></a>
-    <a href = "studio-art.html">studio & digital art</a>
-  </nav>
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script> -->
+</head>
+
+<div class="mainContainer fade-in">
+  <header class = "navContainer">
+    <div class="navBar">
+      <a href = "index.html">home</a>
+      <a href = "projects.html"><span class = "underline">projects</span></a>
+      <a href = "studio-art.html">studio & digital art</a>
+    </div>
   </header>
 
-  <div class = "row">
+<div class = "main-content">
+  <div class = "project-row">
     <br>
-    <h2>Mobile & Web</h2>
-    <div class = "grid">
-      <div class = "contain">
-        <a href="ARTrek.html">
-          <img src = "assets\images\projects\artrek-cover.png" align=right; width="90%">
-          <div class="overlay">
-            <div class="text"><b>ARTrek</b><br><br> A "waze"-like indoor navigation system<br><br><span style="color: #58126A"><b>[Designer]</b></span> <span style="color: #297CA0"><b>[Developer]</b></span></div>
-          </div>
-        </a>
-      </div>
-    </div>
+    <!-- <div class = "title2">Mobile & Web</div> -->
     <div class = "grid">
       <div class = "contain">
         <a href="smartphone-lending.html">
-          <img src = "assets\images\projects\lending-cover.png"  width="90%">
+          <img src = "assets\images\covers\lending-cover.png"  width="90%">
           <div class="overlay">
-            <div class="text"><b>Smartphone Lending</b><br><br> Designing technology to change the way people interact with each other<br><br><span style="color: #58126A"><b>[Designer]</b></span></div>
+            <div class="hover-text"><b>Smartphone Lending</b><br><br> Designing technology to change the way people interact with each other</div>
           </div>
         </a>
       </div>
     </div>
     <div class = "grid">
       <div class = "contain">
-        <a href="darttree.html">
-          <img src = "assets\images\projects\darttree-cover.png"  width="90%">
+        <a href="spaces.html">
+          <img src = "assets\images\covers\spaces-cover.png"  width="90%">
           <div class="overlay">
-            <div class="text"><b>DartTree</b><br><br> A redesign of the Dartmouth Alumni Network to better support students<br><br><span style="color: #58126A"><b>[Designer]</b></span></div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <div class = "row">
-    <h2>VR</h2>
-    <div class = "grid">
-      <div class = "contain">
-        <a href="tarsier.html">
-          <img src = "assets\images\projects\tarsier-cover.png"  width="90%">
-          <div class="overlay">
-            <div class="text"><b>Tarsier Goggles</b><br><br>Experience the world through a tarsier's eyes<br><br><span style="color: #58126A"><b>[Designer]</b></span> <span style="color: #297CA0"><b>[Developer]</b></span></div>
+            <div class="hover-text"><b>Spaces</b><br><br>A VR perspective puzzle game based on M.C. Escher's "Relativity" drawing.<br><br></div>
           </div>
         </a>
       </div>
@@ -75,45 +72,81 @@
     <div class = "grid">
       <div class = "contain">
         <a href="spot-the-difference.html">
-          <img src = "assets\images\projects\spot-cover.png"  width="90%">
+          <img src = "assets\images\covers\spot-cover.png"  width="90%">
           <div class="overlay">
-            <div class="text"><b>Spot-the-Difference</b><br><br>A classic game reimagined in VR<br><br><span style="color: #58126A"><b>[Designer]</b></span></div>
+            <div class="hover-text"><b>Spot-the-Difference</b><br><br>A classic game reimagined in VR. <br><br></div>
           </div>
         </a>
       </div>
     </div>
+    <!-- <div class = "grid">
+      <div class = "contain">
+        <a href="ARTrek.html">
+          <img src = "assets\images\covers\artrek-cover.png" align=right; width="90%">
+          <div class="overlay">
+            <div class="hover-text"><b>ARTrek</b><br><br> A "Waze"-like indoor <br>navigation system<br><br> <span class = "semibold" style="color: #AC9E20">1st place at HackDartmouth 2019</span></div>
+          </div>
+        </a>
+      </div>
+    </div> -->
+
+    <!-- <div class = "grid">
+      <div class = "contain">
+        <a href="darttree.html">
+          <img src = "assets\images\covers\darttree-cover.png"  width="90%">
+          <div class="overlay">
+            <div class="hover-text"><b>DartTree</b><br><br> A redesign of the Dartmouth Alumni Network to better support students<br><br><span style="color: #58126A"><b>[Designer]</b></span></div>
+          </div>
+        </a>
+      </div>
+    </div> -->
+  </div>
+
+  <!-- <div class = "project-row">
+    <div class = "title2">VR</div>
+    <div class = "grid">
+      <div class = "contain">
+        <a href="tarsier.html">
+          <img src = "assets\images\covers\tarsier-cover.png"  width="90%">
+          <div class="overlay">
+            <div class="hover-text"><b>Tarsier Goggles</b><br><br>Experience the world through a tarsier's eyes<br><br><span style="color: #58126A"><b>[Designer]</b></span> <span style="color: #297CA0"><b>[Developer]</b></span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+
     <div class = "grid">
       <div class = "contain">
         <a href="crowd-sim.html">
-          <img src = "assets\images\projects\sim-cover.png"  width="90%">
+          <img src = "assets\images\covers\sim-cover.png"  width="90%">
           <div class="overlay">
-            <div class="text"><b>VR Crowd Simulation</b><br><br>Helping people confront stage fright<br><br><span style="color: #58126A"><b>[Designer]</b></span></div>
+            <div class="hover-text"><b>VR Crowd Simulation</b><br><br>Helping people confront stage fright<br><br><span style="color: #58126A"><b>[Designer]</b></span></div>
           </div>
         </a>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
-    <div class = "row">
+    <!-- <div class = "project-row">
       <br>
-      <h2>AR</h2>
+      <div class = "title2">AR</div>
       <div class = "grid">
         <div class = "contain">
           <a href="contact.html">
-            <img src = "assets\images\projects\contact-cover.jpg"  width="90%">
+            <img src = "assets\images\covers\contact-cover.jpg"  width="90%">
             <div class="overlay">
-              <div class="text"><b>Contact</b><br><br> Envisioning a better connected world<br><br><span style="color: #58126A"><b>[Designer]</b></span></div>
+              <div class="hover-text"><b>Contact</b><br><br> Envisioning a better connected world<br><br><span style="color: #58126A"><b>[Designer]</b></span></div>
             </div>
           </a>
         </div>
       </div>
+    </div> -->
+    <div class = "sign">Designed and coded with<span style="color: #6D8C8E">&nbsp;&nbsp;❤</span></div>
+    <div class = "sign">
+      <a href = "mailto:xinai.cathy.wu@gmail.com" id = "icon" target = "_blank"><img src = "assets\icons\mail.png" height = "40%" style = "margin-left: 2px; margin-right: 2px"></a>
+      <a href = "https://www.linkedin.com/in/xinai-cathy-wu" id = "icon"target = "_blank"><img src = "assets\icons\linkedin.png" height = "40%" style = "padding-left: 2px; padding-right: 2px"></a>
     </div>
-
-
-<div class = "sign">
-  <br>
-  <center>Made with <span style="color: #89B5DA">♥</span> by me</center>
-</div>
+  </div>
 </div>
 </html>

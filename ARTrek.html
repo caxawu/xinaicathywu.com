@@ -1,55 +1,77 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<div class="style fade-in">
-  <div class = "top-ARTrek">
-    <head>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155129215-1"></script>
-<script>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155129215-1"></script>
+  <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-155129215-1');
-</script>
+  </script>
 
-      <meta charset="utf-8">
-      <link rel = "stylesheet" href="assets/stylesheets/style.css">
-      <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b><br>Top</button>
-      <script>
-      //Get the button
-      var mybutton = document.getElementById("myBtn");
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function() {scrollFunction()};
+  <meta charset="utf-8">
+  <link rel = "stylesheet" href="assets/stylesheets/style.css">
+  <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b><br>Top</button>
+  <script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
 
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-      </script>
-    </head>
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+</head>
 
+<div class="mainContainer fade-in">
+  <header class = "navContainer">
+    <div class="navBar">
+      <a href = "index.html">home</a>
+      <a href = "projects.html">projects</a>
+      <a href = "studio-art.html">studio & digital art</a>
+    </div>
+  </header>
+
+  <div class = "summary" id = "spaces-background">
+    <div class = "summary-text">
+      <h1>Spaces</h1>
+      <h2>Designer</h2>
+      <h3>Spaces is a VR perspective puzzle game based on M.C. Escher's "Relativity" <br>drawing. Players jump to different walls to match their perspective of the room <br>to the perspective shown in a series of pictures.</h3>
+      <div class = "row">
+        <div class = "column-4"><b>Type</b><br>Digital Arts Culminating Project</div>
+        <div class = "column-4"><b>Time</b><br>10 weeks</div>
+        <div class = "column-4"><b>Tools</b><br>Maya<br>Unity</div>
+        <div class = "column-4"><b>Team</b><br>Jasmine Mai</div>
+      </div>
+      <br>
+      <div class = "linkButtonContainer"><a href = "assets\links\spaces.apk" target = "_blank" class = "button boldText" id="linkButton2">apk for Oculus Quest</a></div>
+    </div>
+
+    <div class = "summary-right">
+      <div class="imgContainer-1">
+        <img src = "assets\images\projects\spaces\spaces-summary.png" width = 105%>
+      </div>
+    </div>
   </div>
-  <div class = "container">
 
-    <header class = "nav">
-      <nav>
-        <a href = "index.html">home</a>
-        <a href = "projects.html">projects</a>
-        <a href = "studio-art.html">studio & digital art</a>
-      </nav>
-    </header>
+  <div class = "centerButtonContainer"><a href = #prototype class = "button boldText" id="skipButtonSpaces">Jump to walkthrough</a></div>
 
-    <br>
+  <div class = "main-content">
+
+    <!-- <br>
     <center><h1>ARTrek</h1></center>
     <center><h4><span style="color: #C3AA4D"><b>1st Place at HackDartmouth 2019</b></span></h4></center>
 
@@ -385,6 +407,12 @@
               <div class = "sign">
                 <center>Made with <span style="color: #015E31">♥</span> by me</center>
               </div>
+            </div> -->
+            <div class = "sign">Designed and coded with<span style="color: #6D8C8E">&nbsp;&nbsp;❤</span></div>
+            <div class = "sign">
+              <a href = "mailto:xinai.cathy.wu@gmail.com" id = "icon" target = "_blank"><img src = "assets\icons\mail.png" height = "40%" style = "margin-left: 2px; margin-right: 2px"></a>
+              <a href = "https://www.linkedin.com/in/xinai-cathy-wu" id = "icon"target = "_blank"><img src = "assets\icons\linkedin.png" height = "40%" style = "padding-left: 2px; padding-right: 2px"></a>
             </div>
+          </div>
           </div>
           </html>
