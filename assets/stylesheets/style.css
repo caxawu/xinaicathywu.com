@@ -9,7 +9,7 @@ html {
   /* margin: 0em 14%; */
   font-family: 'Raleway', 'Lato', 'Source Sans Pro', 'Open Sans', 'Gill Sans MT', 'Helvetica', sans-serif;
   font-size: 1rem;
-  background: transparent;
+  /* background: transparent; */
   line-height: 1.3rem;
   overflow-x: hidden;
   height: 100%;
@@ -160,9 +160,10 @@ hr {
 
 .title2 {
   font-size: 2rem;
+  line-height: 2rem;
   font-weight: normal;
   margin-top: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 /* Project title */
@@ -217,10 +218,10 @@ h5 {
 }
 .index-background {
   z-index: -1;
-  position:absolute;
-  top:0px;
-  left:0px;
   width: 100%;
+  position:absolute;
+  top:0;
+  left:0;
 }
 .front-pic {
   width: 50%;
@@ -679,7 +680,7 @@ hr {
 .project-row {
   padding-left: 10%;
   padding-right: 7%;
-  padding-bottom: 5%;
+  padding-bottom: 1%;
 }
 
 .grid {
@@ -721,6 +722,12 @@ hr {
 
 
 /* Art page */
+.art-row {
+  padding-left: 10%;
+  padding-right: 7%;
+  padding-bottom: 5%;
+}
+
 .column-thirdL {
   float: left;
   text-align: left;
