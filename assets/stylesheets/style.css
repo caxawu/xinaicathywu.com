@@ -12,7 +12,7 @@ html {
   /* background: transparent; */
   line-height: 1.3rem;
   overflow-x: hidden;
-  height: 100%;
+  /* height: 200vh; */
   scroll-behavior: smooth;
 }
 
@@ -194,7 +194,7 @@ h4 {
   font-weight: 500;
   font-size: 1.6em;
   margin: 0 0;
-  line-height: 165%;
+  line-height: 165
 }
 h5 {
   font-weight: 400;
@@ -207,6 +207,7 @@ h5 {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
+  height: 100vh;
 }
 
 /* index page */
@@ -218,10 +219,14 @@ h5 {
 }
 .index-background {
   z-index: -1;
-  width: 100%;
+  width: 100vw;
+  height: 200vh;
   position:absolute;
   top:0;
   left:0;
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
 }
 .front-pic {
   width: 50%;
@@ -671,13 +676,10 @@ hr {
   margin-left: 11%;
 }
 */
-.temp{
-  padding-left: 10%;
-  padding-right: 7%;
-    padding-bottom: 15%;
-}
+
 /* Main project page */
 .project-row {
+  width: 100%;
   padding-left: 10%;
   padding-right: 7%;
   padding-bottom: 1%;
@@ -685,7 +687,8 @@ hr {
 
 .grid {
   float: left;
-  width: 33.33%;
+  width: 30%;
+  padding-right: 3%;
 }
 .contain {
   position: relative;
@@ -698,7 +701,7 @@ hr {
   left: 0;
   right: 0;
   height: 100%;
-  width: 90%;
+  width: 100%;
   opacity: 0;
   transition: .25s ease;
   background-color: white;
