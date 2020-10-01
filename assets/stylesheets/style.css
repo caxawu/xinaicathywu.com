@@ -220,7 +220,7 @@ h5 {
 .index-background {
   z-index: -1;
   width: 100vw;
-  height: 200vh;
+  height: 220vh;
   position:absolute;
   top:0;
   left:0;
@@ -297,7 +297,7 @@ h5 {
     background-color: #6B7191;
 }
 #spaces-background {
-    background-color: #1E062D;
+    background-color: #041A20;
 }
 
 .summary-text {
@@ -422,7 +422,7 @@ h5 {
 }
 
 #skipButtonSpaces {
-  background-color: #1E062D;
+  background-color: #041A20;
   border-radius: 30px;
   border: 3px solid;
   width: 175px;
@@ -433,7 +433,7 @@ h5 {
   align-items: center;
 }
 #skipButtonSpaces:hover {
-  background-color: #62516C;
+  background-color: #505F63;
 }
 
 
@@ -489,7 +489,7 @@ hr {
   background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #C3C6D5 50%);
 }
 #spaces {
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #C2B6C8 50%);
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #BAC7CB 50%);
 }
 
 
