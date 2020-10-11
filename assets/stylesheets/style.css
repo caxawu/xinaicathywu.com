@@ -4,10 +4,13 @@ canvas {
   width: 100%;
 
 }
-
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway/Raleway-VariableFont_wght.ttf');
+}
 html {
   /* margin: 0em 14%; */
-  font-family: 'Raleway', 'Lato', 'Source Sans Pro', 'Open Sans', 'Gill Sans MT', 'Helvetica', sans-serif;
+  font-family: 'Raleway', 'Open Sans', 'Lato', 'Source Sans Pro', 'Gill Sans MT', 'Quicksand medium', 'Helvetica', sans-serif;
   font-size: 1rem;
   /* background: transparent; */
   line-height: 1.3rem;
@@ -166,6 +169,13 @@ hr {
   padding-bottom: 1.5rem;
 }
 
+.title3 {
+  font-size: 1.75rem;
+  line-height: 2rem;
+  font-weight: normal;
+  padding-bottom: 1rem;
+}
+
 /* Project title */
 h1 {
   font-size: 2.7rem;
@@ -220,7 +230,7 @@ h5 {
 .index-background {
   z-index: -1;
   width: 100vw;
-  height: 220vh;
+  height: 250vh;
   position:absolute;
   top:0;
   left:0;
@@ -264,18 +274,69 @@ h5 {
   padding-top: 12%;
   padding-bottom: 8%;
 }
+.front-pic2 {
+  width: 35%;
+  margin: auto;
+  padding-top: 5%;
+  padding-left: 2%;
+}
 .profile-text {
-  width: 40%;
-  line-height: 2.25rem;
+  width: 100%;
+  line-height: 2rem;
   font-size: 1.25rem;
   font-weight: normal;
   margin-bottom: 0.7rem;
-  margin-top: 8rem;
-}
-.front-pic2 {
-  width: 50%;
+  margin-top: 1.5rem;
+  padding-left: 16%;
+  padding-right: 16%;
 }
 
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.box1 {
+  width: 32%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #EADCE0;
+  padding: 2%;
+}
+.box2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 53%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #EADCE0;
+  padding: 2%;
+}
+.box2-text {
+  width: 70%;
+}
+.icons {
+  width: 30%;
+  padding-top: 7%;
+}
+.sign-vertical {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: right;
+}
+.sign {
+  font-size: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 10px;
+}
 
 
 
@@ -475,12 +536,18 @@ hr {
 .half-line-spacing {
   padding-bottom: 0.5rem;
 }
+.half-line-spacing2 {
+  padding-bottom: 0.8rem;
+}
 .underline {
   border-bottom: 2px solid currentColor;
 }
 
 .highlight {
   font-weight: 500;
+}
+#index {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #EADCE0 50%);
 }
 #lending {
   background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #D0E1E1 50%);
@@ -491,7 +558,6 @@ hr {
 #spaces {
   background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #BAC7CB 50%);
 }
-
 
 
 /* MAIN SECTION */
@@ -585,14 +651,6 @@ hr {
   justify-content: center;
 }
 
-
-.sign {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  margin-top: 10px;
-  color: gray;
-}
 
 #icon:hover {
   opacity: 60%;
